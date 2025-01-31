@@ -1,7 +1,31 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./About.css";
+import AboutImage1 from "../../assets/images/aboutimage1.jpg";
 
 const About = () => {
+  const dummyData = [
+    {
+      image: AboutImage1,
+      tag: "History and Milestones",
+    },
+    {
+      image: AboutImage1,
+      tag: "Life at VC",
+    },
+    {
+      image: AboutImage1,
+      tag: "Awards and Recognition",
+    },
+    {
+      image: AboutImage1,
+      tag: "Corporate Governance",
+    },
+    {
+      image: AboutImage1,
+      tag: "Our People",
+    },
+  ];
+
   return (
     <div className="about-div">
       <div className="about-header">
@@ -26,6 +50,7 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
+
       <div className="about-overview">
         <h2>Overview</h2>
         <p>
@@ -65,6 +90,34 @@ const About = () => {
             10th Jan 2007).
           </p>
         </div>
+      </div>
+
+      <div className="about-section">
+        <h2>Who we are</h2>
+        <p>
+          We are India’s award-winning leading technology business incubator for
+          science and technology startups. Venture Center was set up as an
+          initiative of the National Chemical Laboratory under CSIR's scheme
+          titled "Scheme for setting up incubation centers in CSIR
+          laboratories".
+          <br />
+          Venture Center was incorporated as “Entrepreneurship Development
+          Center” under Section 25 of the Companies Act, 1956 (now Section 8
+          under the Companies Act, 2013), and we are an approved incubator of
+          the National Science and Technology Entrepreneurship Development Board
+          of the Department of Science and Technology, Government of India
+          (DST-NSTEDB) and Department of Biotechnology’s (DBT) Biotechnology
+          Industry Research Assistance Council (BIRAC).
+        </p>
+      </div>
+
+      <div className="about-cards">
+        {dummyData.map((data, index) => (
+          <div key={index} className="about-card">
+            <img src={data.image} alt="" />
+            <h2>{data.tag}</h2>
+          </div>
+        ))}
       </div>
     </div>
   );
