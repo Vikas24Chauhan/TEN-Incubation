@@ -34,3 +34,40 @@
   height: 500px;
   margin: 0 auto;
 }
+
+.about-overview {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-overview h2 {
+  font-size: 36px;
+  color: #013759;
+  margin: 2rem 0;
+}
+
+.about-overview p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.about-mission-vision {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.mission-box,
+.vision-box {
+  padding: 4rem 3.5rem;
+  color: #013759;
+  background-color: #fcbf49;
+}
+
+.vision-box {
+  background-color: #d8f0f5;
+}
+
+.mission-box p,
+.vision-box p {
+  font-size: 18px;
+}

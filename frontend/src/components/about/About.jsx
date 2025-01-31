@@ -26,6 +26,46 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
+      <div className="about-overview">
+        <h2>Overview</h2>
+        <p>
+          Venture Center was set up as an initiative of the National Chemical
+          Laboratory under CSIR's scheme titled "Scheme for setting up
+          incubation centers in CSIR laboratories".
+        </p>
+        <br />
+        <p>
+          Venture Center was incorporated as “Entrepreneurship Development
+          Center” under Section 25 of the Companies Act, 1956 (now Section 8
+          under the Companies Act, 2013), and we are an approved incubator of
+          the National Science and Technology Entrepreneurship Development Board
+          of the Department of Science and Technology, Government of India
+          (DST-NSTEDB) and Department of Biotechnology’s (DBT) .
+        </p>
+      </div>
+
+      <div className="about-mission-vision">
+        <div className="mission-box">
+          <h1>Mission</h1>
+          <br />
+          <p>
+            To nucleate and nurture world-leading inventive ventures out of
+            India that solve the world's most pressing problems with science and
+            technology-led interventions.
+          </p>
+        </div>
+        <div className="vision-box">
+          <h1>Vision</h1>
+          <br />
+          <p>
+            To be the organization that will be credited with creating, shaping,
+            and sustaining a "Pune cluster" of innovative technology businesses
+            with a significant economic impact regionally, nationally, and
+            globally within the next 20 years (Venture Center was founded on
+            10th Jan 2007).
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
