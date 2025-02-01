@@ -218,3 +218,155 @@
   padding: 1rem 0;
   color: black;
 }
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .about-para {
+    width: 80%;
+  }
+
+  .about-video-container {
+    width: 80%;
+  }
+
+  .about-overview {
+    width: 80%;
+  }
+
+  .about-mission-vision {
+    width: 80%;
+  }
+
+  .about-section {
+    width: 80%;
+  }
+
+  .about-cards {
+    width: 80%;
+  }
+
+  .about-do-focus {
+    width: 80%;
+  }
+
+  .about-last {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-para {
+    width: 90%;
+  }
+
+  .about-video-container {
+    width: 90%;
+  }
+
+  .about-overview {
+    width: 90%;
+  }
+
+  .about-mission-vision {
+    width: 90%;
+  }
+
+  .about-section {
+    width: 90%;
+  }
+
+  .about-cards {
+    width: 90%;
+  }
+
+  .about-do-focus {
+    width: 90%;
+  }
+
+  .about-focus-cards {
+    width: 100%;
+  }
+
+  .about-last {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-card {
+    width: 45%;
+  }
+
+  .about-focus-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header,
+  .about-header h1 {
+    height: 400px;
+  }
+
+  .about-para {
+    width: 95%;
+    font-size: 1.5rem;
+  }
+
+  .about-video-container {
+    width: 95%;
+    height: 400px;
+  }
+
+  .about-overview {
+    width: 95%;
+  }
+  .about-overview h2 {
+    margin-bottom: 1rem;
+  }
+
+  .about-mission-vision {
+    width: 95%;
+  }
+  .mission-box,
+  .vision-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-section {
+    width: 95%;
+  }
+  .about-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .about-cards {
+    width: 95%;
+    justify-content: center;
+  }
+  .about-card {
+    width: 95%;
+  }
+
+  .about-do-focus {
+    width: 95%;
+  }
+  .about-do,
+  .about-focus {
+    padding: 2rem 1.5rem;
+  }
+  .about-do-cards {
+    margin-top: 0;
+  }
+  .about-do-card {
+    width: 100%;
+    margin: 8px 0;
+  }
+  .about-do-card p {
+    font-size: 1rem;
+  }
+
+  .about-last {
+    width: 95%;
+  }
+}
