@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css";
 import AboutImage1 from "../../assets/images/aboutimage1.jpg";
+import AboutFocus1 from "../../assets/images/aboutFocus1.png";
+import AboutFocus2 from "../../assets/images/aboutFocus2.png";
+import AboutFocus3 from "../../assets/images/aboutFocus3.png";
+import AboutFocus4 from "../../assets/images/aboutFocus4.png";
 
 const About = () => {
   const dummyData = [
@@ -23,6 +27,52 @@ const About = () => {
     {
       image: AboutImage1,
       tag: "Our People",
+    },
+  ];
+
+  const whatWeDo = [
+    {
+      tag: "New venture creation",
+      desc: "Nucleate new business by creating the environment and opportunities for know-how providers, entrepreneurs and financiers to meet each other and form business teams.",
+    },
+    {
+      tag: "Funding and investment",
+      desc: "Create and make available a continuum of early stage funding options for inventive enterprises Know more",
+    },
+    {
+      tag: "Knowledge sharing",
+      desc: "Organize and deliver a variety of events for information sharing, inspiration, training, showcasing and networking for the benefit of the larger innovation ecosystem.",
+    },
+    {
+      tag: "Business incubation",
+      desc: "Nurture businesses through their start-up phase by creating and running an efficient business incubator offering business mentoring, infrastructure support, access to scientific support, funding,  specialized advisory services, networks, scientific and information resources, and a generally friendly, conducive and supportive environment.",
+    },
+    {
+      tag: "Innovation management",
+      desc: "Facilitate activities and partnerships that support and promote the translation of ideas from academia to industry.",
+    },
+    {
+      tag: "Innovation ecosystem",
+      desc: "Develop and make available a rich, diverse, continuous and collaborative innovation ecosystem for deep tech entrepreneurs.",
+    },
+  ];
+
+  const focusAreas = [
+    {
+      image: AboutFocus1,
+      tag: "Health and Rehabilition",
+    },
+    {
+      image: AboutFocus2,
+      tag: "Energy and Environment",
+    },
+    {
+      image: AboutFocus3,
+      tag: "Engineering and Automation",
+    },
+    {
+      image: AboutFocus4,
+      tag: "Agriculture and Nutrition",
     },
   ];
 
@@ -71,7 +121,7 @@ const About = () => {
 
       <div className="about-mission-vision">
         <div className="mission-box">
-          <h1>Mission</h1>
+          <h2>Mission</h2>
           <br />
           <p>
             To nucleate and nurture world-leading inventive ventures out of
@@ -80,7 +130,7 @@ const About = () => {
           </p>
         </div>
         <div className="vision-box">
-          <h1>Vision</h1>
+          <h2>Vision</h2>
           <br />
           <p>
             To be the organization that will be credited with creating, shaping,
@@ -118,6 +168,50 @@ const About = () => {
             <h2>{data.tag}</h2>
           </div>
         ))}
+      </div>
+
+      <div className="about-do-focus">
+        <div className="about-do">
+          <h2>What we do</h2>
+          <div className="about-do-cards">
+            {whatWeDo.map((data, index) => (
+              <div key={index} className="about-do-card">
+                <h3>{data.tag}</h3>
+                <p>{data.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="about-focus">
+          <h2>Focus Areas</h2>
+          <p>
+            We focus on promoting inventive enterprises and spin-offs from
+            <br />
+            R&D institutions. We are sector agnostic but our strengths
+            <br />
+            lie in science based technologies in the following broad sectors:
+          </p>
+          <div className="about-focus-cards">
+            {focusAreas.map((data, index) => (
+              <div key={index} className="about-focus-card">
+                <img src={data.image} alt="" />
+                <p>{data.tag}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="about-last">
+        <h1>What if your idea doesn’t belong to any of the above sectors?</h1>
+        <p>Watch out for the emerging sectors in our pipeline:</p>
+        <p>
+          Circular economy, defense, food security, advanced medical
+          biotechnology, climate action/clean energy, digital/IT sensors,
+          electronic wearables, carbon capture, utilization and storage (CCUS)/
+          energy management.
+        </p>
       </div>
     </div>
   );

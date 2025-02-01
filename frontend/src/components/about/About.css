@@ -67,9 +67,15 @@
   background-color: #d8f0f5;
 }
 
+.mission-box h2,
+.vision-box h2 {
+  font-size: 2rem;
+}
+
 .mission-box p,
 .vision-box p {
   font-size: 18px;
+  word-spacing: 2px;
 }
 
 .about-section {
@@ -93,11 +99,13 @@
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  justify-content: start;
+  gap: 2.5%;
 }
 
 .about-card {
   width: 31%;
+  margin-bottom: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -117,4 +125,96 @@
   font-size: 1.25rem;
   color: #013759;
   padding: 3.5rem 2rem;
+}
+
+.about-do-focus {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.about-do,
+.about-focus {
+  padding: 4rem 3.5rem;
+  color: #013759;
+  background-color: #d8f0f5;
+}
+
+.about-focus {
+  color: white;
+  background-color: #074887;
+}
+
+.about-do h2,
+.about-focus h2 {
+  font-size: 2rem;
+}
+
+.about-do-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.about-do-card {
+  width: 47.5%;
+  margin: 1rem 0;
+}
+
+.about-do-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+.about-do-card p {
+  font-size: 18px;
+  word-spacing: 2px;
+  color: black;
+}
+
+.about-focus p {
+  font-size: 18px;
+  word-spacing: 2px;
+  padding: 2rem 0;
+}
+
+.about-focus-cards {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-focus-card {
+  width: 23%;
+  text-align: center;
+}
+
+.about-focus-card img {
+  width: 60%;
+}
+
+.about-focus-card p {
+  width: 90%;
+}
+
+.about-last {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.about-last h1 {
+  font-size: 36px;
+  color: #013759;
+}
+
+.about-last p {
+  font-size: 18px;
+  word-spacing: 2px;
+  padding: 1rem 0;
+  color: black;
 }
