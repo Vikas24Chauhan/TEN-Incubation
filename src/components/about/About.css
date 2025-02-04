@@ -1,0 +1,372 @@
+.about-div {
+  width: 100%;
+}
+
+.about-header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../assets/images/about-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-header h1 {
+  width: 100%;
+  height: 500px;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-para {
+  width: 70%;
+  margin: 2rem auto;
+  font-size: 36px;
+  color: #013759;
+}
+
+.about-video-container {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.about-overview {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-overview h2 {
+  font-size: 36px;
+  color: #013759;
+  margin: 2rem 0;
+}
+
+.about-overview p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.about-mission-vision {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.mission-box,
+.vision-box {
+  padding: 4rem 3.5rem;
+  color: #013759;
+  background-color: #fcbf49;
+}
+
+.vision-box {
+  background-color: #d8f0f5;
+}
+
+.mission-box h2,
+.vision-box h2 {
+  font-size: 2rem;
+}
+
+.mission-box p,
+.vision-box p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.about-section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  color: #013759;
+  margin: 2rem 0;
+}
+
+.about-section p {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.about-cards {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 2.5%;
+}
+
+.about-card {
+  width: 31%;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+}
+
+.about-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.about-card h2 {
+  font-size: 1.25rem;
+  color: #013759;
+  padding: 3.5rem 2rem;
+}
+
+.about-do-focus {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.about-do,
+.about-focus {
+  padding: 4rem 3.5rem;
+  color: #013759;
+  background-color: #d8f0f5;
+}
+
+.about-focus {
+  color: white;
+  background-color: #074887;
+}
+
+.about-do h2,
+.about-focus h2 {
+  font-size: 2rem;
+}
+
+.about-do-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.about-do-card {
+  width: 47.5%;
+  margin: 1rem 0;
+}
+
+.about-do-card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+.about-do-card p {
+  font-size: 18px;
+  word-spacing: 2px;
+  color: black;
+}
+
+.about-focus p {
+  font-size: 18px;
+  word-spacing: 2px;
+  padding: 2rem 0;
+}
+
+.about-focus-cards {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-focus-card {
+  width: 23%;
+  text-align: center;
+}
+
+.about-focus-card img {
+  width: 60%;
+}
+
+.about-focus-card p {
+  width: 90%;
+}
+
+.about-last {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.about-last h1 {
+  font-size: 36px;
+  color: #013759;
+}
+
+.about-last p {
+  font-size: 18px;
+  word-spacing: 2px;
+  padding: 1rem 0;
+  color: black;
+}
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .about-para {
+    width: 80%;
+  }
+
+  .about-video-container {
+    width: 80%;
+  }
+
+  .about-overview {
+    width: 80%;
+  }
+
+  .about-mission-vision {
+    width: 80%;
+  }
+
+  .about-section {
+    width: 80%;
+  }
+
+  .about-cards {
+    width: 80%;
+  }
+
+  .about-do-focus {
+    width: 80%;
+  }
+
+  .about-last {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-para {
+    width: 90%;
+  }
+
+  .about-video-container {
+    width: 90%;
+  }
+
+  .about-overview {
+    width: 90%;
+  }
+
+  .about-mission-vision {
+    width: 90%;
+  }
+
+  .about-section {
+    width: 90%;
+  }
+
+  .about-cards {
+    width: 90%;
+  }
+
+  .about-do-focus {
+    width: 90%;
+  }
+
+  .about-focus-cards {
+    width: 100%;
+  }
+
+  .about-last {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-card {
+    width: 45%;
+  }
+
+  .about-focus-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header,
+  .about-header h1 {
+    height: 400px;
+  }
+
+  .about-para {
+    width: 95%;
+    font-size: 1.5rem;
+  }
+
+  .about-video-container {
+    width: 95%;
+    height: 400px;
+  }
+
+  .about-overview {
+    width: 95%;
+  }
+  .about-overview h2 {
+    margin-bottom: 1rem;
+  }
+
+  .about-mission-vision {
+    width: 95%;
+  }
+  .mission-box,
+  .vision-box {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-section {
+    width: 95%;
+  }
+  .about-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .about-cards {
+    width: 95%;
+    justify-content: center;
+  }
+  .about-card {
+    width: 95%;
+  }
+
+  .about-do-focus {
+    width: 95%;
+  }
+  .about-do,
+  .about-focus {
+    padding: 2rem 1.5rem;
+  }
+  .about-do-cards {
+    margin-top: 0;
+  }
+  .about-do-card {
+    width: 100%;
+    margin: 8px 0;
+  }
+  .about-do-card p {
+    font-size: 1rem;
+  }
+
+  .about-last {
+    width: 95%;
+  }
+}
