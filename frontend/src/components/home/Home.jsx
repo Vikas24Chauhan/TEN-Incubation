@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import "./Home.css";
+import WhyChooseUs from "./WhyChooseUs";
 import PreviousIcon from "../../assets/images/previous-icon.svg";
 import NextIcon from "../../assets/images/next-icon.svg";
 import homeLatest from "../../assets/data/homeLatest";
-import HomeChooseImage from "../../assets/images/home-choose.jpg";
 
 function Home() {
   const carouselRef = useRef(null);
@@ -91,15 +91,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="home-choose">
-        <h1>Why Choose Us ?</h1>
-        <div className="home-choose-box">
-          <div className="home-choose-image">
-            <img src={HomeChooseImage} alt="" />
-          </div>
-          <div className="home-choose-qa"></div>
-        </div>
-      </div>
+      <WhyChooseUs />
     </div>
   );
 }
