@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import WhyChooseUs from "./WhyChooseUs";
+import Event from "./Event";
 import Testimonials from "./Testimonials";
 import Blog from "./Blog";
 import HomeHeaderImage1 from "../../assets/images/home-header-image1.jpg";
@@ -194,6 +195,8 @@ function Home() {
           ))}
         </div>
       </div>
+
+      <Event />
 
       <Testimonials />
 
