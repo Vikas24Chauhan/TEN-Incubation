@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import WhyChooseUs from "./WhyChooseUs";
 import Testimonials from "./Testimonials";
+import Blog from "./Blog";
 import HomeHeaderImage1 from "../../assets/images/home-header-image1.jpg";
 import HomeHeaderImage2 from "../../assets/images/home-header-image2.png";
 import PreviousIcon from "../../assets/images/previous-icon.svg";
@@ -195,6 +196,8 @@ function Home() {
       </div>
 
       <Testimonials />
+
+      <Blog />
     </div>
   );
 }
