@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="vc-arrow-1" transform="translate(32) rotate(90)">
+    <g id="Group_1202" data-name="Group 1202" transform="translate(-816 -344)" opacity="0">
+      <path id="Path_2255" data-name="Path 2255" d="M16,0A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" transform="translate(816 344)" fill="#0e0d0d"/>
+      <path id="Path_2256" data-name="Path 2256" d="M-13073-13198l5,5.5-5,5.5" transform="translate(13902.499 13552.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_1201" data-name="Group 1201" transform="translate(-768 -344)">
+      <path id="Path_2254" data-name="Path 2254" d="M16,2A14,14,0,0,0,6.1,25.9,14,14,0,0,0,25.9,6.1,13.908,13.908,0,0,0,16,2m0-2A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" transform="translate(768 344)" fill="#0e0d0d"/>
+      <path id="Path_2253" data-name="Path 2253" d="M-13073-13186a1,1,0,0,1-.673-.26,1,1,0,0,1-.067-1.413l4.389-4.827-4.389-4.827a1,1,0,0,1,.067-1.413,1,1,0,0,1,1.413.067l5,5.5a1,1,0,0,1,0,1.346l-5,5.5A1,1,0,0,1-13073-13186Z" transform="translate(13854.499 13552.5)" fill="#0e0d0d"/>
+    </g>
+  </g>
+</svg>
