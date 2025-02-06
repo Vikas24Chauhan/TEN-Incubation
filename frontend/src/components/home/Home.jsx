@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import WhyChooseUs from "./WhyChooseUs";
 import Event from "./Event";
 import Testimonials from "./Testimonials";
+import News from "./News";
 import Blog from "./Blog";
 import HomeHeaderImage1 from "../../assets/images/home-header-image1.jpg";
 import HomeHeaderImage2 from "../../assets/images/home-header-image2.png";
@@ -199,6 +200,8 @@ function Home() {
       <Event />
 
       <Testimonials />
+
+      <News />
 
       <Blog />
     </div>
