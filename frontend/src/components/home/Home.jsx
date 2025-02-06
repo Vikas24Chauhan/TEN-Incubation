@@ -1,6 +1,11 @@
 import { useRef } from "react";
 import "./Home.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import WhyChooseUs from "./WhyChooseUs";
+import HomeHeaderImage1 from "../../assets/images/home-header-image1.jpg";
+import HomeHeaderImage2 from "../../assets/images/home-header-image2.png";
 import PreviousIcon from "../../assets/images/previous-icon.svg";
 import NextIcon from "../../assets/images/next-icon.svg";
 import homeLatest from "../../assets/data/homeLatest";
@@ -29,6 +34,16 @@ function Home() {
         });
       }
     }
+  };
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
   };
 
   const impactData = [
@@ -66,9 +81,27 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* <div className="home-header">
-        
-      </div> */}
+      <div className="home-header">
+        <Slider {...settings}>
+          <div className="home-header-image">
+            <img src={HomeHeaderImage1} alt="Slide 1" />
+            <div className="home-header-content">
+              <h1>India's top incubator for inventive startups</h1>
+              <p>From Concept to Market</p>
+              <button className="home-header-button">Get Started</button>
+            </div>
+          </div>
+
+          <div className="home-header-image">
+            <img src={HomeHeaderImage2} alt="Slide 2" />
+            <div className="home-header-content">
+              <h1>Seeding tomorrow's enterprises today</h1>
+              <p>Translate your ideas into successful businesses.</p>
+              <button className="home-header-button">Learn More</button>
+            </div>
+          </div>
+        </Slider>
+      </div>
 
       <div className="home-about">
         <div className="home-about-video">
