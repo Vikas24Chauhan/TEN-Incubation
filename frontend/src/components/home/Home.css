@@ -196,11 +196,9 @@
 }
 
 .home-impact-card {
-  width: 48%;
+  width: 47.5%;
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
-  /* border: 1px solid black; */
 }
 
 .home-impact-image {
@@ -223,4 +221,124 @@
 .home-impact-contant h3 {
   font-size: 20px;
   padding-top: 10px;
+}
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .home-header-content,
+  .home-about,
+  .home-latest-header,
+  .home-latest-cards,
+  .home-impact-cards {
+    width: 80%;
+  }
+
+  .home-journey {
+    padding: 2rem 5%;
+  }
+  .home-journey h1 {
+    font-size: 2rem;
+  }
+  .home-journey img {
+    width: 40px;
+  }
+
+  .home-impact h1 {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-header-content,
+  .home-about,
+  .home-latest-header,
+  .home-latest-cards {
+    width: 90%;
+  }
+
+  .home-header-image {
+    height: 600px;
+  }
+  .home-header-content h1 {
+    font-size: 3.5rem;
+  }
+  .home-header-content p {
+    font-size: 1rem;
+  }
+
+  .home-latest-card {
+    flex: 0 0 calc(48%);
+  }
+
+  .home-journey h1 {
+    font-size: 1.5rem;
+  }
+  .home-journey img {
+    width: 30px;
+  }
+
+  .home-impact-cards {
+    width: 95%;
+  }
+  .home-impact-image {
+    width: 25%;
+  }
+  .home-impact h1 {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-header-image {
+    height: 400px;
+  }
+  .home-header-content {
+    width: 95%;
+    top: 50%;
+  }
+  .home-header-content h1 {
+    font-size: 2.5rem;
+  }
+  .home-header-content p {
+    margin: 10px 0;
+  }
+  .home-header-button {
+    margin-top: 1rem;
+  }
+
+  .home-about {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .home-about-video {
+    width: 100%;
+  }
+  .home-about-contant {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .home-latest-header {
+    width: 95%;
+  }
+  .home-latest-header h1 {
+    font-size: 1.5rem;
+  }
+  .home-latest-cards {
+    width: 95%;
+  }
+  .home-latest-card {
+    flex: 0 0 calc(100%);
+  }
+
+  .home-journey {
+    flex-direction: column;
+  }
+  .home-journey img {
+    margin-top: 10px;
+  }
+
+  .home-impact-card {
+    width: 100%;
+  }
 }
