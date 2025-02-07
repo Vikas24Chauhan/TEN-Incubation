@@ -82,3 +82,37 @@
   word-spacing: 2px;
   padding: 10px 0;
 }
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .home-news-header,
+  .home-news-cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 850px) {
+  .home-news-header,
+  .home-news-cards {
+    width: 90%;
+  }
+
+  .home-news-card {
+    flex: 0 0 calc(48%);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-news {
+    padding: 2rem 0;
+  }
+
+  .home-news-header,
+  .home-news-cards {
+    width: 95%;
+  }
+
+  .home-news-card {
+    flex: 0 0 calc(100%);
+  }
+}

@@ -57,3 +57,42 @@
   word-spacing: 2px;
   padding-top: 1rem;
 }
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .home-choose h1,
+  .home-choose-box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-choose h1,
+  .home-choose-box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-choose {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .home-choose h1 {
+    width: 95%;
+    font-size: 2rem;
+  }
+
+  .home-choose-box {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+
+  .home-choose-image {
+    display: none;
+  }
+
+  .home-choose-qa {
+    width: 100%;
+  }
+}

@@ -309,6 +309,7 @@
   .home-about {
     width: 95%;
     flex-wrap: wrap;
+    margin: 2rem auto;
   }
   .home-about-video {
     width: 100%;
@@ -318,6 +319,9 @@
     margin-top: 1rem;
   }
 
+  .home-latest {
+    padding: 2rem 0;
+  }
   .home-latest-header {
     width: 95%;
   }
@@ -338,7 +342,28 @@
     margin-top: 10px;
   }
 
+  .home-impact {
+    padding: 2rem 0;
+  }
   .home-impact-card {
     width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .home-header-content {
+    left: 52.5%;
+  }
+  .home-header-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-about-contant h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  .home-latest-header h1 {
+    width: 70%;
   }
 }

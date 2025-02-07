@@ -37,7 +37,7 @@
   scroll-snap-align: start;
   border-radius: 10px;
   background-color: white;
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
   margin: 1rem 0;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   transition: all ease 0.4s;
@@ -81,4 +81,38 @@
 .home-event-card p {
   word-spacing: 2px;
   padding: 10px 0;
+}
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .home-event-header,
+  .home-event-cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 850px) {
+  .home-event-header,
+  .home-event-cards {
+    width: 90%;
+  }
+
+  .home-event-card {
+    flex: 0 0 calc(48%);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-event {
+    padding: 2rem 0;
+  }
+
+  .home-event-header,
+  .home-event-cards {
+    width: 95%;
+  }
+
+  .home-event-card {
+    flex: 0 0 calc(100%);
+  }
 }
