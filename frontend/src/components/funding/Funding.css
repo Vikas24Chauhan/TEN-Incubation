@@ -1,6 +1,6 @@
 .funding-div {
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .funding-header {
@@ -56,20 +56,17 @@
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: start;
+  gap: 2.5%;
 }
 
 .funding-card {
-  width: calc(33.33% - 20px);
-  height: auto;
+  width: 31%;
+  margin-bottom: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 .funding-card:hover {
@@ -100,35 +97,30 @@
 }
 
 /* --------- Responsive Design --------- */
-@media (max-width: 1200px) {
-  .funding-cards {
-    width: 90%;
-  }
-  .funding-card {
-    width: calc(50% - 20px);
-  }
-}
-
 @media (max-width: 1024px) {
   .funding-para {
-    width: 85%;
+    width: 80%;
   }
+
   .funding-cards {
-    width: 90%;
+    width: 80%;
   }
+
   .funding-card {
-    width: calc(50% - 15px);
+    width: 48%;
   }
 }
 
 @media (max-width: 768px) {
   .funding-para {
     width: 90%;
+    margin: 2.5rem auto;
   }
+
   .funding-cards {
-    width: 95%;
-    justify-content: center;
+    width: 90%;
   }
+
   .funding-card {
     width: 100%;
   }
@@ -144,8 +136,9 @@
   .funding-para {
     width: 95%;
     font-size: 1.2rem;
+    margin: 2rem auto;
   }
-  .funding-card {
-    width: 100%;
+  .funding-cards {
+    width: 95%;
   }
 }
