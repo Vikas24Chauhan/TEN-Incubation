@@ -3,6 +3,9 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
+import Services from "./components/services/Services";
+import ServiceFacilities from "./components/services/ServiceFacilities";
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/services/Scientific-Services-Facilities" element={<ServiceFacilities />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
