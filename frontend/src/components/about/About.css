@@ -221,72 +221,27 @@
 
 /* ------------------------------ Responsive Styles ------------------------------ */
 @media (max-width: 1024px) {
-  .about-para {
-    width: 80%;
-  }
-
-  .about-video-container {
-    width: 80%;
-  }
-
-  .about-overview {
-    width: 80%;
-  }
-
-  .about-mission-vision {
-    width: 80%;
-  }
-
-  .about-section {
-    width: 80%;
-  }
-
-  .about-cards {
-    width: 80%;
-  }
-
-  .about-do-focus {
-    width: 80%;
-  }
-
+  .about-para,
+  .about-video-container,
+  .about-overview,
+  .about-mission-vision,
+  .about-section,
+  .about-cards,
+  .about-do-focus,
   .about-last {
     width: 80%;
   }
 }
 
 @media (max-width: 768px) {
-  .about-para {
-    width: 90%;
-  }
-
-  .about-video-container {
-    width: 90%;
-  }
-
-  .about-overview {
-    width: 90%;
-  }
-
-  .about-mission-vision {
-    width: 90%;
-  }
-
-  .about-section {
-    width: 90%;
-  }
-
-  .about-cards {
-    width: 90%;
-  }
-
-  .about-do-focus {
-    width: 90%;
-  }
-
-  .about-focus-cards {
-    width: 100%;
-  }
-
+  .about-para,
+  .about-video-container,
+  .about-overview,
+  .about-mission-vision,
+  .about-section,
+  .about-cards,
+  .about-do-focus,
+  .about-focus-cards,
   .about-last {
     width: 90%;
   }
