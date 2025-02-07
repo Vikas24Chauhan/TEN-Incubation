@@ -124,5 +124,59 @@
     color: inherit; 
   }
   
+  /* ======= Responsive Design ======= */
+
+/* For Tablets (768px and below) */
+@media (max-width: 1024px) {
+  .services-card {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+  
+  .page-title {
+    font-size: 3rem;
+  }
+
+  .page-hero {
+    padding: 30px;
+    height: 400px;
+  }
+}
+
+/* For Mobile Devices (768px and below) */
+@media (max-width: 768px) {
+  .services-card {
+    grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .breadcrumb {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .page-hero {
+    height: 350px;
+    padding: 20px;
+  }
+}
+
+/* Small Screens (576px and below) */
+@media (max-width: 576px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .page-hero {
+    height: 300px;
+    padding: 15px;
+  }
+}
  
   
