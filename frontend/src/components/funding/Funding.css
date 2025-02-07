@@ -1,0 +1,136 @@
+.funding-div {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.funding-header {
+  width: 100%;
+  height: 650px;
+  background-image: url(../src/assets/images/fundingImage1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.funding-header h1 {
+  width: 100%;
+  height: 650px;
+  font-size: 65px;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.funding-para {
+  width: 70%;
+  margin: 5rem auto;
+  font-size: 24px;
+  color: #013759;
+}
+.funding-cards {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  gap: 2.5%;
+}
+
+.funding-para button{
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  color: #020202;
+  background-color: #fff;
+}
+
+
+.funding-card {
+  width: 360px;
+  height: 780px;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff; 
+}
+
+.funding-card:hover {
+  transform: scale(1.05);
+}
+
+.funding-card img {
+  width: 100%;
+  height: 35%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.funding-card h3 {
+  font-size: 1.75rem;
+  color: #013759;
+  margin: 2rem 1.5rem 0; 
+}
+
+.funding-card p {
+  font-size: 1.25rem;
+  padding: 2rem 1.5rem; 
+  line-height: 1.5; 
+  color: #333; 
+}
+
+/* ------------------------------ Responsive Styles ------------------------------ */
+@media (max-width: 1024px) {
+  .funding-para {
+    width: 80%;
+  }
+
+  .funding-cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .funding-para {
+    width: 90%;
+  }
+
+  .funding-cards {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .funding-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .funding-header,
+  .funding-header h1 {
+    height: 400px;
+  }
+
+  .funding-para {
+    width: 95%;
+    font-size: 1.5rem;
+  }
+
+  .funding-cards {
+    width: 95%;
+    justify-content: center;
+  }
+  .funding-card {
+    width: 95%;
+  }
+
+}
