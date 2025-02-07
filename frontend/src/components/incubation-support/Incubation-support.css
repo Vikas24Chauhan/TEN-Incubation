@@ -1,157 +1,108 @@
+.main-content {
+  width: 100%;
+}
+
 .incubationSupport-header {
-    width: 100%;
-    height: 500px;
-    background-image: url(https://www.venturecenter.co.in/storage/pages/51/d662f01e-132b-41c4-aaa4-5443ee2dcc40.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .incubationSupport-header h1 {
-    width: 100%;
-    height: 500px;
-    font-size: 4rem;
-    color: white;
-    background-color: #074887;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .cards{
-    padding: 100px 0;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    gap: 40px 20px;
-    flex-wrap:wrap;
-  }
-
-.card {
-    width: 360px;
-    border-radius: 12px;
-    box-shadow:   2px 4px 8px 2px rgba(7, 7, 7, 0.2);
+  width: 100%;
+  height: 500px;
+  background-image: url(https://www.venturecenter.co.in/storage/pages/51/d662f01e-132b-41c4-aaa4-5443ee2dcc40.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.card:hover{
+.incubationSupport-header h1 {
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.incubationSupport-cards {
+  width: 70%;
+  margin: 3.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 2.5%;
+}
+
+.incubationSupport-card {
+  width: 31%;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  box-shadow:   2px 4px 8px 2px rgba(7, 7, 7, 0.38);
-  transition: all ease .24s;
+  transition: transform 0.3s ease-in-out;
 }
 
-.card img {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
+.incubationSupport-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.card-content {
-    padding: 16px;
+.incubationSupport-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 
-.card-title {
-    font-size: 22px;
-    font-weight: 500;
-    margin: 10px 0;
-    color: #013759;
+.incubationSupport-card-content {
+  padding: 16px;
 }
 
-.card-description {
-    font-size: 16px;
-    color: black;
-    line-height: 25px;
+.incubationSupport-card-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #013759;
 }
 
+.incubationSupport-card-description {
+  font-size: 1rem;
+  color: black;
+  line-height: 25px;
+}
 
-@media (min-width: 1000px) and (max-width: 1318px) {
-  .cards {
-    justify-content: center; /* Center the cards */
+/* --------- Responsive Design --------- */
+@media (max-width: 1024px) {
+  .incubationSupport-cards {
+    width: 80%;
   }
 
-  .card {
-    width: 45%; /* Ensure three cards fit in one row */
-  }
-}
-@media (min-width: 768px) and (max-width: 988px) {
-  .cards {
-    padding: 60px 0;
-    margin-left: auto;  
-    margin-right: auto; 
-    justify-content: center; 
-    gap: 30px 15px;
+  .incubationSupport-card {
+    width: 48%;
   }
 }
 
-/* Mobile Devices (480px - 767px) */
-@media (max-width: 767px) {
-  .incubationSupport-header {
-    height: 300px;
-  }
-
+@media (max-width: 768px) {
   .incubationSupport-header h1 {
-    height: 300px;
     font-size: 2.5rem;
   }
 
-  .cards {
-    padding: 40px 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: column; /* Stack cards vertically */
-    align-items: center;
+  .incubationSupport-cards {
+    width: 90%;
   }
 
-  .card {
-    width: 90%; /* Take most of the screen width */
-  }
-
-  .card img {
-    height: 200px;
-  }
-
-  .card-title {
-    font-size: 18px;
-  }
-
-  .card-description {
-    font-size: 14px;
+  .incubationSupport-card {
+    width: 100%;
   }
 }
 
-/* Small Mobile Devices (less than 480px) */
 @media (max-width: 480px) {
   .incubationSupport-header {
-    height: 250px;
+    height: 400px;
   }
 
   .incubationSupport-header h1 {
-    height: 250px;
     font-size: 2rem;
-    padding: 10px;
-    text-align: center;
   }
 
-  .cards {
-    padding: 20px 0;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .card img {
-    height: 180px;
-  }
-
-  .card-title {
-    font-size: 16px;
-  }
-
-  .card-description {
-    font-size: 12px;
-    line-height: 20px;
+  .incubationSupport-cards {
+    width: 95%;
+    margin: 2rem auto;
   }
 }
