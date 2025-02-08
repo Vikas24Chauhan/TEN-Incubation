@@ -3,206 +3,118 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 1rem 4rem;
   background-color: white;
   position: fixed;
   top: 0;
   z-index: 1;
 }
 
-.logo {
+.navbar-logo {
   width: 180px;
   cursor: pointer;
 }
 
-/* Header1 Styling */
-.modal-header-content {
-  display: grid;
-  justify-content: space-between;
-  background-color: white;
-}
-.header1 {
-  display: flex;
-  /* justify-content: center; */
-  background-color: white;
-  font-size: medium;
-  padding: 10px;
+.navbar-logo img {
+  width: 100%;
 }
 
-.header1 ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.web-nav {
+  width: 60%;
 }
 
-.header1 li {
-  margin: 0 15px;
-  cursor: pointer;
-}
-
-.header1 a {
+.navbar-header1 a {
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
-  color: black;
+  padding: 0.5rem 1rem;
 }
 
-/* Gradient HR */
 hr {
   width: 100%;
   border: none;
-  height: 3px;
-  background: linear-gradient(to right, #abe7ee, white);
+  height: 2px;
+  background: #05a6b8;
   margin: 10px 0;
 }
-/* Header2 Styling */
-.header2 {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  padding: 10px;
-  margin-top: 20px;
-}
 
-.full {
-  position: absolute;
-  top: 100px;
-}
-
-.header2 ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.header2 li {
-  margin: 0 15px;
-  cursor: pointer;
-}
-
-.header2 a {
+.navbar-header2 a {
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
-  color: black;
+  padding: 0.5rem 1rem;
 }
 
-.header3 {
+.navbar-hamburger-div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-button {
   border: none;
   color: white;
-  padding: 15px;
+  padding: 5px 15px;
   border-radius: 15px;
   background-color: navy;
   cursor: pointer;
 }
 
-.menu-btn {
-  background: none;
+.hamburger {
+  display: none;
   border: none;
-  cursor: pointer;
-  color: #111;
-  display: block;
 }
 
-/* Navigation Panel Styling */
-.nav-panel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: orange;
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-  z-index: 1000;
-  padding: 20px;
-  margin-top: 80px;
-  overflow-y: auto;
-  /* Enables scroll bar */
-  scrollbar-width: none;
-  /* Firefox */
-}
-
-.nav-panel.open {
-  max-height: 100%;
-}
-
-.nav-logo {
-  height: 100px;
-}
-
-/* Navigation Content Grid */
-.nav-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
-}
-
-/* Navigation Sections */
-.nav-section {
-  padding: 10px;
-}
-
-.nav-section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.nav-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.nav-section li {
-  margin: 5px 0;
-  cursor: pointer;
-}
-
-.nav-section a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-section a:hover {
-  text-decoration: underline;
-}
-
-/* Scroll Bar */
-.nav-panel::-webkit-scrollbar {
-  width: 8px;
-}
-
-.nav-panel::-webkit-scrollbar-thumb {
-  background-color: #aaa;
-  border-radius: 4px;
-}
-
-.nav-panel::-webkit-scrollbar-track {
-  background: #f0f0f0;
-}
-
-/* Media Queries for Larger Screens */
-@media (min-width: 768px) {
-  .nav-panel {
-    position: fixed;
-    /* Keep as a side panel if preferred */
-    /* width: 300px; */
-    height: 100vh;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
+/* -------------------------------- Responsive Style ------------------------------*/
+@media (max-width: 998px) {
+  .navbar {
+    padding: 1rem 2.5rem;
   }
 
-  /* Keep panel hidden initially */
-  .nav-panel.open {
-    transform: translateX(0);
+  .web-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 5rem;
+    left: 0;
+    padding: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
   }
 }
 
-/* Media Queries for Mobile and Smaller Screens */
-@media (max-width: 767px) {
-  .nav-content {
-    display: block;
+@media (max-width: 600px) {
+  .navbar {
+    padding: 1rem 2rem;
   }
 
-  .nav-section {
-    margin-bottom: 20px;
+  .navbar-header1 a,
+  .navbar-header2 a {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+
+  .navbar-logo {
+    width: 130px;
+  }
+
+  .navbar-hamburger-div {
+    gap: 0.5rem;
+  }
+
+  .navbar-button {
+    padding: 5px 10px;
   }
 }
