@@ -25,14 +25,14 @@ export default function Services() {
                 <a href="/">Home</a>
               </li>
               <li >
-                <a href="/services"style={{ color: " #efe80b" }}>Services</a>
+                <a href="/services"style={{ color: "rgb(200, 195, 57)" }}>Services</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="services-container">
-        <h1>Diverse startup services for success</h1>
+        
         <p className="services-description">
           Elevate your startup journey with our diverse services, including
           comprehensive scientific support for R&D, prototyping facilities to

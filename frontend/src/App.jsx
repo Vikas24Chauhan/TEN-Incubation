@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import Funding from "./components/funding/Funding";
 import IncubationSupport from "./components/incubation-support/IncubationSupport";
 import Services from "./components/services/Services";
+import ServiceFacilities from "./components/services/ServiceFacilities";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/incubation-support" element={<IncubationSupport />} />
           <Route path="/funding" element={<Funding />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/scientific-services-and-facilities" element={<ServiceFacilities />} />
         </Routes>
         <Footer />
       </BrowserRouter>
