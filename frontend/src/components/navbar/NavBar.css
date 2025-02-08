@@ -1,0 +1,120 @@
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-logo {
+  width: 180px;
+  cursor: pointer;
+}
+
+.navbar-logo img {
+  width: 100%;
+}
+
+.web-nav {
+  width: 60%;
+}
+
+.navbar-header1 a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background: #05a6b8;
+  margin: 10px 0;
+}
+
+.navbar-header2 a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-hamburger-div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-button {
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: navy;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  border: none;
+}
+
+/* -------------------------------- Responsive Style ------------------------------*/
+@media (max-width: 998px) {
+  .navbar {
+    padding: 1rem 2.5rem;
+  }
+
+  .web-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 5rem;
+    left: 0;
+    padding: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .navbar-header1 a,
+  .navbar-header2 a {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+
+  .navbar-logo {
+    width: 130px;
+  }
+
+  .navbar-hamburger-div {
+    gap: 0.5rem;
+  }
+
+  .navbar-button {
+    padding: 5px 10px;
+  }
+}

@@ -289,6 +289,10 @@
 }
 
 @media (max-width: 600px) {
+  .home-container {
+    margin-top: 2.5rem;
+  }
+
   .home-header-image {
     height: 400px;
   }
@@ -351,6 +355,9 @@
 }
 
 @media (max-width: 320px) {
+  .home-header-image {
+    height: 350px;
+  }
   .home-header-content {
     left: 52.5%;
   }
