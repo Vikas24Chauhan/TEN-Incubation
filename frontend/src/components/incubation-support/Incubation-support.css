@@ -1,5 +1,6 @@
 .main-content {
   width: 100%;
+  margin-top: 5rem;
 }
 
 .incubationSupport-header {
@@ -31,7 +32,7 @@
   gap: 2.5%;
 }
 
-.incubationSupport-card {
+.incubationSupport-cards a{
   width: 31%;
   margin-bottom: 1.5rem;
   border-radius: 10px;
