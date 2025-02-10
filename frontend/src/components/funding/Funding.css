@@ -1,12 +1,11 @@
 .funding-div {
   width: 100%;
-  font-family: "Poppins", sans-serif;
 }
 
 .funding-header {
   width: 100%;
-  height: 650px;
-  background-image: url(../src/assets/images/fundingImage1.jpg);
+  height: 500px;
+  background-image: url(../../assets/images/fundingImage1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -14,7 +13,7 @@
 .funding-header h1 {
   width: 100%;
   height: 100%;
-  font-size: 65px;
+  font-size: 4rem;
   color: white;
   background-color: rgba(7, 72, 135, 0.8);
   display: flex;
@@ -33,7 +32,7 @@
 .funding-para button {
   display: block;
   margin-top: 1.5rem;
-  width: 250px;
+  width: 275px;
   height: 40px;
   padding: 10px;
   font-weight: bold;
@@ -44,6 +43,7 @@
   cursor: pointer;
   transition: 0.3s ease-in-out;
   text-align: center;
+  font-size: 14px;
 }
 
 .funding-para button:hover {
@@ -56,21 +56,30 @@
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
-  gap: 2.5%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.funding-card-link {
+  text-decoration: none;
+  color: inherit;
+  width: calc(33.333% - 1.5rem);
 }
 
 .funding-card {
-  width: 31%;
-  margin-bottom: 1.5rem;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .funding-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .funding-card img {
@@ -81,7 +90,7 @@
 }
 
 .funding-card h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #013759;
   margin: 1.5rem;
   text-align: left;
@@ -96,7 +105,7 @@
   flex-grow: 1;
 }
 
-/* --------- Responsive Design --------- */
+/* Responsive Design */
 @media (max-width: 1024px) {
   .funding-para {
     width: 80%;
@@ -106,12 +115,16 @@
     width: 80%;
   }
 
-  .funding-card {
-    width: 48%;
+  .funding-card-link {
+    width: 48%; 
   }
 }
 
 @media (max-width: 768px) {
+  .funding-header h1 {
+    font-size: 2.5rem;
+  }
+
   .funding-para {
     width: 90%;
     margin: 2.5rem auto;
@@ -121,8 +134,8 @@
     width: 90%;
   }
 
-  .funding-card {
-    width: 100%;
+  .funding-card-link {
+    width: 100%; 
   }
 }
 
@@ -130,15 +143,81 @@
   .funding-header {
     height: 400px;
   }
+
   .funding-header h1 {
-    font-size: 45px;
+    font-size: 2rem;
   }
+
   .funding-para {
     width: 95%;
     font-size: 1.2rem;
     margin: 2rem auto;
   }
+
   .funding-cards {
     width: 95%;
   }
 }
+
+@media (max-width: 1000px) {
+  .funding-para {
+    width: 80%;
+  }
+
+  .funding-cards {
+    width: 80%;
+  }
+
+  .funding-card-link {
+    width: 48%; 
+  }
+}
+
+@media (max-width: 800px) {
+  .funding-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .funding-para {
+    width: 90%;
+    margin: 2.5rem auto;
+  }
+
+  .funding-cards {
+    width: 90%;
+  }
+
+  .funding-card-link {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .funding-card-link {
+    width: 95%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .funding-header {
+    height: 400px;
+  }
+
+  .funding-header h1 {
+    font-size: 2rem;
+  }
+
+  .funding-para {
+    width: 95%;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+  }
+
+  .funding-cards {
+    width: 95%;
+  }
+}
+
+

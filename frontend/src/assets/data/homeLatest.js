@@ -1,41 +1,34 @@
-import Img from "../images/home-latest1.png";
+import Img1 from "../images/home-latest1.png";
+import Img2 from "../images/home-latest2.jpg";
+import Img3 from "../images/home-latest3.jpg";
+import Img4 from "../images/home-latest4.jpg";
+import Img5 from "../images/home-latest5.webp";
 
 const homeLatest = [
   {
-    image: Img,
-    date: "01 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
+    image: Img1,
+    tag: "Investment in Startups",
+    desc: "VC firms provide capital to early-stage and high-growth startups in exchange for equity.",
   },
   {
-    image: Img,
-    date: "02 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
+    image: Img2,
+    tag: "High Risk, High Reward",
+    desc: "Since startups have uncertain futures, VC investments are risky but can yield massive returns.",
   },
   {
-    image: Img,
-    date: "03 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
+    image: Img3,
+    tag: "Stages of Funding",
+    desc: "Includes pre-seed, seed, Series A, B, C, and beyond.",
   },
   {
-    image: Img,
-    date: "04 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
+    image: Img4,
+    tag: "Active Involvement",
+    desc: "VCs often provide mentorship, strategic guidance, and industry connections in addition to capital.",
   },
   {
-    image: Img,
-    date: "05 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
-  },
-  {
-    image: Img,
-    date: "06 December, 2024",
-    tag: "Visit by delegation from Franco-Indian Campus for Life Sciences & Health program",
-    desc: "We had the pleasure of hosting nearly 50 participants, whose visit included a tour of our facilities, discussions on the French incubation landscape, and exchanges on potential collaborations in life sciences and health.",
+    image: Img5,
+    tag: "Exit Strategies",
+    desc: "Common exit options include IPOs, mergers, or acquisitions, allowing investors to cash out.",
   },
 ];
 

@@ -1,5 +1,6 @@
 .about-div {
   width: 100%;
+  margin-top: 5rem;
 }
 
 .about-header {
@@ -12,7 +13,7 @@
 
 .about-header h1 {
   width: 100%;
-  height: 500px;
+  height: 100%;
   font-size: 4rem;
   color: white;
   background-color: #074887;
@@ -118,6 +119,7 @@
 
 .about-card img {
   width: 100%;
+  height: 220px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -221,6 +223,10 @@
 
 /* ------------------------------ Responsive Styles ------------------------------ */
 @media (max-width: 1024px) {
+  .about-div {
+    margin-top: 0;
+  }
+
   .about-para,
   .about-video-container,
   .about-overview,
@@ -258,8 +264,7 @@
 }
 
 @media (max-width: 480px) {
-  .about-header,
-  .about-header h1 {
+  .about-header {
     height: 400px;
   }
 
