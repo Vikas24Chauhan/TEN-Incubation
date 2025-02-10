@@ -1,31 +1,35 @@
 import React from "react";
 import "./About.css";
-import AboutImage1 from "../../assets/images/aboutimage1.jpg";
+import AboutImage1 from "../../assets/images/aboutimage1.webp";
+import AboutImage2 from "../../assets/images/aboutimage2.jpg";
+import AboutImage3 from "../../assets/images/aboutimage3.webp";
+import AboutImage4 from "../../assets/images/aboutimage4.jpg";
+import AboutImage5 from "../../assets/images/aboutimage5.jpg";
 import AboutFocus1 from "../../assets/images/aboutFocus1.png";
 import AboutFocus2 from "../../assets/images/aboutFocus2.png";
 import AboutFocus3 from "../../assets/images/aboutFocus3.png";
 import AboutFocus4 from "../../assets/images/aboutFocus4.png";
 
 const About = () => {
-  const dummyData = [
+  const cardData = [
     {
       image: AboutImage1,
       tag: "History and Milestones",
     },
     {
-      image: AboutImage1,
+      image: AboutImage2,
       tag: "Life at VC",
     },
     {
-      image: AboutImage1,
+      image: AboutImage3,
       tag: "Awards and Recognition",
     },
     {
-      image: AboutImage1,
+      image: AboutImage4,
       tag: "Corporate Governance",
     },
     {
-      image: AboutImage1,
+      image: AboutImage5,
       tag: "Our People",
     },
   ];
@@ -33,27 +37,27 @@ const About = () => {
   const whatWeDo = [
     {
       tag: "New venture creation",
-      desc: "Nucleate new business by creating the environment and opportunities for know-how providers, entrepreneurs and financiers to meet each other and form business teams.",
+      desc: "Create the conditions and chances for entrepreneurs, financiers, and know-how suppliers to connect and create business teams in order to spark new ventures.",
     },
     {
       tag: "Funding and investment",
-      desc: "Create and make available a continuum of early stage funding options for inventive enterprises Know more",
+      desc: "Provide and make accessible a range of early-stage finance alternatives for creative businesses. Find out more.",
     },
     {
       tag: "Knowledge sharing",
-      desc: "Organize and deliver a variety of events for information sharing, inspiration, training, showcasing and networking for the benefit of the larger innovation ecosystem.",
+      desc: "For the benefit of the greater innovation ecosystem, plan and conduct a range of events for networking, inspiration, training, information exchange, and showcasing.",
     },
     {
       tag: "Business incubation",
-      desc: "Nurture businesses through their start-up phase by creating and running an efficient business incubator offering business mentoring, infrastructure support, access to scientific support, funding,  specialized advisory services, networks, scientific and information resources, and a generally friendly, conducive and supportive environment.",
+      desc: "Create and manage an effective business incubator that provides funding, specialized advisory services, networks, scientific and information resources, infrastructure support, business mentoring, access to scientific support, and a generally welcoming, comfortable, and encouraging environment to help businesses through their start-up phase.",
     },
     {
       tag: "Innovation management",
-      desc: "Facilitate activities and partnerships that support and promote the translation of ideas from academia to industry.",
+      desc: "Encourage collaborations and initiatives that help advance the transfer of concepts from academics to business.",
     },
     {
       tag: "Innovation ecosystem",
-      desc: "Develop and make available a rich, diverse, continuous and collaborative innovation ecosystem for deep tech entrepreneurs.",
+      desc: "Provide deep tech entrepreneurs with a rich, varied, ongoing, and cooperative innovation ecosystem.",
     },
   ];
 
@@ -83,8 +87,8 @@ const About = () => {
       </div>
       <div className="about-para">
         <p>
-          We are India’s award-winning leading technology business incubator for
-          science and technology startups.
+          We are the top technological business incubator for science and
+          technology businesses in India, having won several awards.
         </p>
       </div>
 
@@ -104,18 +108,18 @@ const About = () => {
       <div className="about-overview">
         <h2>Overview</h2>
         <p>
-          Venture Center was set up as an initiative of the National Chemical
-          Laboratory under CSIR's scheme titled "Scheme for setting up
-          incubation centers in CSIR laboratories".
+          Under CSIR's "Scheme for setting up incubation centers in CSIR
+          laboratories," the National Chemical Laboratory launched the Venture
+          Center project.
         </p>
         <br />
         <p>
-          Venture Center was incorporated as “Entrepreneurship Development
-          Center” under Section 25 of the Companies Act, 1956 (now Section 8
-          under the Companies Act, 2013), and we are an approved incubator of
-          the National Science and Technology Entrepreneurship Development Board
-          of the Department of Science and Technology, Government of India
-          (DST-NSTEDB) and Department of Biotechnology’s (DBT) .
+          Under Section 25 of the Companies Act of 1956 (currently Section 8 of
+          the Companies Act of 2013), Venture Center was established as the
+          "Entrepreneurship Development Center," and we are an authorized
+          incubator of both the Department of Biotechnology's (DBT) and the
+          Department of Science and Technology's (DST-NSTEDB) National Science
+          and Technology Entrepreneurship Development Board.
         </p>
       </div>
 
@@ -124,20 +128,20 @@ const About = () => {
           <h2>Mission</h2>
           <br />
           <p>
-            To nucleate and nurture world-leading inventive ventures out of
-            India that solve the world's most pressing problems with science and
-            technology-led interventions.
+            To establish and support globally recognized innovative projects
+            from India that use science and technology-led solutions to address
+            the most urgent issues facing the globe.
           </p>
         </div>
         <div className="vision-box">
           <h2>Vision</h2>
           <br />
           <p>
-            To be the organization that will be credited with creating, shaping,
-            and sustaining a "Pune cluster" of innovative technology businesses
-            with a significant economic impact regionally, nationally, and
-            globally within the next 20 years (Venture Center was founded on
-            10th Jan 2007).
+            To be the company recognized for establishing, forming, and
+            maintaining a "Pune cluster" of cutting-edge technology companies
+            that have a major economic influence on a regional, national, global
+            worldwide throughout the ensuing two decades (Venture Center was
+            established on January 10, 2007).
           </p>
         </div>
       </div>
@@ -145,24 +149,24 @@ const About = () => {
       <div className="about-section">
         <h2>Who we are</h2>
         <p>
-          We are India’s award-winning leading technology business incubator for
-          science and technology startups. Venture Center was set up as an
-          initiative of the National Chemical Laboratory under CSIR's scheme
-          titled "Scheme for setting up incubation centers in CSIR
-          laboratories".
+          We are the top technological business incubator for science and
+          technology businesses in India, having won several awards. The
+          National Chemical Laboratory launched the Venture Center as part of
+          the CSIR program. entitled "Scheme for setting up incubation centers
+          in CSIR laboratories" .
           <br />
-          Venture Center was incorporated as “Entrepreneurship Development
-          Center” under Section 25 of the Companies Act, 1956 (now Section 8
-          under the Companies Act, 2013), and we are an approved incubator of
-          the National Science and Technology Entrepreneurship Development Board
-          of the Department of Science and Technology, Government of India
-          (DST-NSTEDB) and Department of Biotechnology’s (DBT) Biotechnology
-          Industry Research Assistance Council (BIRAC).
+          Under Section 25 of the Companies Act, 1956 (now Section 8 under the
+          Companies Act, 2013), Venture Center was established as a
+          "Entrepreneurship Development Center." We are an authorized incubator
+          of the Department of Biotechnology's (DBT) Biotechnology Industry
+          Research Assistance Council (BIRAC) and the National Science and
+          Technology Entrepreneurship Development Board (DST-NSTEDB) of the
+          Department of Science and Technology, Government of India.
         </p>
       </div>
 
       <div className="about-cards">
-        {dummyData.map((data, index) => (
+        {cardData.map((data, index) => (
           <div key={index} className="about-card">
             <img src={data.image} alt="" />
             <h2>{data.tag}</h2>
@@ -186,11 +190,11 @@ const About = () => {
         <div className="about-focus">
           <h2>Focus Areas</h2>
           <p>
-            We focus on promoting inventive enterprises and spin-offs from
+            Our main objective is to support innovative businesses and spin-offs
+            from research and development organizations.
             <br />
-            R&D institutions. We are sector agnostic but our strengths
-            <br />
-            lie in science based technologies in the following broad sectors:
+            Although we are not sector specific, the following general areas'
+            science-based technologies are where we excel:
           </p>
           <div className="about-focus-cards">
             {focusAreas.map((data, index) => (
@@ -204,13 +208,15 @@ const About = () => {
       </div>
 
       <div className="about-last">
-        <h1>What if your idea doesn’t belong to any of the above sectors?</h1>
-        <p>Watch out for the emerging sectors in our pipeline:</p>
+        <h1>
+          What if none of the aforementioned industries apply to your idea?
+        </h1>
+        <p>Keep an eye out for the new industries we are developing:</p>
         <p>
-          Circular economy, defense, food security, advanced medical
-          biotechnology, climate action/clean energy, digital/IT sensors,
-          electronic wearables, carbon capture, utilization and storage (CCUS)/
-          energy management.
+          Defense, advanced medical biotechnology, renewable energy and climate
+          action, digital/IT sensors, electronic wearables, food security, the
+          circular economy, and carbon capture, use, and storage (CCUS) energy
+          control.
         </p>
       </div>
     </div>
