@@ -72,3 +72,48 @@
   color: #013759;
   padding: 3.5rem 2rem;
 }
+
+@media (max-width: 1024px) {
+  .career-para,
+  .career-cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-div {
+    margin-top: 0;
+  }
+
+  .career-para,
+  .career-cards {
+    width: 90%;
+  }
+
+  .career-card {
+    width: 47.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .career-header {
+    height: 400px;
+  }
+
+  .career-para {
+    width: 95%;
+  }
+
+  .career-cards {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .career-card {
+    width: 100%;
+  }
+
+  .career-para h2 {
+    font-size: 1.5rem;
+  }
+}

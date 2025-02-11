@@ -24,17 +24,17 @@ function Career() {
       <div className="career-para">
         <h2>Join Our Innovation Ecosystem</h2>
         <p>
-          Venture Center offers exciting employment and consulting opportunities
-          for those who resonate with our mission and goals. Whether you're
-          passionate about supporting technology innovators, entrepreneurs, and
-          startups, or eager to be part of the dynamic teams within our
-          startups, we have roles that allow you to make a meaningful impact.
+          For those who share our aim and objectives, Venture Center provides
+          interesting job and consultancy possibilities. Whether you have a
+          strong desire to assist entrepreneurs, IT innovators, and businesses,
+          or interested in joining the vibrant teams inside our startups, we
+          have positions that let you contribute significantly.
         </p>
         <p>
-          Explore opportunities to work directly with Venture Center or
-          collaborate with our innovative startups, all while contributing to a
-          thriving ecosystem built on a strong "service" ethos and a commitment
-          to success.
+          Investigate options to work directly with Venture Center or partner
+          with our creative entrepreneurs, all while supporting a flourishing
+          ecosystem based on a dedication to and a strong "service" mentality.
+          to achievement.
         </p>
       </div>
 
