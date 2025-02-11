@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Career from "./components/career/Career";
 import Footer from "./components/footer/Footer";
 import Funding from "./components/funding/Funding";
 import IncubationSupport from "./components/incubation-support/IncubationSupport";
@@ -11,7 +12,6 @@ import PreIncubation from "./components/incubation-support/PreIncubation";
 import Services from "./components/services/Services";
 import ServiceFacilities from "./components/services/ServiceFacilities";
 import Fellowships from "./components/funding/Fellowships";
-
 
 function App() {
   return (
@@ -21,13 +21,19 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/careers" element={<Career />} />
           <Route path="/incubation-support" element={<IncubationSupport />} />
-          <Route path="/incubation-support/preIncubation" element={<PreIncubation />} />
+          <Route
+            path="/incubation-support/preIncubation"
+            element={<PreIncubation />}
+          />
           <Route path="/funding" element={<Funding />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/services/scientific-services-and-facilities" element={<ServiceFacilities />} />
+          <Route
+            path="/services/scientific-services-and-facilities"
+            element={<ServiceFacilities />}
+          />
           <Route path="/funding/fellowships" element={<Fellowships />} />
-
         </Routes>
         <Footer />
       </BrowserRouter>
