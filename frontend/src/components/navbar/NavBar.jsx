@@ -39,7 +39,7 @@ function NavBar() {
             </NavLink>
           </div>
 
-          <hr />
+          <hr className="navbar-hr" />
 
           <div className="navbar-header2">
             <NavLink to="/incubation-support" onClick={handleCloseNav}>

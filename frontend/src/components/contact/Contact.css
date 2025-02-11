@@ -1,0 +1,58 @@
+.contact-div {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.contact-header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../assets/images/contact-header.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-header h1 {
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+}
+
+.contact-map {
+  width: 65%;
+  height: 500px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.contact-address {
+  width: 30%;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-left: 2px solid #9fd9e5;
+}
+
+.contact-address h2 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.contact-address span {
+  color: #e74622;
+}
