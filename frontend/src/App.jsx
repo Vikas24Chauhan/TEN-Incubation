@@ -13,6 +13,7 @@ import PreIncubation from "./components/incubation-support/PreIncubation";
 import Services from "./components/services/Services";
 import ServiceFacilities from "./components/services/ServiceFacilities";
 import Fellowships from "./components/funding/Fellowships";
+import Programs from "./components/programs/Programs";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             element={<ServiceFacilities />}
           />
           <Route path="/funding/fellowships" element={<Fellowships />} />
+          <Route path="/programs" element={<Programs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
