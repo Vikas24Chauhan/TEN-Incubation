@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { RxHamburgerMenu, RxCross1 } from "react-icons/rx"; // Import close icon
+import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import logo from "../../assets/images/Venture.png";
 import "./NavBar.css";
 
@@ -33,9 +33,6 @@ function NavBar() {
             </NavLink>
             <NavLink to="/contact" onClick={handleCloseNav}>
               Contact
-            </NavLink>
-            <NavLink to="/support-us" onClick={handleCloseNav}>
-              Support Us
             </NavLink>
           </div>
 

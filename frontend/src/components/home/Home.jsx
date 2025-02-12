@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import WhyChooseUs from "./WhyChooseUs";
 import Event from "./Event";
 import Testimonials from "./Testimonials";
-import News from "./News";
-import Blog from "./Blog";
+// import News from "./News";
+// import Blog from "./Blog";
 import HomeHeaderImage1 from "../../assets/images/home-header-image1.jpg";
 import HomeHeaderImage2 from "../../assets/images/home-header-image2.png";
 import PreviousIcon from "../../assets/images/previous-icon.svg";
@@ -20,10 +20,11 @@ import Impact3 from "../../assets/images/impact3.png";
 import Impact4 from "../../assets/images/impact4.png";
 import Impact5 from "../../assets/images/impact5.png";
 import Impact6 from "../../assets/images/impact6.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Home() {
   const carouselRef = useRef(null);
+  const navigate = useNavigate();
 
   const handleScroll = (direction) => {
     if (carouselRef.current) {
@@ -51,8 +52,8 @@ function Home() {
     autoplaySpeed: 6000,
   };
 
-  const handleFunding = () => {
-    navigate("/funding");
+  const handleAbout = () => {
+    navigate("/about-us");
   };
 
   const impactData = [
@@ -97,7 +98,9 @@ function Home() {
             <div className="home-header-content">
               <h1>India's top incubator for inventive startups</h1>
               <p>From Concept to Market</p>
-              <NavLink className="home-header-button">Get Started</NavLink>
+              <NavLink to="/incubation-support" className="home-header-button">
+                Get Started
+              </NavLink>
             </div>
           </div>
 
@@ -142,7 +145,7 @@ function Home() {
             and the Defence Innovation Organisation, showcasing its dedication
             to supporting startups at various stages of their stages.
           </p>
-          <button>Tell me more</button>
+          <button onClick={handleAbout}>Tell me more</button>
         </div>
       </div>
 
@@ -207,9 +210,9 @@ function Home() {
 
       <Testimonials />
 
-      <News />
+      {/* <News /> */}
 
-      <Blog />
+      {/* <Blog /> */}
     </div>
   );
 }
