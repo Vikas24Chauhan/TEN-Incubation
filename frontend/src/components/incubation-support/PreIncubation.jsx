@@ -18,13 +18,13 @@ export default function PreIncubation() {
                         </div>
                     <div className="main-page-content">
                         <article>
-                        <h4><strong>Venture Center offers two distinct pre-incubation programs – Ignition and Kickstart, each tailored to nurture and advance technology projects with the potential for independent startup ventures.</strong></h4>
-                        <h5>The goal is to mitigate uncertainties, de-risk technology, and fill critical gaps, paving the way for successful new ventures.</h5>
+                        <h4><strong>Ignition and Kickstart, two separate pre-incubation programs offered by Venture Center, are designed to develop and advance technology initiatives that have the potential to become stand-alone startup enterprises.</strong></h4>
+                        <h5>In order to provide the conditions for prosperous new endeavors, the objective is to reduce uncertainty, de-risk technology, and close important gaps.</h5>
                         <hr />
                         <h3>Membership Criteria & Eligibility</h3>
                         <ul>
-                            <li>Early-stage technology projects with substantial commercial potential.</li>
-                            <li>Preferably with provisional patents already filed.</li>
+                            <li>Technology initiatives in their early stages that have significant economic potential.</li>
+                            <li>Ideally with already-filed provisional patents.</li>
                             <li><strong>Category 1 </strong> (Pre-Incorporation):</li>
                             <ul><li>Clear commitment to creating a startup if Ignition yields positive results.</li>
                                 <li>Key team member committed to venture creation.</li>
@@ -37,15 +37,15 @@ export default function PreIncubation() {
                                 <li>Technology-focused and knowledge-intensive.</li>
                             </ul>
                         </ul>
-                        <p>Choosing between Ignition and Kickstart depends on your project's stage and specific needs. Ignition focuses on technology readiness, while Kickstart emphasizes business planning and market entry. </p>
-                        <p>Go through the key activities of each program to evaluate your eligibility and project goals to make an informed decision for a successful pre-incubation journey with Venture Center.</p>
+                        <p>The stage of your project and your unique requirements will determine whether you choose Ignition or Kickstart. Kickstart prioritizes market access and company planning, whereas Ignition concentrates on technological readiness. </p>
+                        <p>Make an informed choice for a fruitful pre-incubation journey with Venture Center by going over the main activities of each program to assess your eligibility and project goals.</p>
                         <h4>Key Activities During The Program</h4>
                         <h5>Ignition</h5>
                         <ul>
-                            <li>Technology/IPR assessment and strategy.</li>
+                            <li>Technology/IPR strategy and evaluation.</li>
                             <li>Value proposition sharpening and target application identification.</li>
                             <li>Definition of proof-of-concept studies.</li>
-                            <li>Assistance in raising funding for POC studies.</li>
+                            <li>Support in obtaining funds for POC research.</li>
                         </ul>
                         <h5>Kickstart</h5>
                         <ul>
@@ -55,7 +55,7 @@ export default function PreIncubation() {
                             <li>Relevant activities from the Ignition program.</li>
                         </ul>
                         <p>&nbsp;</p>
-                        <p><strong>The Ignition program was announced and initiated by Venture Center on 1 July 2012 and Kick-Start on 27 September 2014.</strong></p>
+                        <p><strong>Venture Center and Kick-Start announced and launched the Ignition program on July 1, 2012, and September 27, 2014, respectively.</strong></p>
                         <p>&nbsp;</p>
                         <span><a href="#">Terms And Conditions</a></span>
                         <br />

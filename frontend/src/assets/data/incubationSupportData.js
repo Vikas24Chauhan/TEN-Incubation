@@ -7,7 +7,7 @@ export default [
             alt:"card-img"
         },
         title:"Pre-Incubation",
-        description:"Venture Center offers two distinct pre-incubation programs – Ignition and Kickstart, each tailored to nurture and advance technology projects with the potential for independent startup ventures."
+        description:"Ignition and Kickstart, two separate pre-incubation programs offered by Venture Center, are designed to develop and advance technology initiatives that have the potential to become stand-alone startup enterprises."
     },
     {   
         id:"virtualIncubation",
@@ -16,7 +16,7 @@ export default [
             alt:"card-img"
         },
         title:"Virtual Incubation",
-        description:"The Associate Incubatee Program (AIP) at Venture Center is tailored for entrepreneurial science-based companies not physically located on our premises."
+        description:"Venture Center's Associate Incubatee Program (AIP) is designed for science-based entrepreneurial businesses that are not physically housed on our campus."
     },
     {   
         id:"residentIncubation",
@@ -25,7 +25,7 @@ export default [
             alt:"card-img"
         },
         title:"Resident Incubation",
-        description:"Gain unparalleled access to a professional business environment, extensive networks, expert mentoring, and exclusive funding opportunities based out of our campus in Pune."
+        description:"From our campus in Pune, get unmatched access to a polished business environment, wide-ranging networks, knowledgeable mentorship, and unique funding opportunities."
     },
     {   
         id:"softLandingProgram",
@@ -34,6 +34,6 @@ export default [
             alt:"card-img"
         },
         title:"Soft Landing Program",
-        description:"Customized support for large companies looking to relocate their R&D and technology development operations to Pune."
+        description:"Specialized assistance for big businesses wishing to move their technology development and research and development activities to Pune."
     }
 ]
