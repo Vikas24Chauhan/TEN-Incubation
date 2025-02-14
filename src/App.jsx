@@ -9,18 +9,15 @@ import Funding from "./components/funding/Funding";
 import IncubationSupport from "./components/incubation-support/IncubationSupport";
 import PreIncubation from "./components/incubation-support/PreIncubation";
 import VirtualIncubation from "./components/incubation-support/VirtualIncubation";
-import Resident from "./components/incubation-support/Resident"
+import Resident from "./components/incubation-support/Resident";
 import SoftLandingProgram from "./components/incubation-support/SoftLandingProgram";
 import Services from "./components/services/Services";
 import ServiceFacilities from "./components/services/ServiceFacilities";
 import Fellowships from "./components/funding/Fellowships";
-<<<<<<< HEAD
-=======
 import Grants from "./components/funding/Grants";
 import Seeds from "./components/funding/Seeds";
 import Csr from "./components/funding/Csr";
 import Programs from "./components/programs/Programs";
->>>>>>> 7f4f9f4 (funding all cards added)
 
 function App() {
   return (
@@ -31,22 +28,33 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/incubation-support" element={<IncubationSupport />} />
-          <Route path="/incubation-support/preIncubation" element={<PreIncubation />} />
-          <Route path="/incubation-support/virtualIncubation" element={<VirtualIncubation />} />
-          <Route path="/incubation-support/residentIncubation" element={<Resident />} />
-          <Route path="/incubation-support/softLandingProgram" element={<SoftLandingProgram />} />
+          <Route
+            path="/incubation-support/preIncubation"
+            element={<PreIncubation />}
+          />
+          <Route
+            path="/incubation-support/virtualIncubation"
+            element={<VirtualIncubation />}
+          />
+          <Route
+            path="/incubation-support/residentIncubation"
+            element={<Resident />}
+          />
+          <Route
+            path="/incubation-support/softLandingProgram"
+            element={<SoftLandingProgram />}
+          />
           <Route path="/funding" element={<Funding />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/services/scientific-services-and-facilities" element={<ServiceFacilities />} />
+          <Route
+            path="/services/scientific-services-and-facilities"
+            element={<ServiceFacilities />}
+          />
           <Route path="/funding/fellowships" element={<Fellowships />} />
-<<<<<<< HEAD
-
-=======
           <Route path="/funding/grants" element={<Grants />} />
           <Route path="/funding/seeds" element={<Seeds />} />
           <Route path="/funding/csr" element={<Csr />} />
           <Route path="/programs" element={<Programs />} />
->>>>>>> 7f4f9f4 (funding all cards added)
         </Routes>
         <Footer />
       </BrowserRouter>
