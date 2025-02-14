@@ -1,0 +1,362 @@
+.csr-header {
+    width: 100%;
+    margin-top: 5rem;
+    height: 500px;
+    background-image: url(../../assets/images/fundingImage5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.csr-header h1 {
+    width: 100%;
+    height: 500px;
+    font-size: 4rem;
+    color: white;
+    background-color: #074887;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page-content {
+    display: flex;
+    gap: 30px 15px;
+    margin: 0 75px;
+}
+
+.content{
+    padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.csrsup {
+    padding: 0 30px;
+    margin: 0 60px;
+}
+
+.in-page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.in-page-nav a {
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+    padding: 3px 18px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2em;
+    white-space: nowrap;
+    letter-spacing: .028em;
+}
+
+.in-page-nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+.main-page-content h4 {
+    margin: 0 0 15px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #013759;
+}
+
+.main-page-content h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #013759;
+    margin: 30px 0 15px 0;
+}
+.main-page-content h3 {
+    font-weight: 400;
+    font-size: 21px;
+    color: #013759;
+    margin: 30px 0 15px 0;
+}
+
+.main-page-content ul{
+    margin: 15px 0;
+    padding: 0 0 0 16px;
+}
+
+.main-page-content ul li{
+    margin: .5em 0;
+}
+.main-page-content ul ul{
+    margin: 8px 0 15px;
+    padding: 0 0 0 16px;
+}
+
+.main-page-content p{
+    margin: 15px 0 30px;
+}
+
+.main-page-content span a{
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+    padding: 3px 18px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2em;
+    white-space: nowrap;
+    letter-spacing: .028em;
+}
+
+.main-page-content span a:hover{
+    background-color: black;
+    color: white;
+}
+
+.main-page-content aside{
+    width: 50%;
+    padding-left: 15px;
+    border-left: 2px solid skyblue;
+}
+
+.main-page-content aside p a{
+    color: red;
+    text-decoration: none;
+}
+
+
+/* Medium screens (tablets, 768px and below) */
+@media (max-width: 850px) {
+    .csr-header {
+        height: 350px;
+    }
+
+    .csr-header h1 {
+        height: 350px;
+        font-size: 2.5rem;
+    }
+
+    .main-page-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .csrsup {
+        padding: 0 20px;
+        margin: 0 30px;
+    }
+
+    .main-page-content aside {
+        width: 100%;
+        padding-left: 0;
+        border-left: none;
+        border-top: 2px solid skyblue;
+        padding-top: 20px;
+    }
+}
+
+/* Small screens (mobile, 480px and below) */
+@media (max-width: 480px) {
+    .csr-header {
+        height: 250px;
+        background-position: center;
+    }
+
+    .csr-header h1 {
+        height: 250px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .in-page-nav {
+        /* flex-direction: column; */
+        gap: 12px;
+        align-items: center;
+    }
+
+    .in-page-nav a {
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+
+    .main-page-content h4,
+    .main-page-content h5,
+    .main-page-content h3 {
+        font-size: 16px;
+    }
+
+    .main-page-content p {
+        font-size: 14px;
+    }
+
+    .main-page-content ul {
+        padding-left: 12px;
+    }
+
+    .main-page-content span a {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+.submain{
+    width: 100%;
+    height: 100%;
+  word-spacing: 1px;
+  color: #013759;
+  font-size: 12.5px;
+}
+
+.submain h1{
+    font-size: 40px;
+}
+.buttons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+ flex-direction:column;
+    align-items: center;
+    justify-content: left;
+    margin: 35px 0px;
+}
+
+.buttons .topbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.buttons button{
+    width: auto;
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    color: #020202;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 2px;
+}
+.buttons button:hover{
+    color: #fff;
+    background-color: #020202;
+}
+
+
+.investpro{
+    width: 100%;
+    height: 100%;
+}
+.investpro h1{
+    font-size: 24px;
+    color: #013759;
+    font-family: sans-serif;
+}
+.investpro p{
+    font-size: 18px;
+    color:#352d2d;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.investpro ul li{
+    font-size: 18px;
+    color: #352d2d;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+
+.investpro button{
+    width: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    color: #020202;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 2px;
+}
+
+.investpro button:hover{
+    color: #fff;
+    background-color: #020202;
+}
+
+.fundingschemes{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+.fundingschemes .boxes{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2,1fr);
+margin-top: 35px;
+padding-right:11.5px;
+}
+
+.boxes .subbox{
+    width: 100%;
+    height: 225px;
+    margin-top: 25px;
+}
+.subbox h1{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+.subbox p{
+    font-size: 15px;
+    color: #352d2d;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.subbox button{
+    width: 150px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    color: #020202;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 2px;
+}
+.subbox button:hover{
+    color: #fff;
+    background-color: #020202;
+}
+
+.seedinvstimg{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+.email{
+
+}

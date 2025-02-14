@@ -24,7 +24,7 @@ const Funding = () => {
       image: FundingImage3,
       para: "The investment strategy places a strong emphasis on creating resources for new businesses...",
       tag: "Seed Investments",
-      route: "/funding/seed-investments",
+      route: "/funding/seeds",
     },
     {
       image: FundingImage4,

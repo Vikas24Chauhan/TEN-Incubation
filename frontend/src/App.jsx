@@ -14,6 +14,13 @@ import SoftLandingProgram from "./components/incubation-support/SoftLandingProgr
 import Services from "./components/services/Services";
 import ServiceFacilities from "./components/services/ServiceFacilities";
 import Fellowships from "./components/funding/Fellowships";
+<<<<<<< HEAD
+=======
+import Grants from "./components/funding/Grants";
+import Seeds from "./components/funding/Seeds";
+import Csr from "./components/funding/Csr";
+import Programs from "./components/programs/Programs";
+>>>>>>> 7f4f9f4 (funding all cards added)
 
 function App() {
   return (
@@ -32,7 +39,14 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/services/scientific-services-and-facilities" element={<ServiceFacilities />} />
           <Route path="/funding/fellowships" element={<Fellowships />} />
+<<<<<<< HEAD
 
+=======
+          <Route path="/funding/grants" element={<Grants />} />
+          <Route path="/funding/seeds" element={<Seeds />} />
+          <Route path="/funding/csr" element={<Csr />} />
+          <Route path="/programs" element={<Programs />} />
+>>>>>>> 7f4f9f4 (funding all cards added)
         </Routes>
         <Footer />
       </BrowserRouter>
