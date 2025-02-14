@@ -72,3 +72,54 @@
   word-spacing: 2px;
   padding: 1rem 0;
 }
+
+/* ------------------------------ Responsivenesss -------------------- */
+@media (max-width: 1024px) {
+  .programs-div {
+    margin-top: 0;
+  }
+
+  .programs-cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .programs-cards {
+    width: 95%;
+  }
+
+  .about-programs h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-programs p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .programs-header {
+    height: 400px;
+  }
+
+  .programs-card {
+    flex-wrap: wrap;
+  }
+
+  .programs-image {
+    width: 100%;
+  }
+
+  .about-programs {
+    width: 100%;
+  }
+
+  .programs-even {
+    flex-wrap: wrap;
+  }
+
+  .programs-odd {
+    flex-wrap: wrap-reverse;
+  }
+}
