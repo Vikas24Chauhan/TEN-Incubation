@@ -1,176 +1,157 @@
-.page-hero {
-  position: relative;
+.services-main-div {
   width: 100%;
-  height: 500px; /* Adjust as needed */
-  display: flex;
-  align-items: flex-end; /* Moves content to the bottom */
-  justify-content: flex-start; /* Align content to the left */
-  text-align: left; /* Ensures text aligns to the left */
-  color: white;
-  padding: 50px; /* Adds spacing from the bottom and left */
+  margin-top: 5rem;
 }
 
-.page-hero .image {
-  position: absolute;
-  top: 0;
-  left: 0;
+.services-main-header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../assets/images/services-header.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.services-main-header h1 {
   width: 100%;
   height: 100%;
-}
-
-.page-hero .image picture img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the full area */
-}
-
-.page-hero .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(13, 22, 94, 0.5); /* Dark overlay effect */
-}
-
-.page-hero .content {
-  position: relative;
-  z-index: 2; /* Keeps text above the overlay */
-}
-
-.page-title {
   font-size: 4rem;
-  padding-bottom: 50px;
-  font-weight: 500;
-}
-
-.breadcrumb {
-  list-style: none;
-  color: #d8dbe7;
-  padding: 0;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
   display: flex;
-  gap: 20px;
-  font-weight: bold;
+  align-items: center;
+  justify-content: center;
 }
 
-.services-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  padding-bottom: 200px;
-}
-
-.service-para {
+.services-main-para {
   width: 70%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
-.services-para h2 {
+.services-main-para h2 {
   font-size: 3rem;
   font-weight: 500;
   color: #013759;
 }
 
-.services-para p {
+.services-main-para p {
   font-size: 18px;
   color: #666;
   font-weight: 400;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   word-spacing: 2px;
 }
 
-.services-card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  justify-content: center;
-  border-radius: 20px;
+.services-main-card {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  margin-bottom: 2rem;
 }
 
-.service-item {
-  height: 100%; /* Makes all cards equal height */
-  width: 100%; /* Ensures equal width */
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.1);
+.services-main-card a {
+  width: 31%;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 
-.service-item img {
-  border-radius: 16px 16px 0 0;
-  padding: 0;
-  margin: 0px;
+.services-main-card a:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.service-item h2 {
+.services-main-item img {
+  width: 100%;
+  height: 250px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.services-main-item h2 {
   font-size: 1.5rem;
-  padding: 20px 0;
+  padding: 20px 10px;
   color: #2a4b6d;
   word-spacing: 2px;
 }
 
-.service-item p {
+.services-main-item p {
   font-size: 1rem;
   color: #070707;
+  padding: 0 10px 20px 10px;
   word-spacing: 2px;
 }
 
-.services-card a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* ======= Responsive Design ======= */
-
-/* For Tablets (768px and below) */
+/* -------------------------- Responsive Design --------- */
 @media (max-width: 1024px) {
-  .services-card {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  .services-main-para {
+    width: 80%;
   }
 
-  .page-title {
-    font-size: 3rem;
-  }
-
-  .page-hero {
-    padding: 30px;
-    height: 400px;
+  .services-main-card {
+    width: 80%;
   }
 }
 
-/* For Mobile Devices (768px and below) */
 @media (max-width: 768px) {
-  .services-card {
-    grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+  .services-main-div {
+    margin-top: 2.5rem;
   }
 
-  .page-title {
+  .services-main-header h1 {
     font-size: 2.5rem;
   }
 
-  .breadcrumb {
-    gap: 10px;
-    font-size: 14px;
+  .services-main-para {
+    width: 90%;
   }
 
-  .page-hero {
-    height: 350px;
-    padding: 20px;
+  .services-main-para h2 {
+    font-size: 2.5rem;
+  }
+
+  .services-main-card {
+    width: 90%;
+  }
+
+  .services-main-card a {
+    width: 48%;
   }
 }
 
-/* Small Screens (576px and below) */
-@media (max-width: 576px) {
-  .page-title {
+@media (max-width: 480px) {
+  .services-main-div {
+    margin-top: 0;
+  }
+
+  .services-main-header {
+    height: 400px;
+  }
+
+  .services-main-header h1 {
     font-size: 2rem;
   }
 
-  .breadcrumb {
-    font-size: 12px;
+  .services-main-para {
+    width: 95%;
   }
 
-  .page-hero {
-    height: 300px;
-    padding: 15px;
+  .services-main-para h2 {
+    font-size: 2rem;
+  }
+
+  .services-main-para p {
+    font-size: 1rem;
+  }
+
+  .services-main-card {
+    width: 95%;
+    margin: 2rem auto;
+  }
+
+  .services-main-card a {
+    width: 100%;
   }
 }
