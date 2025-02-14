@@ -13,38 +13,21 @@ export default function ServiceFacilities() {
           </picture>
           <span className="overlay"></span>
         </div>
-
-        <div className="content">
-          <div className="content-wrapper">
-            <h1 className="page-title">Scientific Services & Facilities</h1>
-            <ul className="breadcrumb">
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/services">Services</a>
-              </li>
-              <li>
-                <a
-                  href="/services/scientific-services-and-facilities"
-                  style={{ color: "rgb(200, 195, 57)" }}
-                >
-                  Scientific Services & Facilities
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
-      <div></div>
+
       <div className="services-container">
         <div className="link-container">
           <ul className="links">
-            <li >
-              <a href="/services"  style={{ backgroundColor: "#80792c", }}>Back</a>
+            <li>
+              <a href="/services" style={{ backgroundColor: "#80792c" }}>
+                Back
+              </a>
             </li>
             <li>
-              <a href="/services/scientific-services-and-facilities"  style={{ backgroundColor: "#7295c6", }}>
+              <a
+                href="/services/scientific-services-and-facilities"
+                style={{ backgroundColor: "#7295c6" }}
+              >
                 Scientific Services & Facilities
               </a>
             </li>
@@ -62,7 +45,7 @@ export default function ServiceFacilities() {
             </li>
           </ul>
         </div>
-        
+
         <h1>Scientific Services & Facilities</h1>
         <div className="services-card">
           {ServiceFacilities_Card.map(({ id, image, title, link }) => (
