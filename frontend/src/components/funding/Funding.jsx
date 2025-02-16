@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import "./Funding.css";
 import FundingImage1 from "../../assets/images/fundingImage2.jpg";
 import FundingImage2 from "../../assets/images/fundingImage3.jpg";
@@ -12,7 +12,7 @@ const Funding = () => {
       image: FundingImage1,
       para: "Minimizes risks, offsets opportunity costs, and provides a platform for supporting entrepreneurial career aspirations...",
       tag: "Fellowships",
-      route: "/funding/fellowships", 
+      route: "/funding/fellowships",
     },
     {
       image: FundingImage2,

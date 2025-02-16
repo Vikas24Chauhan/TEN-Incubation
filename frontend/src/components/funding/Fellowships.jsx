@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import "./Fellowships.css";
 import FellowshipImage1 from "../../assets/images/fellowshipimage1.jpg";
 import FellowshipImage2 from "../../assets/images/fellowshipimage2.jpg";
-import FellowshipImage3 from "../../assets/images/fellowshipimage3.png";
+import FellowshipImage3 from "../../assets/images/fellowshipimage3.jpg";
 
 const Funding = () => {
   const fundingData = [
@@ -24,7 +24,7 @@ const Funding = () => {
       para: "The goal of the BFI-BIOME Fellowships is to develop and assist a group of innovative, enterprising individuals who are eager to work on developing answers for significant healthcare issues.",
       tag: "BFI-BIOME Fellowship at Venture Center",
       route: "/funding/seed-investments",
-    }
+    },
   ];
 
   return (
@@ -35,11 +35,17 @@ const Funding = () => {
 
       <section className="fellowship-para">
         <p>
-        The Social Innovation Immersion Program (SIIP), the NIDHI-EIR Fellowship, and the BFI-BIOME Fellowship are the three exciting fellowship programs that Venture Center offers.
+          The Social Innovation Immersion Program (SIIP), the NIDHI-EIR
+          Fellowship, and the BFI-BIOME Fellowship are the three exciting
+          fellowship programs that Venture Center offers.
         </p>
         <h5>
-        SIIP focuses on sustainable projects that tackle social issues, whereas the NIDHI-EIR (Entrepreneur in Residence) Program promotes entrepreneurs to transform knowledge-based ideas into successful businesses while lowering risks and fostering networking opportunities for aspiring innovators.
-</h5>
+          SIIP focuses on sustainable projects that tackle social issues,
+          whereas the NIDHI-EIR (Entrepreneur in Residence) Program promotes
+          entrepreneurs to transform knowledge-based ideas into successful
+          businesses while lowering risks and fostering networking opportunities
+          for aspiring innovators.
+        </h5>
       </section>
 
       <div className="fellowship-cards">
