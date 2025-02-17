@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Career from "./components/career/Career";
+import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Funding from "./components/funding/Funding";
 import IncubationSupport from "./components/incubation-support/IncubationSupport";
@@ -27,6 +29,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/careers" element={<Career />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/incubation-support" element={<IncubationSupport />} />
           <Route
             path="/incubation-support/preIncubation"

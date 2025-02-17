@@ -1,11 +1,10 @@
 .about-div {
   width: 100%;
-  margin-top: 5rem;
 }
 
 .about-header {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-image: url(../../assets/images/about-header.jpg);
   background-size: cover;
   background-position: center;
@@ -223,10 +222,6 @@
 
 /* ------------------------------ Responsive Styles ------------------------------ */
 @media (max-width: 1024px) {
-  .about-div {
-    margin-top: 0;
-  }
-
   .about-para,
   .about-video-container,
   .about-overview,

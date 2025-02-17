@@ -1,11 +1,10 @@
 .career-div {
   width: 100%;
-  margin-top: 5rem;
 }
 
 .career-header {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-image: url(../../assets/images/career-header.jpg);
   background-size: cover;
   background-position: center;
@@ -81,10 +80,6 @@
 }
 
 @media (max-width: 768px) {
-  .career-div {
-    margin-top: 0;
-  }
-
   .career-para,
   .career-cards {
     width: 90%;

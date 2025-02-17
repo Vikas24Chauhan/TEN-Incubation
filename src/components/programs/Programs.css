@@ -1,11 +1,10 @@
 .programs-div {
   width: 100%;
-  margin-top: 5rem;
 }
 
 .programs-header {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-image: url(../../assets/images/programs-header.jpg);
   background-size: cover;
   background-position: center;
@@ -75,10 +74,6 @@
 
 /* ------------------------------ Responsivenesss -------------------- */
 @media (max-width: 1024px) {
-  .programs-div {
-    margin-top: 0;
-  }
-
   .programs-cards {
     width: 80%;
   }
