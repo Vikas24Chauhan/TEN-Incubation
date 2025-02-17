@@ -4,7 +4,7 @@
 
 .funding-header {
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-image: url(../../assets/images/fundingImage1.jpg);
   background-size: cover;
   background-position: center;
@@ -76,7 +76,6 @@
 }
 
 .funding-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -103,7 +102,6 @@
   flex-grow: 1;
 }
 
-
 /* reponsive */
 @media (min-width: 1024px) {
   .funding-cards {
@@ -116,7 +114,7 @@
     width: 80%;
     grid-template-columns: repeat(3, 1fr);
   }
-  .funding-para{
+  .funding-para {
     width: 80%;
   }
 }
@@ -126,7 +124,7 @@
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
   }
-  .funding-para{
+  .funding-para {
     width: 80%;
   }
 }
@@ -136,17 +134,20 @@
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
   }
-  .funding-para{
+  .funding-para {
     width: 85%;
   }
 }
 
 @media (max-width: 480px) {
+  .funding-header {
+    height: 450px;
+  }
   .funding-cards {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
   }
-  .funding-para{
+  .funding-para {
     width: 90%;
   }
 }

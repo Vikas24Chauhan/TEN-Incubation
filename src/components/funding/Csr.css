@@ -1,340 +1,338 @@
 .csr-header {
-    width: 100%;
-    margin-top: 5rem;
-    height: 500px;
-    background-image: url(../../assets/images/fundingImage5.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  height: 700px;
+  background-image: url(../../assets/images/fundingImage5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .csr-header h1 {
-    width: 100%;
-    height: 500px;
-    font-size: 4rem;
-    color: white;
-    background-color: rgba(7, 72, 135, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(7, 72, 135, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .main-page-content {
-    display: flex;
-    gap: 30px;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 40px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px;
 }
 
 .content {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .csrsup {
-    padding: 0 30px;
-    margin: 0 auto;
-    max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1100px;
 }
 
-.main-page-content h3, 
-.main-page-content h4, 
+.main-page-content h3,
+.main-page-content h4,
 .main-page-content h5 {
-    color: #013759;
-    margin-bottom: 15px;
+  color: #013759;
+  margin-bottom: 15px;
 }
 
 .main-page-content h3 {
-    font-size: 21px;
-    font-weight: 400;
+  font-size: 21px;
+  font-weight: 400;
 }
 
 .main-page-content h4 {
-    font-size: 18pt;
-    font-weight: 600;
+  font-size: 18pt;
+  font-weight: 600;
 }
 
 .main-page-content h5 {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 .main-page-content ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .main-page-content ul li {
-    margin: 8px 0;
-    font-size: 16px;
-    line-height: 1.5;
+  margin: 8px 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .main-page-content p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .main-page-content span a,
 .buttonscsr button,
 .investpro button,
 .subbox button {
-    border: 2px solid black;
-    padding: 8px 20px;
-    border-radius: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: white;
-    transition: 0.3s;
-    cursor: pointer;
+  border: 2px solid black;
+  padding: 8px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .main-page-content span a:hover,
 .buttonscsr button:hover,
 .investpro button:hover,
 .subbox button:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
-.buttonscsr .topbuttonscsr button{
-    margin: 0 5px;
+.buttonscsr .topbuttonscsr button {
+  margin: 0 5px;
 }
 
 .main-page-content aside {
-    width: 50%;
-    padding-left: 20px;
-    border-left: 2px solid skyblue;
+  width: 50%;
+  padding-left: 20px;
+  border-left: 2px solid skyblue;
 }
 
 .main-page-content aside p a {
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 
-.submaincsr{
-    width: 100%;
-    height: 100%;
-    word-spacing: 1px;
-    color: #013759;
-    font-size: 12.5px;
+.submaincsr {
+  width: 100%;
+  height: 100%;
+  word-spacing: 1px;
+  color: #013759;
+  font-size: 12.5px;
 }
 
 .buttonscsr {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    margin: 35px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 35px 0;
 }
 
-.investpro h1, 
+.investpro h1,
 .fundingschemes .boxes .subbox h1 {
-    font-size: 24px;
-    color: #013759;
+  font-size: 24px;
+  color: #013759;
 }
 
-.investpro p, 
-.investpro ul li, 
+.investpro p,
+.investpro ul li,
 .fundingschemes .boxes .subbox p {
-    font-size: 18px;
-    color: #352d2d;
-    line-height: 25px;
+  font-size: 18px;
+  color: #352d2d;
+  line-height: 25px;
 }
 
 .fundingschemes {
-    margin-top: 60px;
-    margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .fundingschemes .boxes {
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 35px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 35px;
 }
 
-.boxes .subbox{
-    width: 100%;
-    height: 225px;
-    margin-top: 25px;
+.boxes .subbox {
+  width: 100%;
+  height: 225px;
+  margin-top: 25px;
 }
 
-.subbox h1{
-    font-size: 15px;
-    color: black;
-    font-family: sans-serif;
+.subbox h1 {
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
 }
 
-.subbox p{
-    font-size: 15px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
+.subbox p {
+  font-size: 15px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
 }
 
-.subbox button{
-    width: 150px;
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 15px;
-    color: #020202;
-    font-weight: bold;
-    background-color: #fff;
-    margin: 2px;
+.subbox button {
+  width: 150px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  color: #020202;
+  font-weight: bold;
+  background-color: #fff;
+  margin: 2px;
 }
 
-.subbox button:hover{
-    color: #fff;
-    background-color: #020202;
+.subbox button:hover {
+  color: #fff;
+  background-color: #020202;
 }
 
-.seedinvstimg{
-    width: 100%;
-    height: 500px;
+.seedinvstimg {
+  width: 100%;
+  height: 500px;
 }
 
-.csrinfo{
-    margin-top: 35px;
-    padding-left: 5px;
+.csrinfo {
+  margin-top: 35px;
+  padding-left: 5px;
 }
 
-.listofexamp{
-    padding-left: 25px;
-    margin-bottom: 25px;
+.listofexamp {
+  padding-left: 25px;
+  margin-bottom: 25px;
 }
 
-.csrinfo h1{
-    font-size: 20px;
-    color: #013759;
-    font-family: sans-serif;
-    margin-bottom: 20px;
+.csrinfo h1 {
+  font-size: 20px;
+  color: #013759;
+  font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
-.csrinfo p{
-    font-size: 16.5px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
+.csrinfo p {
+  font-size: 16.5px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
 }
 
-.heading{
-    line-height: 55px;
+.heading {
+  line-height: 55px;
 }
 
-.csrinfo ol li{
-    font-size: 16.5px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
-    margin-bottom: 10px;
+.csrinfo ol li {
+  font-size: 16.5px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 10px;
 }
 
-.listofcomps h1{
-    font-size: 20px;
-    color: #013759;
-    font-family: sans-serif;
-    margin-bottom: 20px;
+.listofcomps h1 {
+  font-size: 20px;
+  color: #013759;
+  font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
-.listofcomps ul li{
-    font-size: 16.5px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
+.listofcomps ul li {
+  font-size: 16.5px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
 }
 
 @media (max-width: 1024px) {
-    .csr-header {
-        height: 400px;
-    }
+  .csr-header {
+    height: 400px;
+  }
 
-    .csr-header h1 {
-        height: 400px;
-        font-size: 3rem;
-    }
+  .csr-header h1 {
+    height: 400px;
+    font-size: 3rem;
+  }
 
-    .main-page-content {
-        flex-direction: column;
-        padding: 30px;
-    }
+  .main-page-content {
+    flex-direction: column;
+    padding: 30px;
+  }
 
-    .main-page-content aside {
-        width: 100%;
-        padding-left: 0;
-        border-left: none;
-        border-top: 2px solid skyblue;
-        padding-top: 20px;
-    }
+  .main-page-content aside {
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    border-top: 2px solid skyblue;
+    padding-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {
-    .csr-header {
-        height: 300px;
-    }
+  .csr-header {
+    height: 300px;
+  }
 
-    .csr-header h1 {
-        height: 300px;
-        font-size: 2.5rem;
-    }
+  .csr-header h1 {
+    height: 300px;
+    font-size: 2.5rem;
+  }
 
-    .main-page-content {
-        padding: 20px;
-    }
-    
-    .heading {
-        line-height: 30px;
-    }
-    .main-page-content span a,
-    .buttonscsr button,
-    .investpro button,
-    .subbox button {
-        width: 100%;
-        font-size: 14px;
-        margin: 5px 0;
-        display: block;
-    }
-    
-    .fundingschemes .boxes {
-        grid-template-columns: 1fr;
-    }
+  .main-page-content {
+    padding: 20px;
+  }
+
+  .heading {
+    line-height: 30px;
+  }
+  .main-page-content span a,
+  .buttonscsr button,
+  .investpro button,
+  .subbox button {
+    width: 100%;
+    font-size: 14px;
+    margin: 5px 0;
+    display: block;
+  }
+
+  .fundingschemes .boxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
-    .csr-header {
-        height: 250px;
-    }
+  .csr-header {
+    height: 250px;
+  }
 
-    .csr-header h1 {
-        height: 250px;
-        font-size: 2rem;
-    }
+  .csr-header h1 {
+    height: 250px;
+    font-size: 2rem;
+  }
 
-    .main-page-content h3, 
-    .main-page-content h4, 
-    .main-page-content h5 {
-        font-size: 16px;
-    }
+  .main-page-content h3,
+  .main-page-content h4,
+  .main-page-content h5 {
+    font-size: 16px;
+  }
 
-    .main-page-content p {
-        font-size: 14px;
-    }
-    
-    .buttonscsr button {
-        font-size: 14px;
-        margin: 5px 0;
-        padding: 8px;
-    }
-    
-    .heading {
-        line-height: 35px;
-    }
+  .main-page-content p {
+    font-size: 14px;
+  }
+
+  .buttonscsr button {
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 8px;
+  }
+
+  .heading {
+    line-height: 35px;
+  }
 }
 
-
-
 @media (min-width: 360px) and (max-width: 768px) {
-    .buttonscsr .topbuttonscsr .firsttopbuttonscsr{
-        width: 140%;
-        margin-left: -18%;
-    }
+  .buttonscsr .topbuttonscsr .firsttopbuttonscsr {
+    width: 140%;
+    margin-left: -18%;
+  }
 }

@@ -1,346 +1,344 @@
 .seeds-header {
-    width: 100%;
-    margin-top: 5rem;
-    height: 500px;
-    background-image: url(../../assets/images/fundingImage4.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  margin-top: 5rem;
+  height: 700px;
+  background-image: url(../../assets/images/fundingImage4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .seeds-header h1 {
-    width: 100%;
-    height: 500px;
-    font-size: 4rem;
-    color: white;
-    background-color: #074887;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-page-content {
-    display: flex;
-    gap: 30px 15px;
-    margin: 0 75px;
+  display: flex;
+  gap: 30px 15px;
+  margin: 0 75px;
 }
 
 .content {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .seedssup {
-    padding: 0 30px;
-    margin: 0 60px;
+  padding: 0 30px;
+  margin: 0 60px;
 }
 .main-page-content h3 {
-    font-weight: 400;
-    font-size: 21px;
-    color: #013759;
-    margin: 30px 0 15px 0;
+  font-weight: 400;
+  font-size: 21px;
+  color: #013759;
+  margin: 30px 0 15px 0;
 }
 
 .main-page-content h4 {
-    margin: 0 0 15px;
-    font-size: 18pt;
-    font-weight: 600;
-    color: #013759;
+  margin: 0 0 15px;
+  font-size: 18pt;
+  font-weight: 600;
+  color: #013759;
 }
 
 .main-page-content h5 {
-    font-weight: 400;
-    font-size: 18px;
-    color: #013759;
-    margin: 30px 0 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #013759;
+  margin: 30px 0 15px 0;
 }
 
 .main-page-content ul {
-    margin: 15px 0;
-    padding: 0 0 0 16px;
+  margin: 15px 0;
+  padding: 0 0 0 16px;
 }
 
 .main-page-content ul li {
-    margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 .main-page-content ul ul {
-    margin: 8px 0 15px;
-    padding: 0 0 0 16px;
+  margin: 8px 0 15px;
+  padding: 0 0 0 16px;
 }
 
 .main-page-content p {
-    margin: 15px 0 30px;
+  margin: 15px 0 30px;
 }
 .main-page-content span a {
-    color: black;
-    border: 2px solid black;
-    font-weight: 600;
-    padding: 3px 18px;
-    font-size: 14px;
-    text-decoration: none;
-    border-radius: 2em;
-    white-space: nowrap;
-    letter-spacing: 0.028em;
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 3px 18px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2em;
+  white-space: nowrap;
+  letter-spacing: 0.028em;
 }
 
 .main-page-content span a:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 .main-page-content aside {
-    width: 40%;
-    padding-left: 15px;
-    border-left: 2px solid skyblue;
+  width: 40%;
+  padding-left: 15px;
+  border-left: 2px solid skyblue;
 }
 
 .main-page-content aside p a {
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 .submain {
-    width: 100%;
-    height: 100%;
-    word-spacing: 1px;
-    color: #013759;
-    font-size: 12.5px;
+  width: 100%;
+  height: 100%;
+  word-spacing: 1px;
+  color: #013759;
+  font-size: 12.5px;
 }
 .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 35px 0;
 }
 .buttons button {
-    width: 250px;
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 15px;
-    color: #020202;
-    font-weight: bold;
-    background-color: #fff;
-    margin: 2px;
+  width: 250px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  color: #020202;
+  font-weight: bold;
+  background-color: #fff;
+  margin: 2px;
 }
 .buttons button:hover {
-    color: #fff;
-    background-color: #020202;
+  color: #fff;
+  background-color: #020202;
 }
 .investpro {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .investpro h1 {
-    font-size: 24px;
-    color: #013759;
-    font-family: sans-serif;
+  font-size: 24px;
+  color: #013759;
+  font-family: sans-serif;
 }
 .investpro p {
-    font-size: 18px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
+  font-size: 18px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
 }
 .investpro ul li {
-    font-size: 18px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
+  font-size: 18px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
 }
 .investpro button {
-    width: 250px;
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 15px;
-    color: #020202;
-    font-weight: bold;
-    background-color: #fff;
-    margin: 2px;
+  width: 250px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  color: #020202;
+  font-weight: bold;
+  background-color: #fff;
+  margin: 2px;
 }
 .investpro button:hover {
-    color: #fff;
-    background-color: #020202;
+  color: #fff;
+  background-color: #020202;
 }
 .fundingschemes {
-    width: 100%;
-    height: 100%;
-    margin-top: 60px;
-    margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 .fundingschemes .boxes {
-    width: 100%;
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 35px;
-    padding-right: 11.5px;
+  width: 100%;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 35px;
+  padding-right: 11.5px;
 }
 .boxes .subbox {
-    width: 100%;
-    min-height: 380px; 
-    padding: 15px; 
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  min-height: 380px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .subbox h1 {
-    font-size: 15px;
-    color: black;
-    font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
 }
 .subbox p {
-    font-size: 15px;
-    color: #352d2d;
-    font-family: sans-serif;
-    line-height: 25px;
-    flex-grow: 1;
+  font-size: 15px;
+  color: #352d2d;
+  font-family: sans-serif;
+  line-height: 25px;
+  flex-grow: 1;
 }
 .subbox button {
-    width: 150px;
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 15px;
-    color: #020202;
-    font-weight: bold;
-    background-color: #fff;
-    margin: 2px;
-    align-self: flex-start;
+  width: 150px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  color: #020202;
+  font-weight: bold;
+  background-color: #fff;
+  margin: 2px;
+  align-self: flex-start;
 }
 .subbox button:hover {
-    color: #fff;
-    background-color: #020202;
+  color: #fff;
+  background-color: #020202;
 }
 .seedinvstimg {
-    width: 100%;
-    height: 500px;
-    background-image: url(../../assets/images/seedinvestimg1.png);
+  width: 100%;
+  height: 500px;
+  background-image: url(../../assets/images/seedinvestimg1.png);
 }
 
 /* responsive */
 @media (max-width: 850px) {
-    .seeds-header {
-        height: 350px;
-    }
-    .seeds-header h1 {
-        height: 350px;
-        font-size: 2.5rem;
-    }
-    .main-page-content {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .seedssup {
-        padding: 0 20px;
-        margin: 0 30px;
-    }
-    .main-page-content aside {
-        width: 100%;
-        padding-left: 0;
-        border-left: none;
-        border-top: 2px solid skyblue;
-        padding-top: 20px;
-    }
+  .seeds-header {
+    height: 350px;
+  }
+  .seeds-header h1 {
+    height: 350px;
+    font-size: 2.5rem;
+  }
+  .main-page-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .seedssup {
+    padding: 0 20px;
+    margin: 0 30px;
+  }
+  .main-page-content aside {
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    border-top: 2px solid skyblue;
+    padding-top: 20px;
+  }
 }
 @media (max-width: 500px) {
-    .main-page-content {
-        margin: 0 10px;
-        gap: 10px;
-        flex-direction: column;
-    }
-    .seedssup {
-        margin: 0 10px;
-        padding: 0 10px;
-    }
-    .fundingschemes .boxes {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        margin-top: 20px;
-        padding-right: 0;
-    }
-    .boxes .subbox {
-        padding: 8px;
-        min-height: auto;
-    }
-    .subbox h1 {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-    .subbox p {
-        font-size: 12px;
-        margin-bottom: 8px;
-    }
-    .subbox button {
-        width: 100%;
-        font-size: 12px;
-        padding: 6px;
-    }
+  .main-page-content {
+    margin: 0 10px;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .seedssup {
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+  .fundingschemes .boxes {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    padding-right: 0;
+  }
+  .boxes .subbox {
+    padding: 8px;
+    min-height: auto;
+  }
+  .subbox h1 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .subbox p {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .subbox button {
+    width: 100%;
+    font-size: 12px;
+    padding: 6px;
+  }
 }
 @media (max-width: 480px) {
-    .seeds-header {
-        height: 250px;
-        background-position: center;
-    }
-    .seeds-header h1 {
-        height: 250px;
-        font-size: 2rem;
-        text-align: center;
-    }
-    .main-page-content h3,
-    .main-page-content h4,
-    .main-page-content h5 {
-        font-size: 16px;
-    }
-    .main-page-content p {
-        font-size: 14px;
-    }
-    .main-page-content ul {
-        padding-left: 12px;
-    }
-    .main-page-content span a {
-        font-size: 12px;
-        padding: 2px 12px;
-    }
+  .seeds-header {
+    height: 250px;
+    background-position: center;
+  }
+  .seeds-header h1 {
+    height: 250px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-page-content h3,
+  .main-page-content h4,
+  .main-page-content h5 {
+    font-size: 16px;
+  }
+  .main-page-content p {
+    font-size: 14px;
+  }
+  .main-page-content ul {
+    padding-left: 12px;
+  }
+  .main-page-content span a {
+    font-size: 12px;
+    padding: 2px 12px;
+  }
 }
 
-
 @media (min-width: 1025px) and (max-width: 1248px) {
-    .boxes .subbox{
-   min-height: 100px;
-   }
+  .boxes .subbox {
+    min-height: 100px;
+  }
 }
 
 @media (min-width: 850px) and (max-width: 876px) {
-    .boxes .subbox{
-   min-height: 100px;
-   }
+  .boxes .subbox {
+    min-height: 100px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 796px) {
-    .boxes .subbox{
-   min-height: 100px;
-   }
+  .boxes .subbox {
+    min-height: 100px;
+  }
 }
 @media (max-width: 768px) {
-    .boxes .subbox{
-   min-height: 300px;
-   }
+  .boxes .subbox {
+    min-height: 300px;
+  }
 }
 @media (max-width: 438px) {
-    .boxes .subbox{
-   min-height: 350px;
-   }
+  .boxes .subbox {
+    min-height: 350px;
+  }
 }
 
-
 @media (min-width: 379px) and (max-width: 395px) {
-    .boxes .subbox{
-   min-height: 400px;
-   }
+  .boxes .subbox {
+    min-height: 400px;
+  }
 }
 
 @media (max-width: 375px) {
-    .boxes .subbox{
-   min-height: 450px;
-   }
+  .boxes .subbox {
+    min-height: 450px;
+  }
 }
 @media (max-width: 310px) {
-    .boxes .subbox{
-   min-height: 525px;
-   }
+  .boxes .subbox {
+    min-height: 525px;
+  }
 }

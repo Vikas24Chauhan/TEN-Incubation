@@ -1,140 +1,142 @@
 .fellowship-div {
-    width: 100%;
+  width: 100%;
 }
 
 .fellowship-header {
-    width: 100%;
-    height: 500px;
-    background-image: url(../../assets/images/fundingImage2.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 700px;
+  background-image: url(../../assets/images/fundingImage2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .fellowship-header h1 {
-    width: 100%;
-    height: 100%;
-    font-size: 4rem;
-    color: white;
-    background-color: rgba(7, 72, 135, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(7, 72, 135, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fellowship-para {
-    width: 60%;
-    margin: 4rem auto;
-    color: #013759;
-    text-align: left;
-    font-size: 1.5rem;
-    line-height: 1.6;
+  width: 60%;
+  margin: 4rem auto;
+  color: #013759;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.fellowship-para p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 600;
 }
 
 .fellowship-para h5 {
-    margin-top: 2.5rem;
-    color: #013759;
-    font-size: 1.3rem;
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .fellowship-cards {
-    width: 70%;
-    margin: 2rem auto;
-    display: grid;
-    gap: 2rem;
+  width: 70%;
+  margin: 2rem auto;
+  display: grid;
+  gap: 2rem;
 }
 
 .fellowship-card-link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .fellowship-card {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .fellowship-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .fellowship-card img {
-    width: 100%;
-    height: 250px;
-    border-radius: 10px 10px 0 0;
-    object-fit:inherit;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: inherit;
 }
 
 .fellowship-card h3 {
-    font-size: 1.4rem;
-    color: #013759;
-    margin: 1.5rem;
+  font-size: 1.4rem;
+  color: #013759;
+  margin: 1.5rem;
 }
 
 .fellowship-card p {
-    font-size: 1.1rem;
-    padding: 1rem 1.5rem;
-    line-height: 1.5;
-    color: #333;
-    flex-grow: 1;
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+  line-height: 1.5;
+  color: #333;
+  flex-grow: 1;
 }
 
 /* reponsive */
 @media (min-width: 1024px) {
-    .fellowship-cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .fellowship-para{
-        width: 70%;
-      }
+  .fellowship-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fellowship-para {
+    width: 70%;
+  }
 }
 
 @media (min-width: 720px) and (max-width: 1023px) {
-    .fellowship-cards {
-        width: 80%;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .fellowship-para{
-        width: 80%;
-      }
+  .fellowship-cards {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fellowship-para {
+    width: 80%;
+  }
 }
 
-
 @media (min-width: 719px) and (max-width: 816px) {
-    .fellowship-cards {
-      width: 80%;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .fellowship-para{
-      width: 80%;
-    }
+  .fellowship-cards {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-
+  .fellowship-para {
+    width: 80%;
+  }
+}
 
 @media (min-width: 481px) and (max-width: 718px) {
-    .fellowship-cards {
-        width: 90%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .fellowship-para{
-        width: 85%;
-      }
+  .fellowship-cards {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fellowship-para {
+    width: 85%;
+  }
 }
 
 @media (max-width: 480px) {
-    .fellowship-cards {
-        width: 95%;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .fellowship-para{
-        width: 90%;
-      }
+  .fellowship-cards {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fellowship-para {
+    width: 90%;
+  }
 }
