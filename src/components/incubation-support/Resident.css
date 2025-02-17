@@ -1,323 +1,294 @@
 .residentIncubation-header {
-    width: 100%;
-    margin-top: 5rem;
-    height: 500px;
-    background-image: url(https://www.venturecenter.co.in/storage/media-library/6811585e-aeca-4fc2-a534-1935a77050de.JPG);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  margin-top: 5rem;
+  height: 700px;
+  background-image: url(../../assets/images/incubation-support-image3.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .residentIncubation-header h1 {
-    width: 100%;
-    height: 500px;
-    font-size: 4rem;
-    color: white;
-    background-color: #074887;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 700px;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .resident-page-content {
-    display: flex;
-    gap: 30px 15px;
+  display: flex;
+  gap: 30px 15px;
 }
 
-.content{
-    padding: 60px 0;
+.content {
+  padding: 60px 0;
 }
 
 .incubationSupportnav {
-    padding: 0 30px;
-    margin: 0 60px;
+  padding: 0 30px;
+  margin: 0 60px;
 }
 
 .in-page-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 60px;
 }
 
 .in-page-nav a {
-    color: black;
-    border: 2px solid black;
-    font-weight: 600;
-    padding: 3px 18px;
-    font-size: 14px;
-    text-decoration: none;
-    border-radius: 2em;
-    white-space: nowrap;
-    letter-spacing: .028em;
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 3px 18px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2em;
+  white-space: nowrap;
+  letter-spacing: 0.028em;
 }
 
 .in-page-nav a:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
-.benefits{
-    padding: 60px 60px;
-    background-color: #fcbf49;
+.benefits {
+  padding: 60px 60px;
+  background-color: #fcbf49;
 }
 
-.benefits h2{
-    font-size: 37px;
-    font-weight: 500;
-    color: #013759;
+.benefits h2 {
+  font-size: 37px;
+  font-weight: 500;
+  color: #013759;
 }
 
-.list-title{
-    font-size: 18px;
-    font-weight: 500;
+.list-title {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.benefits ul{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px 30px;
-    margin: 30px 0;
-    list-style: none;
-    padding: 0;
+.benefits ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 30px;
+  margin: 30px 0;
+  list-style: none;
+  padding: 0;
 }
 
-.benefits ul li{
-    width: 47%;
-    margin: 0;
+.benefits ul li {
+  width: 47%;
+  margin: 0;
 }
 
-.sections{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px 30px;
-    margin: 30px 0;
-    list-style: none;
-    padding: 0;
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 30px;
+  margin: 30px 0;
+  list-style: none;
+  padding: 0;
 }
 
-.sections li{
-    width: 47%;
-    margin: 0;
+.sections li {
+  width: 47%;
+  margin: 0;
 }
 
-.package-section{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
+.package-section {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
-.package-section li{
-    width: 47%;
-    margin: 0;
+.package-section li {
+  width: 47%;
+  margin: 0;
 }
 
-.side-content ul li{
-    margin-left: 10px;
+.side-content ul li {
+  margin-left: 10px;
 }
 
-.resident-page-content h3{
-    margin: 30px 0 15px 0;
-    font-size: 24pt;
-    color: #013759;
-    font-weight: 400;
+.resident-page-content h3 {
+  margin: 30px 0 15px 0;
+  font-size: 24pt;
+  color: #013759;
+  font-weight: 400;
 }
 
 .resident-page-content h4 {
-    margin: 0 0 15px;
-    font-size: 18pt;
-    color: #013759;
+  margin: 0 0 15px;
+  font-size: 18pt;
+  color: #013759;
 }
 
 .resident-page-content h5 {
-    font-weight: 400;
-    font-size: 18px;
-    color: #013759;
-    margin: 30px 0 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #013759;
+  margin: 30px 0 15px 0;
 }
 
-
-.resident-page-content p{
-    margin: 15px 0 30px;
-    line-height: 25px;
+.resident-page-content p {
+  margin: 15px 0 30px;
+  line-height: 25px;
 }
 
-.resident-page-content aside{
-    width: 30%;
-    padding-left: 15px;
-    border-left: 2px solid skyblue;
+.resident-page-content aside {
+  width: 30%;
+  padding-left: 15px;
+  border-left: 2px solid skyblue;
 }
 
-.resident-page-content aside p a{
-    color: red;
-    text-decoration: none;
+.resident-page-content aside p a {
+  color: red;
+  text-decoration: none;
 }
 
 /* Small phones (less than 480px) */
 @media (max-width: 480px) {
-    .residentIncubation-header {
-        height: 250px;
-        background-position: center;
-    }
-    
-    .residentIncubation-header h1 {
-        font-size: 1.8rem;
-        height: 250px;
-        text-align: center;
-    }
+  .residentIncubation-header {
+    height: 250px;
+    background-position: center;
+  }
 
-    .incubationSupportnav{
-        margin: 5px;
-        padding: 5px;
-    }
-    
-    .resident-page-content {
-        flex-direction: column;
-    }
-    
-    .resident-page-content aside {
-        width: 100%;
-        padding-left: 0;
-    }
-    
-    .benefits {
-        padding: 20px 10px;
-    }
-    
-    .benefits ul,
-    .sections,
-    .package-section {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .benefits ul li,
-    .sections li,
-    .package-section li {
-        width: 100%;
-    }
-    
-    .in-page-nav {
-        flex-direction: column;
-        gap: 8px;
-    }
+  .residentIncubation-header h1 {
+    font-size: 1.8rem;
+    height: 250px;
+    text-align: center;
+  }
+
+  .incubationSupportnav {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .resident-page-content {
+    flex-direction: column;
+  }
+
+  .resident-page-content aside {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .benefits {
+    padding: 20px 10px;
+  }
+
+  .benefits ul,
+  .sections,
+  .package-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .benefits ul li,
+  .sections li,
+  .package-section li {
+    width: 100%;
+  }
+
+  .in-page-nav {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
 
 /* Big phones (480px to 600px) */
 @media (max-width: 600px) {
-    .residentIncubation-header {
-        height: 300px;
-        margin-top: 3rem;
-    }
-    
-    .residentIncubation-header h1 {
-        font-size: 2rem;
-        height: 300px;
-    }
-    
-    .resident-page-content {
-        flex-direction: column;
-    }
-    
-    .resident-page-content aside {
-        width: 100%;
-        padding-left: 0;
-        border-left: none;
-    }
-    
-    .benefits {
-        padding: 30px 15px;
-    }
-    
-    .benefits ul,
-    .sections,
-    .package-section {
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .benefits ul li,
-    .sections li,
-    .package-section li {
-        width: 100%;
-    }
-    
-    .in-page-nav {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .residentIncubation-header {
+    height: 300px;
+    margin-top: 3rem;
+  }
+
+  .residentIncubation-header h1 {
+    font-size: 2rem;
+    height: 300px;
+  }
+
+  .resident-page-content {
+    flex-direction: column;
+  }
+
+  .resident-page-content aside {
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .benefits {
+    padding: 30px 15px;
+  }
+
+  .benefits ul,
+  .sections,
+  .package-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .benefits ul li,
+  .sections li,
+  .package-section li {
+    width: 100%;
+  }
+
+  .in-page-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 /* Medium devices (tablets, 600px to 1024px) */
 @media (max-width: 1024px) {
-    .residentIncubation-header {
-        height: 400px;
-    }
-    
-    .residentIncubation-header h1 {
-        font-size: 3rem;
-        height: 400px;
-    }
-    
-    .incubationSupportnav{
-        margin: 20px;
-        padding: 20px;
-    }
-    .resident-page-content {
-        flex-direction: column;
-    }
-    
-    .resident-page-content aside {
-        width: 100%;
-    }
-    
-    .benefits {
-        padding: 40px 30px;
-    }
-    
-    .benefits ul,
-    .sections,
-    .package-section {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    
-    .benefits ul li,
-    .sections li,
-    .package-section li {
-        width: 100%;
-    }
-    
-    .in-page-nav {
-        gap: 10px;
-    }
-}
+  .residentIncubation-header {
+    height: 400px;
+  }
 
-/* Large devices (desktops, more than 1024px) */
-@media (min-width: 1025px) {
-    .residentIncubation-header {
-        height: 500px;
-    }
-    
-    .residentIncubation-header h1 {
-        font-size: 4rem;
-        height: 500px;
-    }
-    
-    .benefits {
-        padding: 60px 60px;
-    }
-    
-    .benefits ul,
-    .sections,
-    .package-section {
-        gap: 60px 30px;
-    }
-    
-    .benefits ul li,
-    .sections li,
-    .package-section li {
-        width: 47%;
-    }
+  .residentIncubation-header h1 {
+    font-size: 3rem;
+    height: 400px;
+  }
+
+  .incubationSupportnav {
+    margin: 20px;
+    padding: 20px;
+  }
+  .resident-page-content {
+    flex-direction: column;
+  }
+
+  .resident-page-content aside {
+    width: 100%;
+  }
+
+  .benefits {
+    padding: 40px 30px;
+  }
+
+  .benefits ul,
+  .sections,
+  .package-section {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .benefits ul li,
+  .sections li,
+  .package-section li {
+    width: 100%;
+  }
+
+  .in-page-nav {
+    gap: 10px;
+  }
 }

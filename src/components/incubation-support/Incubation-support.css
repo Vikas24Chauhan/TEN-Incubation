@@ -5,8 +5,8 @@
 
 .incubationSupport-header {
   width: 100%;
-  height: 500px;
-  background-image: url(https://www.venturecenter.co.in/storage/pages/51/d662f01e-132b-41c4-aaa4-5443ee2dcc40.jpg);
+  height: 700px;
+  background-image: url(../../assets/images/incubation-support-header.png);
   background-size: cover;
   background-position: center;
 }

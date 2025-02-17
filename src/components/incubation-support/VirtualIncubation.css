@@ -1,199 +1,198 @@
 .virtualIncubation-header {
-    width: 100%;
-    margin-top: 5rem;
-    height: 500px;
-    background-image: url(https://www.venturecenter.co.in/storage/media-library/0e7e8b98-c9c2-4cf6-a261-886d2ec5c387.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  margin-top: 5rem;
+  height: 700px;
+  background-image: url(../../assets/images/incubation-support-image2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .virtualIncubation-header h1 {
-    width: 100%;
-    height: 500px;
-    font-size: 4rem;
-    color: white;
-    background-color: #074887;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 700px;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .virtual-page-content {
-    display: flex;
-    gap: 30px 15px;
+  display: flex;
+  gap: 30px 15px;
 }
 
-.content{
-    padding: 60px 0;
+.content {
+  padding: 60px 0;
 }
 
 .incubationSupportnav {
-    padding: 0 30px;
-    margin: 0 60px;
+  padding: 0 30px;
+  margin: 0 60px;
 }
 
 .in-page-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 60px;
 }
 
 .in-page-nav a {
-    color: black;
-    border: 2px solid black;
-    font-weight: 600;
-    padding: 3px 18px;
-    font-size: 14px;
-    text-decoration: none;
-    border-radius: 2em;
-    white-space: nowrap;
-    letter-spacing: .028em;
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 3px 18px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2em;
+  white-space: nowrap;
+  letter-spacing: 0.028em;
 }
 
 .in-page-nav a:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 .virtual-page-content h4 {
-    margin: 0 0 15px;
-    font-size: 18pt;
-    font-weight: 600;
-    color: #013759;
+  margin: 0 0 15px;
+  font-size: 18pt;
+  font-weight: 600;
+  color: #013759;
 }
 
 .virtual-page-content h5 {
-    font-weight: 400;
-    font-size: 18px;
-    color: #013759;
-    margin: 30px 0 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #013759;
+  margin: 30px 0 15px 0;
 }
 .virtual-page-content h3 {
-    font-weight: 400;
-    font-size: 21px;
-    color: #013759;
-    margin: 30px 0 15px 0;
+  font-weight: 400;
+  font-size: 21px;
+  color: #013759;
+  margin: 30px 0 15px 0;
 }
 
-.virtual-page-content ul{
-    margin: 15px 0;
-    padding: 0 0 0 16px;
+.virtual-page-content ul {
+  margin: 15px 0;
+  padding: 0 0 0 16px;
 }
 
-.virtual-page-content ul li{
-    margin: .5em 0;
+.virtual-page-content ul li {
+  margin: 0.5em 0;
 }
-.virtual-page-content ul ul{
-    margin: 8px 0 15px;
-    padding: 0 0 0 16px;
-}
-
-.virtual-page-content p{
-    margin: 15px 0 30px;
-    line-height: 25px;
+.virtual-page-content ul ul {
+  margin: 8px 0 15px;
+  padding: 0 0 0 16px;
 }
 
-.virtual-page-content span a{
-    color: black;
-    border: 2px solid black;
-    font-weight: 600;
-    padding: 3px 18px;
-    font-size: 14px;
-    text-decoration: none;
-    border-radius: 2em;
-    white-space: nowrap;
-    letter-spacing: .028em;
+.virtual-page-content p {
+  margin: 15px 0 30px;
+  line-height: 25px;
 }
 
-.virtual-page-content span a:hover{
-    background-color: black;
-    color: white;
+.virtual-page-content span a {
+  color: black;
+  border: 2px solid black;
+  font-weight: 600;
+  padding: 3px 18px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2em;
+  white-space: nowrap;
+  letter-spacing: 0.028em;
 }
 
-.virtual-page-content aside{
-    width: 30%;
-    padding-left: 15px;
-    border-left: 2px solid skyblue;
+.virtual-page-content span a:hover {
+  background-color: black;
+  color: white;
 }
 
-.virtual-page-content aside p a{
-    color: red;
-    text-decoration: none;
+.virtual-page-content aside {
+  width: 30%;
+  padding-left: 15px;
+  border-left: 2px solid skyblue;
 }
 
+.virtual-page-content aside p a {
+  color: red;
+  text-decoration: none;
+}
 
 /* Medium screens (tablets, 768px and below) */
 @media (max-width: 850px) {
-    .virtualIncubation-header {
-        height: 350px;
-    }
+  .virtualIncubation-header {
+    height: 350px;
+  }
 
-    .virtualIncubation-header h1 {
-        height: 350px;
-        font-size: 2.5rem;
-    }
+  .virtualIncubation-header h1 {
+    height: 350px;
+    font-size: 2.5rem;
+  }
 
-    .virtual-page-content {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .virtual-page-content {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    .incubationSupportnav {
-        padding: 0 20px;
-        margin: 0 30px;
-    }
+  .incubationSupportnav {
+    padding: 0 20px;
+    margin: 0 30px;
+  }
 
-    .virtual-page-content aside {
-        width: 100%;
-        padding-left: 0;
-        border-left: none;
-        border-top: 2px solid skyblue;
-        padding-top: 20px;
-    }
+  .virtual-page-content aside {
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    border-top: 2px solid skyblue;
+    padding-top: 20px;
+  }
 }
 
 /* Small screens (mobile, 480px and below) */
 @media (max-width: 480px) {
-    .virtualIncubation-header {
-        height: 250px;
-        background-position: center;
-    }
+  .virtualIncubation-header {
+    height: 250px;
+    background-position: center;
+  }
 
-    .virtualIncubation-header h1 {
-        height: 250px;
-        font-size: 2rem;
-        text-align: center;
-    }
+  .virtualIncubation-header h1 {
+    height: 250px;
+    font-size: 2rem;
+    text-align: center;
+  }
 
-    .in-page-nav {
-        /* flex-direction: column; */
-        gap: 12px;
-        align-items: center;
-    }
+  .in-page-nav {
+    /* flex-direction: column; */
+    gap: 12px;
+    align-items: center;
+  }
 
-    .in-page-nav a {
-        font-size: 12px;
-        padding: 5px 12px;
-    }
+  .in-page-nav a {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
 
-    .virtual-page-content h4,
-    .virtual-page-content h5,
-    .virtual-page-content h3 {
-        font-size: 16px;
-    }
+  .virtual-page-content h4,
+  .virtual-page-content h5,
+  .virtual-page-content h3 {
+    font-size: 16px;
+  }
 
-    .virtual-page-content p {
-        font-size: 14px;
-    }
+  .virtual-page-content p {
+    font-size: 14px;
+  }
 
-    .virtual-page-content ul {
-        padding-left: 12px;
-    }
+  .virtual-page-content ul {
+    padding-left: 12px;
+  }
 
-    .virtual-page-content span a {
-        font-size: 12px;
-        padding: 2px 12px;
-    }
+  .virtual-page-content span a {
+    font-size: 12px;
+    padding: 2px 12px;
+  }
 }
