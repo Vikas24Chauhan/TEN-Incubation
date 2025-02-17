@@ -12,15 +12,15 @@ export default function Services() {
       </div>
 
       <div className="services-main-para">
-        <h2>Diverse startup services for success</h2>
+        <h2>Various startup services to help you succeed</h2>
         <p>
-          Elevate your startup journey with our diverse services, including
-          comprehensive scientific support for R&D, prototyping facilities to
-          bring ideas to life, world-class analytical measurements, advisory and
-          consulting services for navigating challenges, and seamless
-          infrastructure solutions for a swift operational launch. We cater to
-          individuals, organizations, and researchers with a commitment to
-          empowering innovation and accelerating success.
+          Enhance your startup experience with our array of services, which
+          include world-class analytical measures, advising and development
+          services, prototyping facilities to bring ideas to life, and full
+          scientific assistance for R&D. integrated infrastructure solutions for
+          a quick operational start and advisory services for overcoming
+          obstacles. We serve researchers, businesses, and individuals who are
+          dedicated to fostering innovation and boosting achievement.
         </p>
       </div>
 
