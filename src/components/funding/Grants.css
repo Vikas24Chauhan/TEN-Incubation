@@ -1,16 +1,16 @@
 .grants-div {
     width: 100%;
-  }
-  
-  .grants-header {
+}
+
+.grants-header {
     width: 100%;
     height: 500px;
     background-image: url(../../assets/images/fundingImage3.jpg);
     background-size: cover;
     background-position: center;
-  }
-  
-  .grants-header h1 {
+}
+
+.grants-header h1 {
     width: 100%;
     height: 100%;
     font-size: 4rem;
@@ -19,8 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+}
+
 .grants-para {
     width: 68%;
     margin: 4rem auto;
@@ -30,20 +30,16 @@
     line-height: 1.6;
 }
 
-
 .grants-cards {
     width: 70%;
     margin: 2rem auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: 2rem;
 }
 
 .grants-card-link {
     text-decoration: none;
     color: inherit;
-    width: calc(33.333% - 1.5rem);
-    min-width: 280px;
 }
 
 .grants-card {
@@ -84,62 +80,57 @@
     flex-grow: 1;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .grants-para {
-        width: 80%;
-    }
 
+
+/* responsive */
+@media (min-width: 1024px) {
     .grants-cards {
-        width: 85%;
+        grid-template-columns: repeat(3, 1fr);
     }
-
-    .grants-card-link {
-        width: 48%;
-    }
+    .grants-para{
+        width: 70%;
+      }
 }
 
-@media (max-width: 768px) {
-    .grants-header {
-        height: 400px;
+@media (min-width: 720px) and (max-width: 1023px) {
+    .grants-cards {
+        width: 80%;
+        grid-template-columns: repeat(3, 1fr);
     }
-    
-    .grants-header h1 {
-        font-size: 2.5rem;
-        padding: 0.5rem;
-    }
+    .grants-para{
+        width: 80%;
+      }
+}
 
-    .grants-para {
-        width: 90%;
-        font-size: 1.3rem;
-        margin: 2rem auto;
-    }
 
+@media (min-width: 719px) and (max-width: 816px) {
+    .grants-cards {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .grants-para{
+      width: 80%;
+    }
+  }
+  
+
+
+@media (min-width: 481px) and (max-width: 718px) {
     .grants-cards {
         width: 90%;
+        grid-template-columns: repeat(2, 1fr);
     }
-
-    .grants-card-link {
-        width: 100%;
-    }
+    .grants-para{
+        width: 85%;
+      }
 }
 
 @media (max-width: 480px) {
-    .grants-header {
-        height: 350px;
-    }
-
-    .grants-header h1 {
-        font-size: 2rem;
-    }
-
-    .grants-para {
-        width: 95%;
-        font-size: 1.1rem;
-        margin: 1.5rem auto;
-    }
-
     .grants-cards {
         width: 95%;
+        grid-template-columns: repeat(1, 1fr);
     }
+    .grants-para{
+        width: 90%;
+      }
 }

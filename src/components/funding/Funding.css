@@ -54,16 +54,13 @@
 .funding-cards {
   width: 70%;
   margin: 2rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
   gap: 2rem;
 }
 
 .funding-card-link {
   text-decoration: none;
   color: inherit;
-  width: calc(33.333% - 1.5rem);
 }
 
 .funding-card {
@@ -106,119 +103,50 @@
   flex-grow: 1;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .funding-para {
-    width: 80%;
-  }
 
+/* reponsive */
+@media (min-width: 1024px) {
   .funding-cards {
-    width: 80%;
-  }
-
-  .funding-card-link {
-    width: 48%; 
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 768px) {
-  .funding-header h1 {
-    font-size: 2.5rem;
+@media (min-width: 720px) and (max-width: 1023px) {
+  .funding-cards {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
   }
-
-  .funding-para {
-    width: 90%;
-    margin: 2.5rem auto;
+  .funding-para{
+    width: 80%;
   }
+}
 
+@media (min-width: 719px) and (max-width: 816px) {
+  .funding-cards {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .funding-para{
+    width: 80%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 718px) {
   .funding-cards {
     width: 90%;
+    grid-template-columns: repeat(2, 1fr);
   }
-
-  .funding-card-link {
-    width: 100%; 
+  .funding-para{
+    width: 85%;
   }
 }
 
 @media (max-width: 480px) {
-  .funding-header {
-    height: 400px;
-  }
-
-  .funding-header h1 {
-    font-size: 2rem;
-  }
-
-  .funding-para {
-    width: 95%;
-    font-size: 1.2rem;
-    margin: 2rem auto;
-  }
-
-  .funding-cards {
-    width: 95%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .funding-para {
-    width: 80%;
-  }
-
-  .funding-cards {
-    width: 80%;
-  }
-
-  .funding-card-link {
-    width: 48%; 
-  }
-}
-
-@media (max-width: 800px) {
-  .funding-header h1 {
-    font-size: 2.5rem;
-  }
-
-  .funding-para {
-    width: 90%;
-    margin: 2.5rem auto;
-  }
-
   .funding-cards {
     width: 90%;
+    grid-template-columns: repeat(1, 1fr);
   }
-
-  .funding-card-link {
-    width: 100%;
-  }
-}
-
-
-@media (min-width: 800px) and (max-width: 1000px) {
-  .funding-card-link {
-    width: 95%;
+  .funding-para{
+    width: 90%;
   }
 }
-
-
-@media (max-width: 480px) {
-  .funding-header {
-    height: 400px;
-  }
-
-  .funding-header h1 {
-    font-size: 2rem;
-  }
-
-  .funding-para {
-    width: 95%;
-    font-size: 1.2rem;
-    margin: 2rem auto;
-  }
-
-  .funding-cards {
-    width: 95%;
-  }
-}
-
-
