@@ -22,17 +22,15 @@
 }
 
 .fellowship-para {
-  width: 60%;
+  width: 70%;
   margin: 4rem auto;
   color: #013759;
   text-align: left;
-  font-size: 1.5rem;
   line-height: 1.6;
 }
 
 .fellowship-para p {
   font-size: 1.5rem;
-  line-height: 1.6;
   font-weight: 600;
 }
 
@@ -47,6 +45,7 @@
   margin: 2rem auto;
   display: grid;
   gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .fellowship-card-link {
@@ -92,51 +91,42 @@
 }
 
 /* reponsive */
-@media (min-width: 1024px) {
-  .fellowship-cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
+@media (max-width: 1024px) {
+  .fellowship-cards,
   .fellowship-para {
-    width: 70%;
-  }
-}
-
-@media (min-width: 720px) and (max-width: 1023px) {
-  .fellowship-cards {
-    width: 80%;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .fellowship-para {
-    width: 80%;
-  }
-}
-
-@media (min-width: 719px) and (max-width: 816px) {
-  .fellowship-cards {
-    width: 80%;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .fellowship-para {
-    width: 80%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 718px) {
-  .fellowship-cards {
     width: 90%;
-    grid-template-columns: repeat(2, 1fr);
   }
-  .fellowship-para {
-    width: 85%;
+}
+
+@media (max-width: 768px) {
+  .fellowship-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 480px) {
+  .fellowship-header {
+    height: 450px;
+  }
+  .fellowship-header h1 {
+    font-size: 3rem;
+  }
+  .fellowship-para {
+    width: 95%;
+    margin: 2rem auto;
+  }
+
+  .fellowship-para p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .fellowship-para h5 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
   .fellowship-cards {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);
-  }
-  .fellowship-para {
-    width: 90%;
   }
 }
