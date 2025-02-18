@@ -4,11 +4,11 @@ import Img3 from "../images/services-image3.jpg";
 import Img4 from "../images/services-image4.jpg";
 import Img5 from "../images/services-image5.jpg";
 import Img6 from "../images/services-image6.png";
-import Img7 from "../images/r&d_support.jpg";
-import Img8 from "../images/lab-fa.jpg";
-import Img9 from "../images/cleanroom.jpg";
-import Img10 from "../images/analytical_Services.jpg";
-import Img11 from "../images/cell_studies.jpg";
+import Img7 from "../images/ssf-image1.jpg";
+import Img8 from "../images/ssf-image2.jpg";
+import Img9 from "../images/ssf-image3.webp";
+import Img10 from "../images/ssf-image4.jpg";
+import Img11 from "../images/ssf-image5.jpg";
 
 const Services_Card = [
   {

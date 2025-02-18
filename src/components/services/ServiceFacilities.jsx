@@ -12,11 +12,11 @@ export default function ServiceFacilities() {
       </div>
 
       <div className="service-facilities-card">
-        {ServiceFacilities_Card.map(({ id, image, title, link }) => (
-          <a href={link}>
-            <div key={id} className="service-facilities-item">
-              <img src={image} alt={title} />
-              <h2>{title}</h2>
+        {ServiceFacilities_Card.map((data) => (
+          <a href={data.link}>
+            <div key={data.id} className="service-facilities-item">
+              <img src={data.image} alt={data.title} />
+              <h2>{data.title}</h2>
             </div>
           </a>
         ))}

@@ -25,12 +25,12 @@ export default function Services() {
       </div>
 
       <div className="services-main-card">
-        {Services_Card.map(({ id, image, title, desc, link }) => (
-          <a href={link}>
-            <div key={id} className="services-main-item">
-              <img src={image} alt={title} />
-              <h2>{title}</h2>
-              <p>{desc}</p>
+        {Services_Card.map((data) => (
+          <a href={data.link}>
+            <div key={data.id} className="services-main-item">
+              <img src={data.image} alt={data.title} />
+              <h2>{data.title}</h2>
+              <p>{data.desc}</p>
             </div>
           </a>
         ))}
