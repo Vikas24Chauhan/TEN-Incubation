@@ -57,6 +57,7 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .services-main-card a:hover {
