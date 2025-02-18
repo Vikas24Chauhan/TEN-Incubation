@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
-import AboutImage1 from "../../assets/images/aboutimage1.webp";
-import AboutImage2 from "../../assets/images/aboutimage2.jpg";
-import AboutImage3 from "../../assets/images/aboutimage3.webp";
-import AboutImage4 from "../../assets/images/aboutimage4.jpg";
-import AboutImage5 from "../../assets/images/aboutimage5.jpg";
+import AboutImage1 from "../../assets/images/aboutImage1.webp";
+import AboutImage2 from "../../assets/images/aboutImage2.jpg";
+import AboutImage3 from "../../assets/images/aboutImage3.webp";
+import AboutImage4 from "../../assets/images/aboutImage4.jpg";
+import AboutImage5 from "../../assets/images/aboutImage5.jpg";
 import AboutFocus1 from "../../assets/images/aboutFocus1.png";
 import AboutFocus2 from "../../assets/images/aboutFocus2.png";
 import AboutFocus3 from "../../assets/images/aboutFocus3.png";

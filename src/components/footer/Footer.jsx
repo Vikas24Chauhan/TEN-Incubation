@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { NavLink, useNavigate } from "react-router-dom";
 

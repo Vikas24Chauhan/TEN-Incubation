@@ -24,24 +24,34 @@ function Testimonials() {
 
   const testimonialsData = [
     {
-      desc: "We came to Venture Center with an idea and a will to execute our vision. Venture Center provided us with the infrastructure and initial capital to do that. Dr. Premnath also infused strategic thinking into us around Intellectual Property, stakeholder management and networking. They also invested in our subsequent funding rounds. Without Venture Centers help we would not have been able to execute our vision.",
-      name: "Tanuj Gigras, Founder",
-      company: "Nayam Innovations 1",
+      desc: "We approached the incubation center with a mere idea and a determination to succeed. They equipped us with the essential infrastructure and seed funding to begin our journey.",
+      name: "User 1",
+      company: "The Entrepreneurship Network",
     },
     {
-      desc: "We came to Venture Center with an idea and a will to execute our vision. Venture Center provided us with the infrastructure and initial capital to do that. Dr. Premnath also infused strategic thinking into us around Intellectual Property, stakeholder management and networking. They also invested in our subsequent funding rounds. Without Venture Centers help we would not have been able to execute our vision.",
-      name: "Tanuj Gigras, Founder",
-      company: "Nayam Innovations 2",
+      desc: "The expert mentorship we received was priceless, providing us with strategic advice on intellectual property, stakeholder management, and networking.",
+      name: "User 2",
+      company: "The Entrepreneurship Network",
     },
     {
-      desc: "We came to Venture Center with an idea and a will to execute our vision. Venture Center provided us with the infrastructure and initial capital to do that. Dr. Premnath also infused strategic thinking into us around Intellectual Property, stakeholder management and networking. They also invested in our subsequent funding rounds. Without Venture Centers help we would not have been able to execute our vision.",
-      name: "Tanuj Gigras, Founder",
-      company: "Nayam Innovations 3",
+      desc: "The center's investment in our later funding rounds allowed us to rapidly scale our operations.",
+      name: "User 3",
+      company: "The Entrepreneurship Network",
     },
     {
-      desc: "We came to Venture Center with an idea and a will to execute our vision. Venture Center provided us with the infrastructure and initial capital to do that. Dr. Premnath also infused strategic thinking into us around Intellectual Property, stakeholder management and networking. They also invested in our subsequent funding rounds. Without Venture Centers help we would not have been able to execute our vision.",
-      name: "Tanuj Gigras, Founder",
-      company: "Nayam Innovations 4",
+      desc: "The support from the incubation center was crucial in helping us realize our vision.",
+      name: "User 4",
+      company: "The Entrepreneurship Network",
+    },
+    {
+      desc: "The collaborative atmosphere at the center made our team flourish and enabled us to tackle challenges effectively.",
+      name: "User 5",
+      company: "The Entrepreneurship Network",
+    },
+    {
+      desc: "Connecting with industry leaders and potential investors through the center was immensely beneficial.",
+      name: "User 6",
+      company: "The Entrepreneurship Network",
     },
   ];
 
