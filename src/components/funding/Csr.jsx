@@ -1,5 +1,4 @@
 import React from "react";
-// import seedinvestimg1 from "../../assets/images/seedinvestimg1.png";
 import "./Csr.css";
 
 const Funding = () => {
@@ -12,6 +11,7 @@ const Funding = () => {
         <div className="content">
           <div className="csrsup">
             <div className="main-page-content">
+              
               <div className="submaincsr">
                 <div className="buttonscsr">
                   <div className="topbuttonscsr">
@@ -149,6 +149,8 @@ const Funding = () => {
                   </p>
                 </div>
               </aside>
+
+
             </div>
           </div>
         </div>

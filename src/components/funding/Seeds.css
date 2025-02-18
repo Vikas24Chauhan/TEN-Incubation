@@ -1,6 +1,6 @@
 .seeds-header {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 2rem; 
   height: 700px;
   background-image: url(../../assets/images/fundingImage4.jpg);
   background-size: cover;
@@ -17,7 +17,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0; 
 }
+
 .main-page-content {
   display: flex;
   gap: 30px 15px;
@@ -32,6 +34,7 @@
   padding: 0 30px;
   margin: 0 60px;
 }
+
 .main-page-content h3 {
   font-weight: 400;
   font-size: 21px;
@@ -55,21 +58,17 @@
 
 .main-page-content ul {
   margin: 15px 0;
-  padding: 0 0 0 16px;
+  padding-left: 16px;
 }
 
 .main-page-content ul li {
   margin: 0.5em 0;
 }
 
-.main-page-content ul ul {
-  margin: 8px 0 15px;
-  padding: 0 0 0 16px;
-}
-
 .main-page-content p {
   margin: 15px 0 30px;
 }
+
 .main-page-content span a {
   color: black;
   border: 2px solid black;
@@ -86,6 +85,7 @@
   background-color: black;
   color: white;
 }
+
 .main-page-content aside {
   width: 40%;
   padding-left: 15px;
@@ -96,6 +96,7 @@
   color: red;
   text-decoration: none;
 }
+
 .submain {
   width: 100%;
   height: 100%;
@@ -103,12 +104,18 @@
   color: #013759;
   font-size: 12.5px;
 }
+
+.submain h1 {
+  margin-top: 1px;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: left;
   margin: 35px 0;
 }
+
 .buttons button {
   width: 250px;
   border: 2px solid black;
@@ -119,31 +126,37 @@
   background-color: #fff;
   margin: 2px;
 }
+
 .buttons button:hover {
   color: #fff;
   background-color: #020202;
 }
+
 .investpro {
   width: 100%;
   height: 100%;
 }
+
 .investpro h1 {
   font-size: 24px;
   color: #013759;
   font-family: sans-serif;
 }
+
 .investpro p {
   font-size: 18px;
   color: #352d2d;
   font-family: sans-serif;
   line-height: 25px;
 }
+
 .investpro ul li {
   font-size: 18px;
   color: #352d2d;
   font-family: sans-serif;
   line-height: 25px;
 }
+
 .investpro button {
   width: 250px;
   border: 2px solid black;
@@ -154,16 +167,19 @@
   background-color: #fff;
   margin: 2px;
 }
+
 .investpro button:hover {
   color: #fff;
   background-color: #020202;
 }
+
 .fundingschemes {
   width: 100%;
   height: 100%;
   margin-top: 60px;
   margin-bottom: 50px;
 }
+
 .fundingschemes .boxes {
   width: 100%;
   display: grid;
@@ -172,6 +188,7 @@
   margin-top: 35px;
   padding-right: 11.5px;
 }
+
 .boxes .subbox {
   width: 100%;
   min-height: 380px;
@@ -179,18 +196,20 @@
   display: flex;
   flex-direction: column;
 }
+
 .subbox h1 {
   font-size: 15px;
   color: black;
   font-family: sans-serif;
 }
+
 .subbox p {
   font-size: 15px;
   color: #352d2d;
   font-family: sans-serif;
   line-height: 25px;
-  flex-grow: 1;
 }
+
 .subbox button {
   width: 150px;
   border: 2px solid black;
@@ -202,28 +221,37 @@
   margin: 2px;
   align-self: flex-start;
 }
+
 .subbox button:hover {
   color: #fff;
   background-color: #020202;
 }
+
 .seedinvstimg {
   width: 100%;
-  height: 500px;
+  height: auto; 
   background-image: url(../../assets/images/seedinvestimg1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-/* responsive */
+/* RESPONSIVE CODE */
+
 @media (max-width: 850px) {
   .seeds-header {
     height: 350px;
+    margin-top: 1rem;
   }
   .seeds-header h1 {
     height: 350px;
     font-size: 2.5rem;
+    margin: 0;
   }
   .main-page-content {
     flex-direction: column;
     gap: 20px;
+    margin: 0 30px;
   }
   .seedssup {
     padding: 0 20px;
@@ -236,7 +264,11 @@
     border-top: 2px solid skyblue;
     padding-top: 20px;
   }
+  .fundingschemes {
+    margin-bottom: 30px;
+  }
 }
+
 @media (max-width: 500px) {
   .main-page-content {
     margin: 0 10px;
@@ -270,7 +302,11 @@
     font-size: 12px;
     padding: 6px;
   }
+  .fundingschemes {
+    margin-bottom: 20px;
+  }
 }
+
 @media (max-width: 480px) {
   .seeds-header {
     height: 250px;
@@ -280,6 +316,7 @@
     height: 250px;
     font-size: 2rem;
     text-align: center;
+    margin: 0;
   }
   .main-page-content h3,
   .main-page-content h4,
@@ -298,28 +335,20 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1248px) {
+@media (min-width: 1025px) and (max-width: 1248px),
+       (min-width: 850px) and (max-width: 876px),
+       (min-width: 769px) and (max-width: 796px) {
   .boxes .subbox {
     min-height: 100px;
   }
 }
 
-@media (min-width: 850px) and (max-width: 876px) {
-  .boxes .subbox {
-    min-height: 100px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 796px) {
-  .boxes .subbox {
-    min-height: 100px;
-  }
-}
 @media (max-width: 768px) {
   .boxes .subbox {
     min-height: 300px;
   }
 }
+
 @media (max-width: 438px) {
   .boxes .subbox {
     min-height: 350px;
@@ -337,6 +366,7 @@
     min-height: 450px;
   }
 }
+
 @media (max-width: 310px) {
   .boxes .subbox {
     min-height: 525px;
