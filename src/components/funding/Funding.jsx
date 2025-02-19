@@ -7,6 +7,10 @@ import FundingImage3 from "../../assets/images/fundingImage4.jpg";
 import FundingImage4 from "../../assets/images/fundingImage5.jpg";
 
 const Funding = () => {
+  const handleForm = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
+  };
+
   const fundingData = [
     {
       image: FundingImage1,
@@ -45,7 +49,7 @@ const Funding = () => {
           The Venture Center offers entrepreneurs with creative concepts,
           inventions, and technologies a variety of funding possibilities.
         </p>
-        <button>Inquire about available funding</button>
+        <button onClick={handleForm}>Inquire about available funding</button>
       </section>
 
       <div className="funding-cards">
