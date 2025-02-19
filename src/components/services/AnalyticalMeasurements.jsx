@@ -13,7 +13,7 @@ function AnalyticalMeasurements() {
 
       <div className="analytical-measurements-card">
         {AnalyticalMeasurements_Card.map((data) => (
-          <a href={data.link}>
+          <a>
             <div key={data.id} className="analytical-measurements-item">
               <img src={data.image} alt={data.title} />
               <h2>{data.title}</h2>

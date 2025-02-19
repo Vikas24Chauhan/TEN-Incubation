@@ -1,16 +1,16 @@
-.service-facilities-div {
+.business-advisory-div {
   width: 100%;
 }
 
-.service-facilities-header {
+.business-advisory-header {
   width: 100%;
   height: 700px;
-  background-image: url(../../assets/images/services-image1.jpg);
+  background-image: url(../../assets/images/services-image3.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.service-facilities-header h1 {
+.business-advisory-header h1 {
   width: 100%;
   height: 100%;
   font-size: 4rem;
@@ -20,17 +20,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.service-facilities-card {
+.business-advisory-para {
   width: 70%;
-  margin: 2.5rem auto;
+  margin: 2rem auto;
+}
+
+.business-advisory-para p {
+  font-size: 2rem;
+  color: #013759;
+}
+
+.business-advisory-card {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2%;
+  margin-bottom: 2rem;
 }
 
-.service-facilities-card a {
+.business-advisory-card a {
   width: 31%;
   margin-bottom: 1.5rem;
   border-radius: 10px;
@@ -39,24 +51,24 @@
   text-decoration: none;
 }
 
-.service-facilities-card a:hover {
+.business-advisory-card a:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.service-facilities-item img {
+.business-advisory-item img {
   width: 100%;
   height: 250px;
   border-radius: 1rem 1rem 0 0;
 }
 
-.service-facilities-item h2 {
+.business-advisory-item h2 {
   font-size: 1.5rem;
   padding: 20px 10px;
   color: #2a4b6d;
   word-spacing: 2px;
 }
 
-.service-facilities-item p {
+.business-advisory-item p {
   font-size: 1rem;
   color: #070707;
   padding: 0 10px 20px 10px;
@@ -65,69 +77,60 @@
 
 /* -------------------------- Responsive Design --------- */
 @media (max-width: 1024px) {
-  .service-facilities-para {
+  .business-advisory-para {
     width: 80%;
   }
 
-  .service-facilities-card {
+  .business-advisory-card {
     width: 80%;
   }
 }
 
 @media (max-width: 768px) {
-  .service-facilities-header h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .service-facilities-para {
-    width: 90%;
-  }
-
-  .service-facilities-para h2 {
+  .business-advisory-header h1 {
     font-size: 2.5rem;
   }
 
-  .service-facilities-card {
+  .business-advisory-para {
     width: 90%;
   }
 
-  .service-facilities-card a {
+  .business-advisory-para p {
+    font-size: 1.5rem;
+  }
+
+  .business-advisory-card {
+    width: 90%;
+  }
+
+  .business-advisory-card a {
     width: 48%;
   }
 }
 
 @media (max-width: 480px) {
-  .service-facilities-div {
+  .business-advisory-div {
     margin-top: 0;
   }
 
-  .service-facilities-header {
+  .business-advisory-header {
     height: 400px;
   }
 
-  .service-facilities-header h1 {
+  .business-advisory-header h1 {
     font-size: 2rem;
   }
 
-  .service-facilities-para {
+  .business-advisory-para {
     width: 95%;
   }
 
-  .service-facilities-para h2 {
-    font-size: 2rem;
-  }
-
-  .service-facilities-para p {
-    font-size: 1rem;
-  }
-
-  .service-facilities-card {
+  .business-advisory-card {
     width: 95%;
     margin: 2rem auto;
   }
 
-  .service-facilities-card a {
+  .business-advisory-card a {
     width: 100%;
   }
 }

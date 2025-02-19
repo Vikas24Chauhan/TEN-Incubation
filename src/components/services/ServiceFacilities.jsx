@@ -13,7 +13,7 @@ export default function ServiceFacilities() {
 
       <div className="service-facilities-card">
         {ServiceFacilities_Card.map((data) => (
-          <a href={data.link}>
+          <a>
             <div key={data.id} className="service-facilities-item">
               <img src={data.image} alt={data.title} />
               <h2>{data.title}</h2>

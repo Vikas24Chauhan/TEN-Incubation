@@ -18,6 +18,10 @@ import Img17 from "../images/amc-image8.jpg";
 import Img18 from "../images/amc-image9.jpg";
 import Img19 from "../images/amc-image10.webp";
 import Img20 from "../images/amc-image11.webp";
+import Img21 from "../images/bac-image1.jpg";
+import Img22 from "../images/bac-image2.png";
+import Img23 from "../images/bac-image3.png";
+import Img24 from "../images/bac-image4.jpg";
 
 const Services_Card = [
   {
@@ -134,5 +138,32 @@ export const AnalyticalMeasurements_Card = [
     id: 11,
     image: Img20,
     title: "Moisture Analysis",
+  },
+];
+
+export const BusinessAdvisory_Card = [
+  {
+    id: 1,
+    image: Img21,
+    title: "Intellectual Property Services",
+    desc: "To assist innovators in maintaining agreements and safeguarding their intellectual property (IP), a variety of services are offered.",
+  },
+  {
+    id: 2,
+    image: Img22,
+    title: "Technology Transfer Office",
+    desc: "In order to get technology closer to the market in a win-win situation, our Technology Transfer Office (Techex.in) seeks to connect technology creators with technology commercialization organizations.",
+  },
+  {
+    id: 3,
+    image: Img23,
+    title: "Regulatory Information and Facilitation",
+    desc: "It is difficult to manufacture medical equipment, and it is even more difficult to maintain their quality, manage certifications, and comply with regulations. Trying to handle all of these things at once may be quite stressful.",
+  },
+  {
+    id: 4,
+    image: Img24,
+    title: "Technology and Business Consulting",
+    desc: "A variety of technological and business consultancy services are available from our Tech Transfer Office to help you with your innovation and company expansion.",
   },
 ];

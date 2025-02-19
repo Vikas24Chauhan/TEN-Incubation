@@ -16,6 +16,7 @@ import SoftLandingProgram from "./components/incubation-support/SoftLandingProgr
 import Services from "./components/services/Services";
 import ServiceFacilities from "./components/services/ServiceFacilities";
 import AnalyticalMeasurements from "./components/services/AnalyticalMeasurements";
+import BusinessAdvisory from "./components/services/BusinessAdvisory";
 import Fellowships from "./components/funding/Fellowships";
 import Grants from "./components/funding/Grants";
 import Seeds from "./components/funding/Seeds";
@@ -58,6 +59,10 @@ function App() {
           <Route
             path="/services/analytical-measurements-and-certifications"
             element={<AnalyticalMeasurements />}
+          />
+          <Route
+            path="/services/advisory-and-consulting"
+            element={<BusinessAdvisory />}
           />
           <Route path="/funding/fellowships" element={<Fellowships />} />
           <Route path="/funding/grants" element={<Grants />} />
