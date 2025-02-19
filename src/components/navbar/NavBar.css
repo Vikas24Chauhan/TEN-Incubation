@@ -28,6 +28,7 @@
   font-weight: 500;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .navbar-hr {
@@ -43,6 +44,7 @@
   font-weight: 500;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .navbar-hamburger-div {
@@ -51,13 +53,14 @@
   align-items: center;
 }
 
-.navbar-button {
+.navbar-button a {
   border: none;
   color: white;
   padding: 5px 15px;
   border-radius: 15px;
   background-color: navy;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .hamburger {
@@ -116,5 +119,11 @@
 
   .navbar-button {
     padding: 5px 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .navbar-logo {
+    width: 110px;
   }
 }

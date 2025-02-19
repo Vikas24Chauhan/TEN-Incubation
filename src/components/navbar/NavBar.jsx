@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
-import logo from "../../assets/images/Venture.png";
+import logo from "../../assets/images/vc-logo.jpg";
 import "./NavBar.css";
 
 function NavBar() {
@@ -14,6 +14,10 @@ function NavBar() {
 
   const handleCloseNav = () => {
     setShowNav(false);
+  };
+
+  const handleLink = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
   };
 
   return (
@@ -56,7 +60,7 @@ function NavBar() {
 
         <div className="navbar-hamburger-div">
           <div className="navbar-button">
-            <NavLink to="/Incubate with us">Incubate with us</NavLink>
+            <NavLink onClick={handleLink}>Incubate with us</NavLink>
           </div>
           <div className="hamburger">
             <button onClick={handleButtonToggle}>

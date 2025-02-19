@@ -23,6 +23,10 @@ function Event() {
     }
   };
 
+  const handleRegistration = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
+  };
+
   return (
     <div className="home-event">
       <div className="home-event-header">
@@ -45,7 +49,7 @@ function Event() {
         {eventData.map((data, index) => (
           <div key={index} className="home-event-card">
             <div className="home-event-card-header">
-              <button>Register Now</button>
+              <button onClick={handleRegistration}>Register Now</button>
               <h3>{data.date}</h3>
             </div>
             <h4>{data.tag}</h4>

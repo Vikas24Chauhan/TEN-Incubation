@@ -134,7 +134,7 @@
 
 @media (max-width: 768px) {
   .footer-content {
-    padding: 2rem 1.5rem;
+    padding: 2rem 2rem 2rem 4rem;
   }
   .footer-details {
     width: 45%;
@@ -159,7 +159,7 @@
 
 @media (max-width: 480px) {
   .footer-content {
-    padding: 1rem;
+    padding: 1rem 0 1rem 1rem;
   }
   .contact-info p {
     font-size: 1rem;
