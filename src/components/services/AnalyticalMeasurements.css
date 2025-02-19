@@ -1,0 +1,135 @@
+.analytical-measurements-div {
+  width: 100%;
+}
+
+.analytical-measurements-header {
+  width: 100%;
+  height: 700px;
+  background-image: url(../../assets/images/services-image2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.analytical-measurements-header h1 {
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  color: white;
+  background-color: #074887;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.analytical-measurements-card {
+  width: 70%;
+  margin: 2.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.analytical-measurements-card a {
+  width: 31%;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.analytical-measurements-card a:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.analytical-measurements-item img {
+  width: 100%;
+  height: 250px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.analytical-measurements-item h2 {
+  font-size: 1.5rem;
+  padding: 20px 10px;
+  color: #2a4b6d;
+  word-spacing: 2px;
+}
+
+.analytical-measurements-item p {
+  font-size: 1rem;
+  color: #070707;
+  padding: 0 10px 20px 10px;
+  word-spacing: 2px;
+}
+
+/* -------------------------- Responsive Design --------- */
+@media (max-width: 1024px) {
+  .analytical-measurements-para {
+    width: 80%;
+  }
+
+  .analytical-measurements-card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .analytical-measurements-header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .analytical-measurements-para {
+    width: 90%;
+  }
+
+  .analytical-measurements-para h2 {
+    font-size: 2.5rem;
+  }
+
+  .analytical-measurements-card {
+    width: 90%;
+  }
+
+  .analytical-measurements-card a {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .analytical-measurements-div {
+    margin-top: 0;
+  }
+
+  .analytical-measurements-header {
+    height: 400px;
+  }
+
+  .analytical-measurements-header h1 {
+    font-size: 2rem;
+  }
+
+  .analytical-measurements-para {
+    width: 95%;
+  }
+
+  .analytical-measurements-para h2 {
+    font-size: 2rem;
+  }
+
+  .analytical-measurements-para p {
+    font-size: 1rem;
+  }
+
+  .analytical-measurements-card {
+    width: 95%;
+    margin: 2rem auto;
+  }
+
+  .analytical-measurements-card a {
+    width: 100%;
+  }
+}
