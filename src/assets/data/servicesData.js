@@ -22,6 +22,9 @@ import Img21 from "../images/bac-image1.jpg";
 import Img22 from "../images/bac-image2.png";
 import Img23 from "../images/bac-image3.png";
 import Img24 from "../images/bac-image4.jpg";
+import Img25 from "../images/iss-image1.jpg";
+import Img26 from "../images/iss-image2.webp";
+import Img27 from "../images/iss-image3.jpg";
 
 const Services_Card = [
   {
@@ -165,5 +168,26 @@ export const BusinessAdvisory_Card = [
     image: Img24,
     title: "Technology and Business Consulting",
     desc: "A variety of technological and business consultancy services are available from our Tech Transfer Office to help you with your innovation and company expansion.",
+  },
+];
+
+export const InfrastructuralSupport_Card = [
+  {
+    id: 1,
+    image: Img25,
+    title: "Labs and Office Spaces",
+    desc: "Use our cutting-edge labs and vibrant office spaces to support the expansion of your company. We offer the ideal setting for your ideas to blossom, whether you like lively communal spaces or specialized retreats.",
+  },
+  {
+    id: 2,
+    image: Img26,
+    title: "Meeting Spaces",
+    desc: "Use our adaptable meeting locations to create lasting relationships and further your goals. Our facilities are set up to meet all needs, from exclusive brainstorming meetings to important presentations. ",
+  },
+  {
+    id: 3,
+    image: Img27,
+    title: "Host your Event",
+    desc: "We offer the tools and experience to make your ideas a reality, whether you're organizing a stand-alone event, a collaborative project, or a string of captivating meetings.",
   },
 ];
