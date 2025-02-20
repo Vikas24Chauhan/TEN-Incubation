@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Fellowships.css";
 import FellowshipImage1 from "../../assets/images/fellowshipimage1.jpg";
 import FellowshipImage2 from "../../assets/images/fellowshipimage2.jpg";
@@ -33,6 +33,14 @@ const Funding = () => {
         <h1>Fellowships</h1>
       </header>
 
+      <div className="fellowship-navigation">
+        <NavLink to="/funding">Back</NavLink>
+        <NavLink to="/funding/fellowships">Fellowships</NavLink>
+        <NavLink to="/funding/grants">Grants</NavLink>
+        <NavLink to="/funding/seeds">Seed Investments</NavLink>
+        <NavLink to="/funding/csr">Corporate Social Responsibility</NavLink>
+      </div>
+
       <section className="fellowship-para">
         <p>
           The Social Innovation Immersion Program (SIIP), the NIDHI-EIR
@@ -50,13 +58,13 @@ const Funding = () => {
 
       <div className="fellowship-cards">
         {fundingData.map((data, index) => (
-          <Link to={data.route} key={index} className="fellowship-card-link">
+          <NavLink to={data.route} key={index} className="fellowship-card-link">
             <div className="fellowship-card">
               <img src={data.image} alt={data.tag} />
               <h3>{data.tag}</h3>
               <p>{data.para}</p>
             </div>
-          </Link>
+          </NavLink>
         ))}
       </div>
     </div>

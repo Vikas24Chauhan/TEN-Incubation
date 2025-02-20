@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
+import { NavLink } from "react-router-dom";
 import "./Grants.css";
 import grantImage1 from "../../assets/images/grantsimage1.jpg";
 import grantImage2 from "../../assets/images/grantsimage2.jpg";
@@ -31,7 +31,7 @@ const Funding = () => {
       para: "CSR awards for entrepreneurs and new businesses",
       tag: "CSR grants",
       route: "/funding/seed-investments",
-    }
+    },
   ];
 
   return (
@@ -40,21 +40,27 @@ const Funding = () => {
         <h1>Grants</h1>
       </header>
 
+      <div className="grants-navigation">
+        <NavLink to="/funding">Back</NavLink>
+        <NavLink to="/funding/fellowships">Fellowships</NavLink>
+        <NavLink to="/funding/grants">Grants</NavLink>
+        <NavLink to="/funding/seeds">Seed Investments</NavLink>
+        <NavLink to="/funding/csr">Corporate Social Responsibility</NavLink>
+      </div>
+
       <section className="grants-para">
-        <p>
-        Use our funding to investigate entrepreneurship and innovation.
-        </p>
+        <p>Use our funding to investigate entrepreneurship and innovation.</p>
       </section>
 
       <div className="grants-cards">
         {fundingData.map((data, index) => (
-          <Link to={data.route} key={index} className="grants-card-link">
+          <NavLink to={data.route} key={index} className="grants-card-link">
             <div className="grants-card">
               <img src={data.image} alt={data.tag} />
               <h3>{data.tag}</h3>
               <p>{data.para}</p>
             </div>
-          </Link>
+          </NavLink>
         ))}
       </div>
     </div>

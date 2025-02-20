@@ -22,318 +22,157 @@
   text-align: center;
 }
 
-.main-page-content {
+.csr-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
   display: flex;
-  gap: 30px;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 40px;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.content {
-  padding: 1px 0;
-}
-
-.csrsup {
-  padding: 0 30px;
-  margin: 0 auto;
-  max-width: 1100px;
-}
-
-.main-page-content h3,
-.main-page-content h4,
-.main-page-content h5 {
-  color: #013759;
-  margin-bottom: 15px;
-}
-
-.main-page-content h3 {
-  font-size: 21px;
-  font-weight: 400;
-}
-
-.main-page-content h4 {
-  font-size: 18pt;
-  font-weight: 600;
-}
-
-.main-page-content h5 {
-  font-size: 18px;
-  font-weight: 400;
-}
-.main-page-content ul {
-  padding-left: 20px;
-}
-
-.main-page-content ul li {
-  margin: 8px 0;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.main-page-content p {
-  margin-bottom: 20px;
-}
-.main-page-content span a,
-.buttonscsr button,
-.investpro button,
-.subbox button {
-  border: 2px solid black;
-  padding: 8px 20px;
-  border-radius: 15px;
-  font-weight: bold;
+.csr-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
-  background-color: white;
-  transition: 0.3s;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
-.main-page-content span a:hover,
-.buttonscsr button:hover,
-.investpro button:hover,
-.subbox button:hover {
+.csr-navigation a:hover {
   background-color: black;
   color: white;
 }
 
-.buttonscsr .topbuttonscsr button {
-  margin: 0 5px;
+.csr-para {
+  width: 70%;
+  margin: 2rem auto;
 }
 
-.main-page-content aside {
+.csr-para h1 {
+  font-size: 2.5rem;
+  color: #013759;
+}
+
+.csr-main-page-content {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.csr-info {
+  width: 100%;
+}
+
+.csr-info h1 {
+  font-size: 1.5rem;
+  color: #013759;
+  margin: 1rem 0;
+}
+
+.csr-info p {
+  font-size: 1rem;
+  padding: 0 10px;
+  color: #352d2d;
+  line-height: 25px;
+}
+
+.csr-info ol {
+  padding-left: 1.5rem;
+}
+
+.csr-info ol li {
+  font-size: 1rem;
+  color: #352d2d;
+  line-height: 25px;
+}
+
+.csr-info ul {
+  padding-left: 1.5rem;
+}
+
+.csr-info ul li {
+  font-size: 1rem;
+  color: #352d2d;
+  line-height: 25px;
+}
+
+.csr-main-page-content aside {
   width: 50%;
-  padding-left: 20px;
+  padding-left: 1rem;
+  margin-left: 1rem;
   border-left: 2px solid skyblue;
 }
 
-.main-page-content aside p a {
+.csr-main-page-content aside p {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.csr-main-page-content aside p a {
   color: red;
   text-decoration: none;
 }
 
-.submaincsr {
-  width: 100%;
-  height: 100%;
-  word-spacing: 1px;
-  color: #013759;
-  font-size: 12.5px;
-  margin-top: -35px;
-}
-
-.buttonscsr {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  margin: 35px 0;
-}
-
-.investpro h1,
-.fundingschemes .boxes .subbox h1 {
-  font-size: 24px;
-  color: #013759;
-}
-
-.investpro p,
-.investpro ul li,
-.fundingschemes .boxes .subbox p {
-  font-size: 18px;
-  color: #352d2d;
-  line-height: 25px;
-}
-
-.fundingschemes {
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-
-.fundingschemes .boxes {
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 35px;
-}
-
-.boxes .subbox {
-  width: 100%;
-  height: 225px;
-  margin-top: 25px;
-}
-
-.subbox h1 {
-  font-size: 15px;
-  color: black;
-  font-family: sans-serif;
-}
-
-.subbox p {
-  font-size: 15px;
-  color: #352d2d;
-  font-family: sans-serif;
-  line-height: 25px;
-}
-
-.subbox button {
-  width: 150px;
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 15px;
-  color: #020202;
-  font-weight: bold;
-  background-color: #fff;
-  margin: 2px;
-}
-
-.subbox button:hover {
-  color: #fff;
-  background-color: #020202;
-}
-
-.seedinvstimg {
-  width: 100%;
-  height: 500px;
-}
-
-.csrinfo {
-  margin-top: 35px;
-  padding-left: 5px;
-}
-
-.listofexamp {
-  padding-left: 25px;
-  margin-bottom: 25px;
-}
-
-.csrinfo h1 {
-  font-size: 20px;
-  color: #013759;
-  font-family: sans-serif;
-  margin-bottom: 20px;
-}
-
-.csrinfo p {
-  font-size: 16.5px;
-  color: #352d2d;
-  font-family: sans-serif;
-  line-height: 25px;
-}
-
-.heading {
-  line-height: 55px;
-}
-
-.csrinfo ol li {
-  font-size: 16.5px;
-  color: #352d2d;
-  font-family: sans-serif;
-  line-height: 25px;
-  margin-bottom: 10px;
-}
-
-.listofcomps h1 {
-  font-size: 20px;
-  color: #013759;
-  font-family: sans-serif;
-  margin-bottom: 20px;
-}
-
-.listofcomps ul li {
-  font-size: 16.5px;
-  color: #352d2d;
-  font-family: sans-serif;
-  line-height: 25px;
-}
-
+/* RESPONSIVE CODE */
 @media (max-width: 1024px) {
-  .csr-header {
-    height: 400px;
+  .csr-navigation {
+    width: 80%;
   }
 
-  .csr-header h1 {
-    height: 400px;
-    font-size: 3rem;
+  .csr-para {
+    width: 80%;
+    margin-bottom: 0;
   }
 
-  .main-page-content {
+  .csr-main-page-content {
+    width: 80%;
     flex-direction: column;
-    padding: 30px;
   }
 
-  .main-page-content aside {
+  .csr-main-page-content aside {
     width: 100%;
     padding-left: 0;
+    margin-left: 0;
     border-left: none;
     border-top: 2px solid skyblue;
-    padding-top: 20px;
+    padding-top: 1rem;
+    margin-top: 1rem;
   }
 }
 
 @media (max-width: 768px) {
-  .csr-header {
-    height: 300px;
+  .csr-navigation,
+  .csr-para,
+  .csr-main-page-content {
+    width: 90%;
   }
 
-  .csr-header h1 {
-    height: 300px;
-    font-size: 2.5rem;
-  }
-
-  .main-page-content {
-    padding: 20px;
-  }
-
-  .heading {
-    line-height: 30px;
-  }
-  .main-page-content span a,
-  .buttonscsr button,
-  .investpro button,
-  .subbox button {
-    width: 100%;
-    font-size: 14px;
-    margin: 5px 0;
-    display: block;
-  }
-
-  .fundingschemes .boxes {
-    grid-template-columns: 1fr;
+  .csr-para h1 {
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 480px) {
   .csr-header {
-    height: 250px;
+    height: 450px;
   }
 
   .csr-header h1 {
-    height: 250px;
     font-size: 2rem;
   }
 
-  .main-page-content h3,
-  .main-page-content h4,
-  .main-page-content h5 {
-    font-size: 16px;
+  .csr-navigation,
+  .csr-para,
+  .csr-main-page-content {
+    width: 95%;
   }
 
-  .main-page-content p {
-    font-size: 14px;
-  }
-
-  .buttonscsr button {
-    font-size: 14px;
-    margin: 5px 0;
-    padding: 8px;
-  }
-
-  .heading {
-    line-height: 35px;
-  }
-}
-
-@media (min-width: 360px) and (max-width: 768px) {
-  .buttonscsr .topbuttonscsr .firsttopbuttonscsr {
-    width: 140%;
-    margin-left: -18%;
+  .csr-navigation a {
+    padding: 0.5rem;
   }
 }

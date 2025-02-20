@@ -19,11 +19,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.grants-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.grants-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.grants-navigation a:hover {
+  background-color: black;
+  color: white;
 }
 
 .grants-para {
   width: 70%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   color: #013759;
   font-size: 1.5rem;
   text-align: left;
@@ -84,13 +110,20 @@
 /* responsive */
 @media (max-width: 1024px) {
   .grants-cards,
-  .grants-para {
-    width: 90%;
+  .grants-para,
+  .grants-navigation {
+    width: 85%;
   }
 }
 
 @media (max-width: 768px) {
+  .grants-navigation,
+  .grants-para {
+    width: 95%;
+  }
+
   .grants-cards {
+    width: 95%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -99,12 +132,12 @@
   .grants-header {
     height: 450px;
   }
-  .grants-para {
-    width: 95%;
-    margin: 2rem auto;
+
+  .grants-navigation a {
+    padding: 0.5rem;
   }
+
   .grants-cards {
-    width: 95%;
     grid-template-columns: repeat(1, 1fr);
   }
 }

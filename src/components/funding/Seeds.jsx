@@ -1,17 +1,31 @@
 import React from "react";
 import "./Seeds.css";
+import { NavLink } from "react-router-dom";
 
 const Funding = () => {
+  const handleLink = () => {
+    window.open("https://calendly.com/techten/book-a-demo-session", "_blank");
+  };
+
   return (
     <div className="seeds-content">
       <div className="seeds-header">
         <h1>Seed Investments</h1>
       </div>
+
+      <div className="seeds-navigation">
+        <NavLink to="/funding">Back</NavLink>
+        <NavLink to="/funding/fellowships">Fellowships</NavLink>
+        <NavLink to="/funding/grants">Grants</NavLink>
+        <NavLink to="/funding/seeds">Seed Investments</NavLink>
+        <NavLink to="/funding/csr">Corporate Social Responsibility</NavLink>
+      </div>
+
       <div className="content">
         <div className="seedssup">
-          <div className="main-page-content">
-            <div className="submain">
-              <h1>
+          <div className="seeds-main-page-content">
+            <div className="seeds-submain">
+              <h1 className="seeds-submain-para">
                 To empower and assist innovative early-stage startups by
                 offering them catalytic funding that enables them to reach
                 significant milestones, move past pivotal phases in their
@@ -19,12 +33,14 @@ const Funding = () => {
                 investment, angel investment, venture capital, or strategic
                 investment round.
               </h1>
-              <div className="buttons">
-                <button>Co-invest with us</button>
-                <button>Invest in our Portfolio Companies</button>
+              <div className="seeds-buttons">
+                <button onClick={handleLink}>Co-invest with us</button>
+                <button onClick={handleLink}>
+                  Invest in our Portfolio Companies
+                </button>
               </div>
 
-              <div className="investpro">
+              <div className="seeds-investpro">
                 <h1>Investment Profile</h1>
                 <p>
                   Our goal is to support the development of innovative science
@@ -51,13 +67,12 @@ const Funding = () => {
                   feedback and advice on choices made at the board level;
                   assisting with upcoming investment rounds.
                 </p>
-                <button>Explore our Portfolio</button>
               </div>
 
-              <div className="fundingschemes">
+              <div className="seeds-fundingschemes">
                 <h1>Funding Schemes</h1>
-                <div className="boxes">
-                  <div className="subbox">
+                <div className="seeds-boxes">
+                  <div className="seeds-subbox">
                     <h1>BIRAC SEED Fund</h1>
                     <p>
                       A seed grant under the Biotechnology Industry Research
@@ -66,9 +81,8 @@ const Funding = () => {
                       (BIRAC). The maximum amount of funding available to a
                       single startup will be Rs 30 lakh.
                     </p>
-                    <button>Learn more</button>
                   </div>
-                  <div className="subbox">
+                  <div className="seeds-subbox">
                     <h1>BIRAC LEAP Fund</h1>
                     <p>
                       A fund under the Biotechnology Industry Research
@@ -77,9 +91,8 @@ const Funding = () => {
                       "BIRAC LEAP Fund"). The maximum amount of funding
                       available to a single startup will be Rs 100 lakh.
                     </p>
-                    <button>Learn more</button>
                   </div>
-                  <div className="subbox">
+                  <div className="seeds-subbox">
                     <h1>NIDHI Seed Support Scheme</h1>
                     <p>
                       A fund under the Department of Science and Technology's
@@ -88,9 +101,8 @@ const Funding = () => {
                       maximum amount of funding available to a single startup
                       will be Rs 100 lakh.
                     </p>
-                    <button>Learn more</button>
                   </div>
-                  <div className="subbox">
+                  <div className="seeds-subbox">
                     <h1>Start up India Seed fund</h1>
                     <p>
                       In order to help companies with proof of concept,
@@ -100,9 +112,8 @@ const Funding = () => {
                       Rs 20 lakh in grants and up to Rs 50 lakh in compulsory
                       convertible debt (CCD) as financial aid.
                     </p>
-                    <button>Learn more</button>
                   </div>
-                  <div className="subbox">
+                  <div className="seeds-subbox">
                     <h1>NSTEDB Seed Fund (Fully Invested)</h1>
                     <p>
                       A seed fund administered by the Department of Science and
@@ -110,21 +121,19 @@ const Funding = () => {
                       Entrepreneurship Development Board (NSTEDB). Up to Rs 50
                       lakh in financial support was given to one startup.
                     </p>
-                    <button>Learn more</button>
                   </div>
-                  <div className="subbox">
+                  <div className="seeds-subbox">
                     <h1>TDB Seed fund (Fully Invested)</h1>
                     <p>
                       A seed fund administered by the Department of Science and
                       Technology's Technology Development Board (TDB). Up to Rs
                       25 lakh in financial support was given to one startup.
                     </p>
-                    <button>Learn more</button>
                   </div>
                 </div>
               </div>
-              <div className="seedinvstimg"></div>
             </div>
+
             <aside>
               <div>
                 <h4>Contact</h4>
@@ -132,10 +141,7 @@ const Funding = () => {
                   <strong>Seed Fund Team</strong>
                 </p>
                 <p className="email">
-                  Email: <a href="#">funding@venturecenter.co.in</a>
-                  <br />
-                  <br />
-                  Phone: <a href="#">+91-9156465104 | +91-8956457046</a>
+                  Email: <a href="#">info@entrepreneurshipnetwork.net</a>
                 </p>
               </div>
             </aside>

@@ -19,11 +19,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.fellowship-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.fellowship-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.fellowship-navigation a:hover {
+  background-color: black;
+  color: white;
 }
 
 .fellowship-para {
   width: 70%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   color: #013759;
   text-align: left;
   line-height: 1.6;
@@ -93,13 +119,20 @@
 /* reponsive */
 @media (max-width: 1024px) {
   .fellowship-cards,
-  .fellowship-para {
-    width: 90%;
+  .fellowship-para,
+  .fellowship-navigation {
+    width: 85%;
   }
 }
 
 @media (max-width: 768px) {
+  .fellowship-para,
+  .fellowship-navigation {
+    width: 95%;
+  }
+
   .fellowship-cards {
+    width: 95%;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -111,9 +144,9 @@
   .fellowship-header h1 {
     font-size: 3rem;
   }
-  .fellowship-para {
-    width: 95%;
-    margin: 2rem auto;
+
+  .fellowship-navigation a {
+    padding: 0.5rem;
   }
 
   .fellowship-para p {
@@ -126,7 +159,6 @@
     font-size: 1rem;
   }
   .fellowship-cards {
-    width: 95%;
     grid-template-columns: repeat(1, 1fr);
   }
 }
