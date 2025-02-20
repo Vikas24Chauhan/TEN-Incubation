@@ -23,6 +23,31 @@
   text-align: center;
 }
 
+.analytical-measurements-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.analytical-measurements-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.analytical-measurements-navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
 .analytical-measurements-card {
   width: 70%;
   margin: 2.5rem auto;
@@ -66,7 +91,7 @@
 
 /* -------------------------- Responsive Design --------- */
 @media (max-width: 1024px) {
-  .analytical-measurements-para {
+  .analytical-measurements-navigation {
     width: 80%;
   }
 
@@ -81,12 +106,8 @@
     text-align: center;
   }
 
-  .analytical-measurements-para {
+  .analytical-measurements-navigation {
     width: 90%;
-  }
-
-  .analytical-measurements-para h2 {
-    font-size: 2.5rem;
   }
 
   .analytical-measurements-card {
@@ -111,16 +132,12 @@
     font-size: 2rem;
   }
 
-  .analytical-measurements-para {
+  .analytical-measurements-navigation {
     width: 95%;
   }
 
-  .analytical-measurements-para h2 {
-    font-size: 2rem;
-  }
-
-  .analytical-measurements-para p {
-    font-size: 1rem;
+  .analytical-measurements-navigation a {
+    padding: 0.5rem;
   }
 
   .analytical-measurements-card {

@@ -22,6 +22,31 @@
   justify-content: center;
 }
 
+.service-facilities-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-facilities-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.service-facilities-navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
 .service-facilities-card {
   width: 70%;
   margin: 2.5rem auto;
@@ -65,7 +90,7 @@
 
 /* -------------------------- Responsive Design --------- */
 @media (max-width: 1024px) {
-  .service-facilities-para {
+  .service-facilities-navigation {
     width: 80%;
   }
 
@@ -80,12 +105,8 @@
     text-align: center;
   }
 
-  .service-facilities-para {
+  .service-facilities-navigation {
     width: 90%;
-  }
-
-  .service-facilities-para h2 {
-    font-size: 2.5rem;
   }
 
   .service-facilities-card {
@@ -110,16 +131,12 @@
     font-size: 2rem;
   }
 
-  .service-facilities-para {
+  .service-facilities-navigation {
     width: 95%;
   }
 
-  .service-facilities-para h2 {
-    font-size: 2rem;
-  }
-
-  .service-facilities-para p {
-    font-size: 1rem;
+  .service-facilities-navigation a {
+    padding: 0.5rem;
   }
 
   .service-facilities-card {

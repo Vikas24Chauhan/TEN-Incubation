@@ -60,11 +60,6 @@ const Footer = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/services/prototyping-facility-and-support">
-                Prototyping Facility & Support
-              </NavLink>
-            </li>
-            <li>
               <NavLink to="/services/analytical-measurements-and-certifications">
                 Analytical Measurements & Certifications
               </NavLink>

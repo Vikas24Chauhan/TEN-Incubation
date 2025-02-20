@@ -23,6 +23,31 @@
   text-align: center;
 }
 
+.infrastructural-support-navigation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.infrastructural-support-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.infrastructural-support-navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
 .infrastructural-support-para {
   width: 70%;
   margin: 2rem auto;
@@ -77,6 +102,7 @@
 
 /* -------------------------- Responsive Design --------- */
 @media (max-width: 1024px) {
+  .infrastructural-support-navigation,
   .infrastructural-support-para {
     width: 80%;
   }
@@ -91,6 +117,7 @@
     font-size: 2.5rem;
   }
 
+  .infrastructural-support-navigation,
   .infrastructural-support-para {
     width: 90%;
   }
@@ -121,8 +148,13 @@
     font-size: 2rem;
   }
 
+  .infrastructural-support-navigation,
   .infrastructural-support-para {
     width: 95%;
+  }
+
+  .infrastructural-support-navigation a {
+    padding: 0.5rem;
   }
 
   .infrastructural-support-card {
