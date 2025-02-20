@@ -9,7 +9,7 @@
 
 .residentIncubation-header h1 {
   width: 100%;
-  height: 700px;
+  height: 100%;
   font-size: 4rem;
   color: white;
   background-color: #074887;
@@ -17,44 +17,43 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.resident-page-content {
-  display: flex;
-  gap: 30px 15px;
+.residentIncubation-content {
+  width: 70%;
+  margin: 2rem auto;
 }
 
-.content {
-  padding: 60px 0;
-}
-
-.incubationSupportnav {
-  padding: 0 30px;
-  margin: 0 60px;
-}
-
-.in-page-nav {
+.residentIncubation-navigation {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 60px;
+  gap: 1rem;
 }
 
-.in-page-nav a {
+.residentIncubation-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
   color: black;
   border: 2px solid black;
-  font-weight: 600;
-  padding: 3px 18px;
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 2em;
-  white-space: nowrap;
-  letter-spacing: 0.028em;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
-.in-page-nav a:hover {
-  color: white;
+.residentIncubation-navigation a:hover {
   background-color: black;
+  color: white;
+}
+
+.residentIncubation-page-content {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
 }
 
 .benefits {
@@ -117,67 +116,122 @@
   margin-left: 10px;
 }
 
-.resident-page-content h3 {
+.residentIncubation-page-content h3 {
   margin: 30px 0 15px 0;
   font-size: 24pt;
   color: #013759;
   font-weight: 400;
 }
 
-.resident-page-content h4 {
+.residentIncubation-page-content h4 {
   margin: 0 0 15px;
   font-size: 18pt;
   color: #013759;
 }
 
-.resident-page-content h5 {
+.residentIncubation-page-content h5 {
   font-weight: 400;
   font-size: 18px;
   color: #013759;
   margin: 30px 0 15px 0;
 }
 
-.resident-page-content p {
+.residentIncubation-page-content p {
   margin: 15px 0 30px;
   line-height: 25px;
 }
 
-.resident-page-content aside {
+.residentIncubation-page-content aside {
   width: 30%;
-  padding-left: 15px;
+  padding-left: 1rem;
+  margin-left: 1rem;
   border-left: 2px solid skyblue;
 }
 
-.resident-page-content aside p a {
+.residentIncubation-page-content aside p a {
   color: red;
   text-decoration: none;
 }
 
-/* Small phones (less than 480px) */
-@media (max-width: 480px) {
-  .residentIncubation-header {
-    height: 250px;
-    background-position: center;
+/* -------------------------- Responsive Design --------- */
+@media (max-width: 1024px) {
+  .residentIncubation-content {
+    width: 80%;
   }
 
-  .residentIncubation-header h1 {
-    font-size: 1.8rem;
-    height: 250px;
-    text-align: center;
-  }
-
-  .incubationSupportnav {
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .resident-page-content {
+  .residentIncubation-page-content {
     flex-direction: column;
   }
 
-  .resident-page-content aside {
+  .residentIncubation-page-content aside {
     width: 100%;
     padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+    border-top: 2px solid skyblue;
+    padding-top: 20px;
+  }
+
+  .benefits {
+    padding: 40px 30px;
+  }
+
+  .benefits ul,
+  .sections,
+  .package-section {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .benefits ul li,
+  .sections li,
+  .package-section li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .residentIncubation-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .residentIncubation-content {
+    width: 90%;
+  }
+
+  .benefits {
+    padding: 30px 15px;
+  }
+
+  .benefits ul,
+  .sections,
+  .package-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .benefits ul li,
+  .sections li,
+  .package-section li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .residentIncubation-header {
+    height: 250px;
+  }
+
+  .residentIncubation-header h1 {
+    font-size: 2rem;
+  }
+
+  .residentIncubation-content {
+    width: 95%;
+  }
+
+  .residentIncubation-navigation a {
+    padding: 0.5rem;
   }
 
   .benefits {
@@ -200,95 +254,5 @@
   .in-page-nav {
     flex-direction: column;
     gap: 8px;
-  }
-}
-
-/* Big phones (480px to 600px) */
-@media (max-width: 600px) {
-  .residentIncubation-header {
-    height: 300px;
-    margin-top: 3rem;
-  }
-
-  .residentIncubation-header h1 {
-    font-size: 2rem;
-    height: 300px;
-  }
-
-  .resident-page-content {
-    flex-direction: column;
-  }
-
-  .resident-page-content aside {
-    width: 100%;
-    padding-left: 0;
-    border-left: none;
-  }
-
-  .benefits {
-    padding: 30px 15px;
-  }
-
-  .benefits ul,
-  .sections,
-  .package-section {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .benefits ul li,
-  .sections li,
-  .package-section li {
-    width: 100%;
-  }
-
-  .in-page-nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
-/* Medium devices (tablets, 600px to 1024px) */
-@media (max-width: 1024px) {
-  .residentIncubation-header {
-    height: 400px;
-  }
-
-  .residentIncubation-header h1 {
-    font-size: 3rem;
-    height: 400px;
-  }
-
-  .incubationSupportnav {
-    margin: 20px;
-    padding: 20px;
-  }
-  .resident-page-content {
-    flex-direction: column;
-  }
-
-  .resident-page-content aside {
-    width: 100%;
-  }
-
-  .benefits {
-    padding: 40px 30px;
-  }
-
-  .benefits ul,
-  .sections,
-  .package-section {
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .benefits ul li,
-  .sections li,
-  .package-section li {
-    width: 100%;
-  }
-
-  .in-page-nav {
-    gap: 10px;
   }
 }

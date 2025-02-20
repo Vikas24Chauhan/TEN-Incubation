@@ -9,7 +9,7 @@
 
 .softLandingProgram-header h1 {
   width: 100%;
-  height: 700px;
+  height: 100%;
   font-size: 4rem;
   color: white;
   background-color: #074887;
@@ -17,71 +17,64 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.virtual-page-content {
-  display: flex;
-  gap: 30px 15px;
+.softLandingProgram-content {
+  width: 70%;
+  margin: 2rem auto;
 }
 
-.softLandingcontent {
-  padding: 40px 0;
-}
-
-.incubationSupportnav {
-  padding: 0 30px;
-  margin: 0 60px;
-}
-
-.in-page-nav {
+.softLandingProgram-navigation {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 60px;
+  gap: 1rem;
 }
 
-.in-page-nav a {
+.softLandingProgram-navigation a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
   color: black;
   border: 2px solid black;
-  font-weight: 600;
-  padding: 3px 18px;
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 2em;
-  white-space: nowrap;
-  letter-spacing: 0.028em;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
-.in-page-nav a:hover {
-  color: white;
+.softLandingProgram-navigation a:hover {
   background-color: black;
+  color: white;
 }
 
-.main-content{
+.softLandingProgram-main-content {
   width: 100%;
   margin-top: 2rem;
 }
 
-.main-content h3 {
+.softLandingProgram-main-content h3 {
   font-size: 25px;
   font-weight: 500;
   color: #013759;
   margin: 30px 0 15px 0;
 }
 
-.main-content h4 {
+.softLandingProgram-main-content h4 {
   font-size: 20px;
   margin: 30px 0 15px 0;
   font-weight: 500;
   color: #013759;
 }
 
-.main-content ul {
+.softLandingProgram-main-content ul {
   margin: 15px 0 15px 0;
   padding: 0 0 0 16px;
 }
 
-.main-content ul li {
+.softLandingProgram-main-content ul li {
   margin: 0.5em 0;
   font-size: 20px;
 }
@@ -92,7 +85,7 @@
   font-weight: 700;
 }
 
-.main-content strong {
+.softLandingProgram-main-content strong {
   margin: 15px 0 30px 0;
 }
 
@@ -102,113 +95,69 @@
   list-style: none;
 }
 
+/* ----------------------------- Responsive Design -------------- */
 @media (max-width: 1024px) {
-  .softLandingProgram-header {
-    height: 500px;
-    margin-top: 3rem;
+  .softLandingProgram-content {
+    width: 80%;
   }
 
-  .softLandingProgram-header h1 {
-    font-size: 3rem;
-    height: 500px;
-  }
-
-  .virtual-page-content {
-    flex-direction: column;
-  }
-
-  .content {
-    padding: 40px 0;
-  }
-
-  .incubationSupportnav {
-    padding: 0 20px;
-    margin: 0 40px;
-  }
-
-  .in-page-nav {
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .main-content h3 {
+  .softLandingProgram-main-content h3 {
     font-size: 22px;
   }
 
-  .main-content h4 {
+  .softLandingProgram-main-content h4 {
     font-size: 18px;
   }
 
-  .main-content ul li {
+  .softLandingProgram-main-content ul li {
     font-size: 18px;
   }
 }
 
-/* For mobile devices */
 @media (max-width: 768px) {
-  .softLandingProgram-header {
-    height: 300px;
-    margin-top: 2rem;
-  }
-
   .softLandingProgram-header h1 {
     font-size: 2rem;
-    height: 300px;
   }
 
-  .incubationSupportnav {
-    padding: 0 10px;
-    margin: 0 20px;
+  .softLandingProgram-content {
+    width: 90%;
   }
 
-  .in-page-nav a {
-    font-size: 12px;
-    padding: 3px 12px;
-  }
-
-  .main-content h3 {
+  .softLandingProgram-main-content h3 {
     font-size: 20px;
   }
 
-  .main-content h4 {
+  .softLandingProgram-main-content h4 {
     font-size: 16px;
   }
 
-  .main-content ul li {
+  .softLandingProgram-main-content ul li {
     font-size: 16px;
   }
 }
 
-/* For very small devices */
 @media (max-width: 480px) {
   .softLandingProgram-header {
-    height: 200px;
-    margin-top: 1rem;
+    height: 250px;
   }
 
-  .softLandingProgram-header h1 {
-    font-size: 1.5rem;
-    height: 200px;
+  .softLandingProgram-content {
+    width: 95%;
   }
 
-  .incubationSupportnav{
-    margin: 0 15px;
+  .softLandingProgram-navigation a {
+    padding: 0.5rem;
   }
 
-  .in-page-nav a {
-    font-size: 10px;
-    padding: 2px 10px;
-  }
-
-  .main-content h3 {
+  .softLandingProgram-main-content h3 {
     font-size: 18px;
   }
 
-  .main-content h4 {
+  .softLandingProgram-main-content h4 {
     font-size: 14px;
   }
 
-  .main-content ul li {
+  .softLandingProgram-main-content ul li {
     font-size: 14px;
   }
 }
