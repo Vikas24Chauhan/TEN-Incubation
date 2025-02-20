@@ -119,6 +119,10 @@
   color: #033452;
 }
 
+.home-latest-icons img {
+  cursor: pointer;
+}
+
 .home-latest-cards {
   width: 70%;
   margin: 0 auto;

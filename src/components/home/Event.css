@@ -16,6 +16,10 @@
   color: #033452;
 }
 
+.home-event-icons img {
+  cursor: pointer;
+}
+
 .home-event-cards {
   width: 70%;
   margin: 0 auto;

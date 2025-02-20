@@ -15,6 +15,10 @@
   color: #033452;
 }
 
+.home-testimonials-icons img {
+  cursor: pointer;
+}
+
 .home-testimonials-cards {
   width: 70%;
   margin: 0 auto;
