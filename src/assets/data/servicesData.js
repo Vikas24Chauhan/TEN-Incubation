@@ -95,57 +95,68 @@ export const AnalyticalMeasurements_Card = [
   {
     id: 1,
     image: Img10,
-    title: "Biopharma services",
+    title: "Biopharma Services",
+    desc: "Comprehensive analytical solutions for biologics, biosimilars, and biopharmaceutical development, ensuring quality, stability, and regulatory compliance.",
   },
   {
     id: 2,
     image: Img11,
     title: "Chromatography",
+    desc: "A technique used to separate, identify, and quantify components in a mixture, widely used in pharmaceuticals, food safety, and chemical analysis.",
   },
   {
     id: 3,
     image: Img12,
     title: "Mass Spectrometry Services",
+    desc: "High-precision analysis of molecular structures and composition, commonly used for protein characterization, drug discovery, and environmental testing.",
   },
   {
     id: 4,
     image: Img13,
     title: "Elemental Analysis",
+    desc: "Determination of elemental composition in materials using techniques such as ICP-MS, XRF, and AAS, essential for pharmaceuticals, metallurgy, and environmental science.",
   },
   {
     id: 5,
     image: Img14,
     title: "Spectroscopy",
+    desc: "Analytical techniques like UV-Vis, FTIR, Raman, and NMR used for molecular identification, structure elucidation, and material characterization.",
   },
   {
     id: 6,
     image: Img15,
     title: "Microscopy",
+    desc: "Advanced imaging techniques including optical, electron, and atomic force microscopy to study surface morphology, material properties, and biological structures.",
   },
   {
     id: 7,
     image: Img16,
-    title: "Thermal analysis",
+    title: "Thermal Analysis",
+    desc: "Examines material properties like melting point, thermal stability, and decomposition using DSC, TGA, and DTA, essential for polymers and pharmaceuticals.",
   },
   {
     id: 8,
     image: Img17,
     title: "Mechanical Testing",
+    desc: "Evaluation of material strength, elasticity, hardness, and durability using tests such as tensile, compression, and fatigue testing.",
   },
   {
     id: 9,
     image: Img18,
-    title: "Flow cytometry & Confocal Imaging Services",
+    title: "Flow Cytometry & Confocal Imaging Services",
+    desc: "Techniques for analyzing cell populations, biomarker expression, and intracellular structures, widely used in immunology, cancer research, and drug development.",
   },
   {
     id: 10,
     image: Img19,
     title: "Particle Size Analysis",
+    desc: "Measurement of particle size distribution in materials using laser diffraction, dynamic light scattering (DLS), and sieve analysis, crucial for pharmaceuticals and nanotechnology.",
   },
   {
     id: 11,
     image: Img20,
     title: "Moisture Analysis",
+    desc: "Determination of moisture content in products using methods like Karl Fischer titration, thermogravimetric analysis (TGA), and infrared moisture balance to ensure product stability.",
   },
 ];
 

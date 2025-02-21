@@ -34,6 +34,7 @@ function AnalyticalMeasurements() {
             <div key={data.id} className="analytical-measurements-item">
               <img src={data.image} alt={data.title} />
               <h2>{data.title}</h2>
+              <p>{data.desc}</p>
             </div>
           </a>
         ))}
