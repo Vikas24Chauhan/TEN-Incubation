@@ -34,6 +34,7 @@ export default function ServiceFacilities() {
             <div key={data.id} className="service-facilities-item">
               <img src={data.image} alt={data.title} />
               <h2>{data.title}</h2>
+              <p>{data.desc}</p>
             </div>
           </a>
         ))}

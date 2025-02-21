@@ -63,26 +63,31 @@ export const ServiceFacilities_Card = [
     id: 1,
     image: Img5,
     title: "R&D Support",
+    desc: "R&D Support (Research & Development Support) refers to the resources, services, and facilities provided to help individuals, businesses, and organizations conduct research, innovate, and develop new technologies or products.",
   },
   {
     id: 2,
     image: Img6,
     title: "Lab Facilities",
+    desc: "Lab facilities are specialized environments equipped with scientific instruments, tools, and technologies to support research, testing, and innovation across various fields.",
   },
   {
     id: 3,
     image: Img7,
     title: "Medtech Cleanroom",
+    desc: "A MedTech cleanroom is a specialized facility designed for medical device manufacturing, biotechnology research, and pharmaceutical production. It ensures a sterile, controlled environment by minimizing contamination from dust, microbes, and airborne particles.",
   },
   {
     id: 4,
     image: Img8,
-    title: "Analytical Services ",
+    title: "Analytical Services",
+    desc: "Analytical services involve scientific testing, measurement, and evaluation of materials, chemicals, biological samples, and products to ensure quality, safety, and compliance. These services are widely used in industries like pharmaceuticals, biotechnology, medical devices, environmental science, and food safety.",
   },
   {
     id: 5,
     image: Img9,
     title: "Cell Studies",
+    desc: "Cell studies involve the analysis of cellular behavior, structure, and function in controlled environments. These studies are essential for biomedical research, drug discovery, regenerative medicine, and disease modeling.",
   },
 ];
 
