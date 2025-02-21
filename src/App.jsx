@@ -32,57 +32,57 @@ function App() {
         <ScrollToTop />
         <NavBar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about-us' element={<About />} />
-          <Route path='/careers' element={<Career />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/careers" element={<Career />} />
+          <Route path="/contact" element={<Contact />} />
 
           {/* Incubation Support */}
-          <Route path='/incubation-support' element={<IncubationSupport />} />
+          <Route path="/incubation-support" element={<IncubationSupport />} />
           <Route
-            path='/incubation-support/preIncubation'
+            path="/incubation-support/preIncubation"
             element={<PreIncubation />}
           />
           <Route
-            path='/incubation-support/virtualIncubation'
+            path="/incubation-support/virtualIncubation"
             element={<VirtualIncubation />}
           />
           <Route
-            path='/incubation-support/residentIncubation'
+            path="/incubation-support/residentIncubation"
             element={<Resident />}
           />
           <Route
-            path='/incubation-support/softLandingProgram'
+            path="/incubation-support/softLandingProgram"
             element={<SoftLandingProgram />}
           />
 
           {/* Funding */}
-          <Route path='/funding' element={<Funding />} />
-          <Route path='/funding/fellowships' element={<Fellowships />} />
-          <Route path='/funding/grants' element={<Grants />} />
-          <Route path='/funding/seeds' element={<Seeds />} />
-          <Route path='/funding/csr' element={<Csr />} />
+          <Route path="/funding" element={<Funding />} />
+          <Route path="/funding/fellowships" element={<Fellowships />} />
+          <Route path="/funding/grants" element={<Grants />} />
+          <Route path="/funding/seeds" element={<Seeds />} />
+          <Route path="/funding/csr" element={<Csr />} />
 
           {/* Services */}
-          <Route path='/services' element={<Services />} />
+          <Route path="/services" element={<Services />} />
           <Route
-            path='/services/scientific-services-and-facilities'
+            path="/services/scientific-services-and-facilities"
             element={<ServiceFacilities />}
           />
           <Route
-            path='/services/analytical-measurements-and-certifications'
+            path="/services/analytical-measurements-and-certifications"
             element={<AnalyticalMeasurements />}
           />
           <Route
-            path='/services/advisory-and-consulting'
+            path="/services/advisory-and-consulting"
             element={<BusinessAdvisory />}
           />
           <Route
-            path='/services/infrastructural-support-services'
+            path="/services/infrastructural-support-services"
             element={<InfrastructuralSupport />}
           />
 
-          <Route path='/programs' element={<Programs />} />
+          <Route path="/programs" element={<Programs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
